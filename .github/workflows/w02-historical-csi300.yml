@@ -1,0 +1,66 @@
+name: W02 Historical CSI300 PIT Expansion
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Historical start date"
+        required: true
+        default: "2019-01-01"
+      end_date:
+        description: "Historical end date"
+        required: true
+        default: "2019-03-31"
+
+permissions:
+  contents: write
+
+jobs:
+  historical-csi300:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements-automation.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-automation.txt
+      - name: Fetch historical CSI300 universe and prices
+        run: |
+          cd scripts/automation
+          python fetch_historical_csi300.py --start "${{ inputs.start_date }}" --end "${{ inputs.end_date }}"
+      - name: Ingest historical market data
+        env:
+          W02_ALLOW_SYNTHETIC_HISTORICAL: "1"
+          W02_PROVIDER_SOURCE_ID: "SRC-GITHUB-TUSHARE-ARCHIVE"
+          W02_PROVIDER_SOURCE_ORIGIN: "AUTO_PROVIDER"
+        run: |
+          python scripts/ingest_market_data.py "$(ls -1t data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__*.csv | head -n 1)"
+      - name: Compact standardized historical data
+        run: python scripts/compact_standardized.py
+      - name: Materialize historical batch
+        env:
+          W02_ALLOW_SYNTHETIC_HISTORICAL: "1"
+        run: |
+          python scripts/materialize_market_history.py --input "$(ls -1t data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__*.csv | head -n 1)"
+      - name: Tests
+        run: python -m pytest -q
+      - name: Commit historical expansion
+        run: |
+          git config user.name "W02 Data Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/ MANIFEST.sha256.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No historical expansion changes."
+            exit 0
+          fi
+          git commit -m "data: add historical CSI300 PIT universe"
+          git push
