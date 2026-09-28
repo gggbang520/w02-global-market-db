@@ -1,0 +1,41 @@
+{
+  "status": "SUCCESS",
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "AUTO_PROVIDER",
+  "input_history_records": 17648,
+  "rebuilt_records": 17648,
+  "dedupe_key": [
+    "listing_id",
+    "trade_date",
+    "source_id",
+    "price_type"
+  ],
+  "canonical_partition_root": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE",
+  "legacy_malformed_partition_preserved_for_manual_review": true,
+  "partitions": [
+    {
+      "year": "2020",
+      "month": "01",
+      "records": 4159,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2020/01/stock_daily.jsonl"
+    },
+    {
+      "year": "2020",
+      "month": "02",
+      "records": 5200,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2020/02/stock_daily.jsonl"
+    },
+    {
+      "year": "2020",
+      "month": "03",
+      "records": 5690,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2020/03/stock_daily.jsonl"
+    },
+    {
+      "year": "2021",
+      "month": "01",
+      "records": 2599,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2021/01/stock_daily.jsonl"
+    }
+  ]
+}
