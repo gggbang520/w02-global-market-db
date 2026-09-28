@@ -1,6 +1,6 @@
 {
   "source_id": "SRC-MANUAL-FILE",
-  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T115743Z.csv",
+  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T120536Z.csv",
   "sha256": "a0ba5c898c456ba752cfee797ff9c9fe3a2c7d817e45e99e4e1440ffd1e3cf5e",
   "input_size": 215111,
   "input_origin": "MANUAL",
@@ -15,5 +15,5 @@
   "review_rows": 0,
   "publish_gate": "PASS",
   "status": "SUCCESS",
-  "retrieved_at": "2026-09-28T11:57:43Z"
+  "retrieved_at": "2026-09-28T12:05:37Z"
 }
