@@ -1,5 +1,7 @@
 from __future__ import annotations
+import argparse
 import json
+import os
 import sys
 from collections import OrderedDict
 from pathlib import Path
@@ -24,10 +26,14 @@ def latest_raw_file():
     return files[-1]
 
 def main():
-    raw_path = latest_raw_file()
-    provider = ManualFileProvider(raw_path)
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--input', default=None)
+    args = ap.parse_args()
+    raw_path = Path(args.input) if args.input else latest_raw_file()
+    synthetic=os.getenv('W02_ALLOW_SYNTHETIC_HISTORICAL','0')=='1'
+    provider = ManualFileProvider(raw_path, source_id=SOURCE, source_origin='AUTO_PROVIDER')
     raw = provider.parse()
-    normalized = resolve_listing(provider.normalize(raw))
+    normalized = resolve_listing(provider.normalize(raw), allow_synthetic_historical=synthetic)
     result = validate(normalized)
 
     if result["invalid"] or result["duplicate"] or result["review"]:
@@ -56,6 +62,7 @@ def main():
 
     receipt = {
         "source_id": SOURCE,
+        "source_origin": "AUTO_PROVIDER",
         "dataset": "stock_daily",
         "input_file": str(raw_path.relative_to(ROOT)),
         "history_file": str(out.relative_to(ROOT)),
@@ -66,6 +73,7 @@ def main():
         "trade_date_min": dates[0],
         "trade_date_max": dates[-1],
         "dedup_key": ["listing_id", "trade_date", "source_id", "price_type"],
+        "synthetic_historical_identity": synthetic,
         "status": "SUCCESS",
     }
     report_dir = ROOT / "reports/ingestion"
