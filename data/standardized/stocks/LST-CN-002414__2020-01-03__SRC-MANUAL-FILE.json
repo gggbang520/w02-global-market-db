@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-002414",
+  "security_id": "SEC-CN-002414",
+  "ticker": "002414",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-002414",
+  "trade_date": "2020-01-03",
+  "open": 12.877,
+  "high": 13.9193,
+  "low": 12.8535,
+  "close": 13.6441,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 193788.32,
+  "turnover": 444755.28,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "AUTO_PROVIDER",
+  "declared_upstream_source": "Tushare Pro",
+  "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED",
+  "repository": "https://github.com/shaocongWu/Multivariate_Stock_Time_Series_Dataset",
+  "dataset": "STOCK_DAILY",
+  "market": "CN",
+  "start_date": "2020-01-01",
+  "end_date": "2020-03-31",
+  "requested_listings": 297,
+  "matched_csv_files": 260,
+  "downloaded_rows": 15049,
+  "distinct_listings": 260,
+  "distinct_trade_dates": 58,
+  "failures": [],
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+  "retrieved_at": "2026-09-28T12:19:35.485439+00:00"
+}

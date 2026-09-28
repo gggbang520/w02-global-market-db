@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-300136",
+  "security_id": "SEC-CN-300136",
+  "ticker": "300136",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-300136",
+  "trade_date": "2020-01-13",
+  "open": 44.5556,
+  "high": 46.1041,
+  "low": 44.2559,
+  "close": 46.0541,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 394739.86,
+  "turnover": 1790362.337,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

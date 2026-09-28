@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-002236",
+  "security_id": "SEC-CN-002236",
+  "ticker": "002236",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-002236",
+  "trade_date": "2020-01-08",
+  "open": 20.4916,
+  "high": 21.1289,
+  "low": 20.3151,
+  "close": 20.5406,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 854536.28,
+  "turnover": 1803374.804,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

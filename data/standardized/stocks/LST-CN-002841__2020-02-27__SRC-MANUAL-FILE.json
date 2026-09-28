@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-002841",
+  "security_id": "SEC-CN-002841",
+  "ticker": "002841",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-002841",
+  "trade_date": "2020-02-27",
+  "open": 95.8478,
+  "high": 98.148,
+  "low": 93.6962,
+  "close": 95.1141,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 33932.73,
+  "turnover": 328279.465,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

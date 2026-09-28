@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-000661",
+  "security_id": "SEC-CN-000661",
+  "ticker": "000661",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-000661",
+  "trade_date": "2020-02-07",
+  "open": 238.147,
+  "high": 241.2225,
+  "low": 232.5054,
+  "close": 235.9054,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 25850.48,
+  "turnover": 1216845.836,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

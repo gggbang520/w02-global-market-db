@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-600588",
+  "security_id": "SEC-CN-600588",
+  "ticker": "600588",
+  "exchange_mic": "XSHG",
+  "normalized_ticker": "CN-XSHG-600588",
+  "trade_date": "2020-03-27",
+  "open": 33.3682,
+  "high": 33.4595,
+  "low": 31.6344,
+  "close": 31.9386,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 255426.38,
+  "turnover": 1082379.122,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

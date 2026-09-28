@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-600019",
+  "security_id": "SEC-CN-600019",
+  "ticker": "600019",
+  "exchange_mic": "XSHG",
+  "normalized_ticker": "CN-XSHG-600019",
+  "trade_date": "2020-03-23",
+  "open": 4.4132,
+  "high": 4.432,
+  "low": 4.3189,
+  "close": 4.3378,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 789252.45,
+  "turnover": 365676.669,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

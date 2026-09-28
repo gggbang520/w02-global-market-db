@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-002594",
+  "security_id": "SEC-CN-002594",
+  "ticker": "002594",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-002594",
+  "trade_date": "2020-02-18",
+  "open": 57.7434,
+  "high": 59.9412,
+  "low": 57.7134,
+  "close": 59.4118,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 228365.32,
+  "turnover": 1350970.758,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}
