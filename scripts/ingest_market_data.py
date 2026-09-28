@@ -11,7 +11,7 @@ def sha256(p):
   for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
  return h.hexdigest()
 
-def resolve_listing(records):
+def resolve_listing(records, allow_synthetic_historical=False):
  lm={}
  p=ROOT/'data/standardized/listing_master.json'
  if p.exists():
@@ -22,6 +22,8 @@ def resolve_listing(records):
   if x:
    r['listing_id']=x['listing_id']; r['security_id']=x['security_id']; r['currency']=r.get('currency') or x.get('currency')
    r['identity_status']='MAPPED'
+  elif allow_synthetic_historical and r.get('ticker') and r.get('exchange_mic'):
+   r['listing_id']=f"LST-CN-{r['ticker']}"; r['security_id']=f"SEC-CN-{r['ticker']}"; r['currency']=r.get('currency') or 'CNY'; r['identity_status']='SYNTHETIC_HISTORICAL'; r['data_quality_status']='PARTIAL'
   else: r['identity_status']='REVIEW'
   out.append(r)
  return out
@@ -46,17 +48,18 @@ def validate(records, retrieved_date=None):
   if r.get('turnover') is not None and r['turnover']<0: errs.append('TURNOVER_INVALID')
   if errs:
    (review if 'IDENTITY_UNMAPPED' in errs or 'FUTURE_TRADE_DATE' in errs else invalid).append({**r,'validation_errors':errs})
-  else: valid.append({**r,'data_quality_status':'SOURCE_CONFIRMED','license_gate':'REVIEW','publication_scope':'INTERNAL_SNAPSHOT_ONLY'})
+  else: valid.append({**r,'data_quality_status':r.get('data_quality_status') or 'SOURCE_CONFIRMED','license_gate':r.get('license_gate') or 'REVIEW','publication_scope':r.get('publication_scope') or 'INTERNAL_SNAPSHOT_ONLY'})
  return {'valid':valid,'invalid':invalid,'duplicate':dup,'review':review}
 
 def main():
  if len(sys.argv)<2: print('usage: python scripts/ingest_market_data.py <file>'); return 2
  p=Path(sys.argv[1]);
  if not p.exists() or p.suffix.lower() not in SUPPORTED: print('MARKET INGEST = FAILED: unsupported/missing file'); return 2
- provider=ManualFileProvider(p); raw=provider.parse(p); norm=resolve_listing(provider.normalize(raw)); result=validate(norm)
+ source_id=os.getenv('W02_PROVIDER_SOURCE_ID','SRC-MANUAL-FILE'); source_origin=os.getenv('W02_PROVIDER_SOURCE_ORIGIN','MANUAL_FILE'); synthetic=os.getenv('W02_ALLOW_SYNTHETIC_HISTORICAL','0')=='1'
+ provider=ManualFileProvider(p,source_id=source_id,source_origin=source_origin); raw=provider.parse(p); norm=resolve_listing(provider.normalize(raw),allow_synthetic_historical=synthetic); result=validate(norm)
  digest=sha256(p); now=datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
  dates=[r['trade_date'] for r in result['valid'] if r.get('trade_date')]
- receipt={'source_id':provider.source_id,'input_file':str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p),'sha256':digest,'input_size':p.stat().st_size,'input_origin':'MANUAL','dataset':'stock_daily','trade_date_min':min(dates) if dates else None,'trade_date_max':max(dates) if dates else None,'raw_rows':len(raw),'parsed_rows':len(norm),'valid_rows':len(result['valid']),'invalid_rows':len(result['invalid']),'duplicate_rows':len(result['duplicate']),'review_rows':len(result['review']),'publish_gate':'PASS' if result['valid'] and not result['invalid'] and not result['duplicate'] else 'BLOCKED','status':'SUCCESS' if result['valid'] and not result['invalid'] and not result['duplicate'] else 'FAILED','retrieved_at':now}
+ receipt={'source_id':provider.source_id,'input_file':str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p),'sha256':digest,'input_size':p.stat().st_size,'input_origin':source_origin,'dataset':'stock_daily','trade_date_min':min(dates) if dates else None,'trade_date_max':max(dates) if dates else None,'raw_rows':len(raw),'parsed_rows':len(norm),'valid_rows':len(result['valid']),'invalid_rows':len(result['invalid']),'duplicate_rows':len(result['duplicate']),'review_rows':len(result['review']),'synthetic_historical_identity':synthetic,'publish_gate':'PASS' if result['valid'] and not result['invalid'] and not result['duplicate'] and not result['review'] else 'BLOCKED','status':'SUCCESS' if result['valid'] and not result['invalid'] and not result['duplicate'] and not result['review'] else 'FAILED','retrieved_at':now}
  outdir=ROOT/'reports/ingestion'; outdir.mkdir(parents=True,exist_ok=True)
  outdir.joinpath(f"STOCK_DAILY__{dates[0] if dates else 'UNKNOWN'}__receipt.json").write_text(json.dumps(receipt,ensure_ascii=False,indent=2))
  if result['valid']:
