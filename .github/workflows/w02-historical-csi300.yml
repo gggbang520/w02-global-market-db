@@ -6,11 +6,11 @@ on:
       start_date:
         description: "Historical start date"
         required: true
-        default: "2019-10-01"
+        default: "2020-01-01"
       end_date:
         description: "Historical end date"
         required: true
-        default: "2019-12-31"
+        default: "2020-03-31"
 
 permissions:
   contents: write
