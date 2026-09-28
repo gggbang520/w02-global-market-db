@@ -45,11 +45,9 @@ def main():
 
         rows = list(records.values())
         rows.sort(key=lambda x: (x.get("trade_date",""), x.get("exchange_mic",""), x.get("ticker","")))
-        with out.open("w", encoding="utf-8", newline="
-") as f:
+        with out.open("w", encoding="utf-8", newline="") as f:
             for r in rows:
-                f.write(json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "
-")
+                f.write(json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "\n")
 
         compacted_records += len(rows)
         partitions.append({
