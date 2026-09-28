@@ -1,0 +1,1500 @@
+{
+  "status": "SUCCESS",
+  "history_batch_file_count": 8,
+  "history_batch_record_sum": 18464,
+  "overlap_key_count_across_batch_files": 204,
+  "standardized_row_file_count": 17856,
+  "storage_warning": "REVIEW: row-level standardized JSON should be partitioned before multi-year expansion.",
+  "batches": [
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2020-01-02_2020-03-31__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 15049,
+      "distinct_keys": 15049,
+      "distinct_listings": 260,
+      "distinct_trade_dates": 58,
+      "trade_date_min": "2020-01-02",
+      "trade_date_max": "2020-03-31",
+      "file_size_bytes": 9948697
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-18_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 2599,
+      "distinct_keys": 2599,
+      "distinct_listings": 260,
+      "distinct_trade_dates": 10,
+      "trade_date_min": "2021-01-18",
+      "trade_date_max": "2021-01-29",
+      "file_size_bytes": 1701643
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 204,
+      "distinct_keys": 204,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 2,
+      "trade_date_min": "2021-01-28",
+      "trade_date_max": "2021-01-29",
+      "file_size_bytes": 134981
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 204,
+      "distinct_keys": 204,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 2,
+      "trade_date_min": "2021-01-28",
+      "trade_date_max": "2021-01-29",
+      "file_size_bytes": 145512
+    },
+    {
+      "file": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 102,
+      "distinct_keys": 102,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 1,
+      "trade_date_min": "2021-01-28",
+      "trade_date_max": "2021-01-28",
+      "file_size_bytes": 93099
+    },
+    {
+      "file": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 102,
+      "distinct_keys": 102,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 1,
+      "trade_date_min": "2021-01-29",
+      "trade_date_max": "2021-01-29",
+      "file_size_bytes": 93096
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 102,
+      "distinct_keys": 102,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 1,
+      "trade_date_min": "2021-01-28",
+      "trade_date_max": "2021-01-28",
+      "file_size_bytes": 93099
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "parse_status": "OK",
+      "records": 102,
+      "distinct_keys": 102,
+      "distinct_listings": 102,
+      "distinct_trade_dates": 1,
+      "trade_date_min": "2021-01-29",
+      "trade_date_max": "2021-01-29",
+      "file_size_bytes": 93096
+    }
+  ],
+  "overlap_samples": [
+    {
+      "key": [
+        "LST-CN-000001",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000002",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000063",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000100",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000333",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000338",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000538",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000568",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000625",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000651",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000661",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000725",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-000858",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002027",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002049",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002129",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002142",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002230",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002241",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002271",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002304",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002311",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002352",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002371",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002410",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002415",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002460",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002475",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002493",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002594",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002714",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002812",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-002821",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300014",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300015",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300059",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300122",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300124",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300142",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300274",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300347",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-300498",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600000",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600016",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600019",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600028",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600030",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600031",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600036",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600048",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600050",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600104",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600196",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600276",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600309",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600406",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600436",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600438",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600519",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600570",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600585",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600588",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600660",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600690",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600703",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600745",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600763",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600809",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600837",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600887",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600893",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600900",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600919",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-600999",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601009",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601012",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601088",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601166",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601169",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601211",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601229",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601288",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601318",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601328",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601390",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601398",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601601",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601628",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601633",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601668",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601688",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601766",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601818",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601888",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601899",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601919",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-601988",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-603259",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-603288",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    },
+    {
+      "key": [
+        "LST-CN-603501",
+        "2021-01-28",
+        "SRC-GITHUB-TUSHARE-ARCHIVE",
+        "RAW_CLOSE"
+      ],
+      "files": [
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+        "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json"
+      ]
+    }
+  ]
+}
