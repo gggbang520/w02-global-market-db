@@ -1,5 +1,5 @@
 from __future__ import annotations
-import csv, hashlib, json, sys
+import csv, hashlib, json, os, sys
 from datetime import datetime, timezone, date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; sys.path.insert(0,str(ROOT))
