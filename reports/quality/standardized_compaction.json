@@ -1,9 +1,9 @@
 {
   "status": "SUCCESS",
   "source_directory": "data/standardized/stocks",
-  "source_files": 16665,
-  "source_records": 16665,
-  "compacted_records": 16665,
+  "source_files": 18356,
+  "source_records": 18356,
+  "compacted_records": 18356,
   "dedupe_removed": 0,
   "partition_count": 3,
   "partition_root": "data/standardized/partitions",
@@ -16,24 +16,24 @@
   "raw_and_history_preserved": true,
   "partitions": [
     {
-      "file": "data/standardized/partitions/2019/01/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-      "records": 6325,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019/04/stock_daily.jsonl",
+      "records": 6420,
       "year": "2019",
-      "month": "01",
+      "month": "04",
       "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     },
     {
-      "file": "data/standardized/partitions/2019/02/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-      "records": 4313,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019/05/stock_daily.jsonl",
+      "records": 6118,
       "year": "2019",
-      "month": "02",
+      "month": "05",
       "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     },
     {
-      "file": "data/standardized/partitions/2019/03/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-      "records": 6027,
+      "file": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019/06/stock_daily.jsonl",
+      "records": 5818,
       "year": "2019",
-      "month": "03",
+      "month": "06",
       "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     }
   ]
