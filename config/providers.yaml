@@ -1,0 +1,20 @@
+providers:
+  yahoo_yfinance:
+    source_id: SRC-YAHOO-YFINANCE
+    source_origin: AUTO_PROVIDER
+    delivery_model: API_WRAPPER
+    dataset: STOCK_DAILY
+    market: CN
+    license_gate: REVIEW
+    publication_scope: INTERNAL_SNAPSHOT_ONLY
+
+  github_tushare_archive:
+    source_id: SRC-GITHUB-TUSHARE-ARCHIVE
+    source_origin: AUTO_PROVIDER
+    delivery_model: PUBLIC_FILE
+    dataset: STOCK_DAILY
+    market: CN
+    license_gate: REVIEW
+    publication_scope: INTERNAL_SNAPSHOT_ONLY
+    declared_upstream_source: Tushare Pro
+    upstream_verification: SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED
