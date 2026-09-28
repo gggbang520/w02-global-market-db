@@ -1,0 +1,39 @@
+{
+  "status": "SUCCESS",
+  "repaired_records": 17648,
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "AUTO_PROVIDER",
+  "repaired_source_partitions": [
+    {
+      "found": true,
+      "records": 4159,
+      "year": "01",
+      "month": "SRC-MANUAL-FILE"
+    },
+    {
+      "found": true,
+      "records": 5200,
+      "year": "02",
+      "month": "SRC-MANUAL-FILE"
+    },
+    {
+      "found": true,
+      "records": 5690,
+      "year": "03",
+      "month": "SRC-MANUAL-FILE"
+    },
+    {
+      "found": true,
+      "records": 2599,
+      "year": "01",
+      "month": "SRC-MANUAL-FILE"
+    }
+  ],
+  "removed_manual_label_partitions": [
+    "2020/01/SRC-MANUAL-FILE/stock_daily.jsonl",
+    "2020/02/SRC-MANUAL-FILE/stock_daily.jsonl",
+    "2020/03/SRC-MANUAL-FILE/stock_daily.jsonl",
+    "2021/01/SRC-MANUAL-FILE/stock_daily.jsonl"
+  ],
+  "reason": "These records originated from GitHub Actions automated retrieval but were mislabeled by the generic manual-file parser."
+}
