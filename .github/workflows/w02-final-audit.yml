@@ -1,0 +1,30 @@
+name: W02 Final Data Audit
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run final read-only audit
+        run: python scripts/final_audit.py
+      - name: Commit audit report
+        run: |
+          git config user.name "W02 Data Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/quality/final_audit.json
+          if git diff --cached --quiet; then
+            echo "No audit report changes."
+            exit 0
+          fi
+          git commit -m "audit: final W02 data inventory"
+          git push
