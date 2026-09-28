@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-from common import load_csi300_listings
+from common import ROOT, load_csi300_listings
 
 SOURCE_ID = "SRC-GITHUB-TUSHARE-ARCHIVE"
 REPO = "shaocongWu/Multivariate_Stock_Time_Series_Dataset"
@@ -89,8 +89,8 @@ def main():
     if not out.empty:
         out = out.drop_duplicates(["ticker","exchange","trade_date"]).sort_values(["trade_date","exchange","ticker"])
 
-    dest = Path("data/raw/inbox/market")
-    meta = Path("data/raw/_metadata")
+    dest = ROOT / "data/raw/inbox/market"
+    meta = ROOT / "data/raw/_metadata"
     dest.mkdir(parents=True, exist_ok=True)
     meta.mkdir(parents=True, exist_ok=True)
 
