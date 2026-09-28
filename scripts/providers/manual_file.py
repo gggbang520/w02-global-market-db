@@ -79,8 +79,8 @@ def _exchange(ticker, supplied=None):
 
 class ManualFileProvider(MarketDataProvider):
     source_origin='MANUAL_FILE'
-    def __init__(self, path: Path, source_id: str='SRC-MANUAL-FILE'):
-        self.path=Path(path); self.source_id=source_id
+    def __init__(self, path: Path, source_id: str='SRC-MANUAL-FILE', source_origin: str='MANUAL_FILE'):
+        self.path=Path(path); self.source_id=source_id; self.source_origin=source_origin
     def discover(self): return self.path.exists() and self.path.suffix.lower() in SUPPORTED
     def fetch(self): return self.path
     def parse(self,input_path=None): return _read_rows(input_path or self.path)
