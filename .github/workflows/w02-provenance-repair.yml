@@ -1,0 +1,32 @@
+name: W02 Provenance Repair
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Repair automated source labels
+        run: python scripts/repair_provenance.py
+
+      - name: Commit provenance repair
+        run: |
+          git config user.name "W02 Data Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/standardized/partitions/ reports/quality/provenance_repair.json
+          git commit -m "fix: repair automated market data provenance labels"
+          git push
