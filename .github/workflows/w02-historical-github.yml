@@ -44,6 +44,9 @@ jobs:
       - name: Run W02 pipeline
         run: python scripts/run_pipeline.py
 
+      - name: Materialize expanded batch into history
+        run: python scripts/materialize_market_history.py
+
       - name: Run tests
         run: python -m pytest -q
 
