@@ -1,0 +1,34 @@
+name: W02 History Audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit history
+        run: python scripts/audit_history.py
+
+      - name: Commit audit report
+        run: |
+          git config user.name "W02 Data Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/quality/history_audit.json
+          if git diff --cached --quiet; then
+            echo "No audit changes."
+            exit 0
+          fi
+          git commit -m "audit: summarize W02 history coverage and overlaps"
+          git push
