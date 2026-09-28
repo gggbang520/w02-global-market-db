@@ -31,7 +31,7 @@ def main():
 
         dt = str(r["trade_date"])
         source = str(r["source_id"])
-        bucket = OUT_ROOT / dt[:4] / dt[5:7] / source
+        bucket = OUT_ROOT / source / dt[:4] / dt[5:7]
         buckets[str(bucket)][key] = r
 
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
@@ -53,9 +53,9 @@ def main():
         partitions.append({
             "file": str(out.relative_to(ROOT)),
             "records": len(rows),
-            "year": bucket.parts[-3],
-            "month": bucket.parts[-2],
-            "source_id": bucket.parts[-1],
+            "year": bucket.parts[-2],
+            "month": bucket.parts[-1],
+            "source_id": bucket.parts[-3],
         })
 
     dedupe_removed = source_records - compacted_records
