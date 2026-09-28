@@ -1,10 +1,13 @@
 from pathlib import Path
 import json
 
+# Always resolve paths from the repository root, not from the current working directory.
+ROOT = Path(__file__).resolve().parents[2]
+
 CANDIDATE_FILES = [
-    Path("data/current/constituents/CSI300__current.json"),
-    Path("data/current/constituents/csi300__current.json"),
-    Path("data/current/constituents/CSI300_current.json"),
+    ROOT / "data/current/constituents/CSI300__current.json",
+    ROOT / "data/current/constituents/csi300__current.json",
+    ROOT / "data/current/constituents/CSI300_current.json",
 ]
 
 def _walk(obj):
@@ -39,7 +42,7 @@ def find_constituent_file():
     for p in CANDIDATE_FILES:
         if p.exists():
             return p
-    found = list(Path("data").rglob("*CSI300*current*.json")) + list(Path("data").rglob("*csi300*current*.json"))
+    found = list((ROOT / "data").rglob("*CSI300*current*.json")) + list((ROOT / "data").rglob("*csi300*current*.json"))
     if not found:
         raise FileNotFoundError("CSI300 current constituent JSON not found under data/")
     return found[0]
