@@ -1,0 +1,41 @@
+[
+  {
+    "source": "CSI",
+    "url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls",
+    "dns": {
+      "host": "oss-ch.csindex.com.cn",
+      "status": "DNS_FAILURE",
+      "addresses": [],
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+    },
+    "http": {
+      "status": "NOT_RUN"
+    }
+  },
+  {
+    "source": "SSE",
+    "url": "https://www.sse.com.cn/market/stockdata/",
+    "dns": {
+      "host": "www.sse.com.cn",
+      "status": "DNS_FAILURE",
+      "addresses": [],
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+    },
+    "http": {
+      "status": "NOT_RUN"
+    }
+  },
+  {
+    "source": "SZSE",
+    "url": "https://www.szse.cn/market/stock/",
+    "dns": {
+      "host": "www.szse.cn",
+      "status": "DNS_FAILURE",
+      "addresses": [],
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+    },
+    "http": {
+      "status": "NOT_RUN"
+    }
+  }
+]

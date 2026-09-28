@@ -1,0 +1,34 @@
+{
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.5.0",
+  "target_constituents": 300,
+  "v04": {
+    "constituent": "297/300",
+    "company": "297/300",
+    "security": "297/300",
+    "listing": "297/300",
+    "price": "4/297"
+  },
+  "v05": {
+    "official_constituent_retrieved": 0,
+    "official_constituent_parsed": 0,
+    "official_constituent_validated": 0,
+    "constituent_crosscheck_retrieved": 297,
+    "company": "297/300",
+    "security": "297/300",
+    "listing": "297/300",
+    "price": "4/300",
+    "price_among_297_crosscheck": "4/297",
+    "valuation": "0/300",
+    "capital_flow": "0/300",
+    "weekly_snapshot": "3/300"
+  },
+  "official_access": {
+    "CSI": "NETWORK_ERROR",
+    "SSE": "NETWORK_ERROR",
+    "SZSE": "NETWORK_ERROR"
+  },
+  "official_raw_files_retrieved": 0,
+  "official_batch_eod": "⚠️ not verified/retrieved in runtime",
+  "status": "PARTIAL_INTERNAL_SNAPSHOT"
+}

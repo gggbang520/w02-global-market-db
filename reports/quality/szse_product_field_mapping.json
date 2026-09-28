@@ -1,0 +1,17 @@
+{
+  "source_id": "SRC-SZSE-OFFICIAL",
+  "market": "CN",
+  "notes": "Level-1, Level-2, EOD and corporate-information products are kept separate. No undocumented EOD endpoint is assumed.",
+  "products": [
+    {"product":"Level-1","delivery_model":"LICENSED_DATA_SERVICE","available":true},
+    {"product":"Level-2","delivery_model":"LICENSED_DATA_SERVICE","available":true},
+    {"product":"EOD","delivery_model":"PUBLIC_WEB_OR_PRODUCT_UNVERIFIED","available":false},
+    {"product":"Corporate Information","delivery_model":"PUBLIC_WEB","available":true}
+  ],
+  "fields": [
+    {"source_product":"EOD","source_field":"security_code","W02_field":"security_code","availability":false,"license_status":"REVIEW","notes":"Not marked available until a concrete official EOD product/file is verified."},
+    {"source_product":"EOD","source_field":"security_name","W02_field":"security_name","availability":false,"license_status":"REVIEW","notes":"Not marked available until a concrete official EOD product/file is verified."},
+    {"source_product":"EOD","source_field":"trade_date","W02_field":"trade_date","availability":false,"license_status":"REVIEW","notes":"Not marked available until a concrete official EOD product/file is verified."},
+    {"source_product":"EOD","source_field":"open/high/low/close/volume/turnover","W02_field":"open/high/low/close/volume/turnover","availability":false,"license_status":"REVIEW","notes":"Do not inherit Level-1 field availability into EOD."}
+  ]
+}

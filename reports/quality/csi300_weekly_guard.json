@@ -1,0 +1,6 @@
+{
+  "status": "NOT_DERIVED",
+  "reason": "Only two observations and both are in the same ISO week; prior week-end reference is absent.",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

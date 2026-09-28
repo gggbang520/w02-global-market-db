@@ -1,0 +1,11 @@
+{
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0",
+  "week_label": "W39",
+  "snapshot_date": "2026-09-24",
+  "pipeline_status": "PUBLISHED_INTERNAL",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+  "license_gate": "MIXED_REVIEW_UNKNOWN",
+  "supersedes_software_version": "1.2.0",
+  "note": "V1.3 adds official historical membership evidence acquisition/reconciliation guards and re-runs the PIT pipeline. Official primary 2020/2021 security-level historical attachments were not directly acquired, so OFFICIAL_PRIMARY remains NOT_ESTABLISHED. Historical price remains the real 204-row, 102-listing, 2-date batch because no additional verified local real price file was acquired; no fixture rows were added."
+}

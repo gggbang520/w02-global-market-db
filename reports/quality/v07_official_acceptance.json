@@ -1,0 +1,21 @@
+{
+  "official_file_present": false,
+  "file_name": null,
+  "file_source": null,
+  "sha256": null,
+  "file_size": null,
+  "source_origin": "OFFICIAL",
+  "parser": "NOT_RUN",
+  "raw_rows": 0,
+  "parsed_rows": 0,
+  "valid_rows": 0,
+  "invalid_rows": 0,
+  "official_coverage": 0,
+  "official_verified": false,
+  "secondary_coverage": 297,
+  "auto_fetch": "DNS_FAILURE",
+  "manual_import": "NOT_IMPORTED",
+  "status": "REAL_OFFICIAL_FILE_NOT_PRESENT",
+  "generated_at": "2026-09-27T13:24:40Z",
+  "note": "No real official file was present in data/raw/inbox/official at acceptance time. Fixture files are excluded."
+}

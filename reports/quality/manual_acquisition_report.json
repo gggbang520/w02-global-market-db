@@ -1,0 +1,5 @@
+[
+  {"source_id":"SRC-CSI-OFFICIAL","dataset":"CSI300_CONSTITUENTS","auto_fetch":{"status":"DNS_FAILURE"},"manual_import":{"status":"NOT_IMPORTED"},"official_verified":false},
+  {"source_id":"SRC-SSE-OFFICIAL","dataset":"EOD_PRICE","auto_fetch":{"status":"DNS_FAILURE"},"manual_import":{"status":"NOT_IMPORTED"},"official_verified":false},
+  {"source_id":"SRC-SZSE-OFFICIAL","dataset":"EOD_PRICE","auto_fetch":{"status":"DNS_FAILURE"},"manual_import":{"status":"NOT_IMPORTED"},"official_verified":false}
+]

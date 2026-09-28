@@ -1,0 +1,13 @@
+{
+  "source_id": "SRC-SSE-OFFICIAL",
+  "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/",
+  "request_time": "2026-09-27T13:08:30Z",
+  "response_time": "2026-09-27T13:08:35Z",
+  "content_type": null,
+  "http_status": null,
+  "file_path": null,
+  "file_hash": null,
+  "file_size": null,
+  "access_status": "NETWORK_ERROR",
+  "error": "[Errno -3] Temporary failure in name resolution"
+}

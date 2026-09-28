@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "SRC-CSI-OFFICIAL",
+    "market": "CN",
+    "data_types": [
+      "INDEX_CONSTITUENTS",
+      "INDEX_WEIGHTS"
+    ],
+    "batch": true,
+    "historical": "UNKNOWN",
+    "storage": "UNKNOWN",
+    "public_display": "UNKNOWN",
+    "raw_redistribution": "UNKNOWN",
+    "commercial_redistribution": "UNKNOWN",
+    "license_status": "REVIEW",
+    "endpoint": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls",
+    "discovery_evidence": "Official CSI XLS endpoint registered; runtime could not resolve external DNS.",
+    "dataset": "CSI300_CONSTITUENTS",
+    "delivery_model": "PUBLIC_FILE",
+    "auto_access": "NETWORK_ERROR",
+    "manual_download": true,
+    "content_type": "application/vnd.ms-excel",
+    "parser_ready": true,
+    "commercial_use": "UNKNOWN"
+  },
+  {
+    "source_id": "SRC-SSE-OFFICIAL",
+    "market": "CN",
+    "data_types": [
+      "EOD_PRICE",
+      "LISTING"
+    ],
+    "batch": "UNVERIFIED",
+    "historical": "DOCUMENTED_SERVICE",
+    "storage": "UNKNOWN",
+    "public_display": "REVIEW",
+    "raw_redistribution": "BLOCKED_UNLESS_PERMITTED",
+    "commercial_redistribution": "UNKNOWN",
+    "license_status": "REVIEW",
+    "endpoint": "https://www.sse.com.cn/market/stockdata/",
+    "discovery_evidence": "SSE official stock-data pages expose EOD fields; official rules state transaction information is owned/controlled by SSE.",
+    "dataset": "EOD_PRICE",
+    "delivery_model": "PUBLIC_WEB_OR_LICENSED_SERVICE",
+    "auto_access": "NETWORK_ERROR",
+    "manual_download": "UNKNOWN",
+    "content_type": "UNKNOWN",
+    "parser_ready": false,
+    "commercial_use": "UNKNOWN"
+  },
+  {
+    "source_id": "SRC-SZSE-OFFICIAL",
+    "market": "CN",
+    "data_types": [
+      "EOD_PRICE",
+      "LISTING"
+    ],
+    "batch": "UNVERIFIED",
+    "historical": "UNKNOWN",
+    "storage": "UNKNOWN",
+    "public_display": "REVIEW",
+    "raw_redistribution": "UNKNOWN",
+    "commercial_redistribution": "UNKNOWN",
+    "license_status": "REVIEW",
+    "endpoint": "https://www.szse.cn/market/stock/",
+    "discovery_evidence": "Official SZSE market-data boundary registered; batch endpoint not guessed.",
+    "dataset": "EOD_PRICE",
+    "delivery_model": "PUBLIC_WEB_OR_LICENSED_SERVICE",
+    "auto_access": "NETWORK_ERROR",
+    "manual_download": "UNKNOWN",
+    "content_type": "UNKNOWN",
+    "parser_ready": false,
+    "commercial_use": "UNKNOWN"
+  }
+]

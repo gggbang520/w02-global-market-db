@@ -1,0 +1,23 @@
+{
+  "evidence_id": "EVID-CSI300-2021-06-11-SECONDARY",
+  "event_date": "2021-06-11",
+  "effective_date": "2021-06-15",
+  "index_id": "CN-CS300",
+  "source_id": "SRC-CSI-ADJUSTMENT-SECONDARY-2021-06-11",
+  "source_origin": "SECONDARY_REPRODUCTION",
+  "evidence_type": "SECONDARY_EVENT_LIST",
+  "source_url": "https://www.lcaj.net/jingji/080530688.html",
+  "document_title": "沪深300和中证香港100等指数样本调整（名单）",
+  "attachment": null,
+  "hash": null,
+  "retrieval_date": "2026-09-27",
+  "quality_status": "SOURCE_CONFIRMED_SECONDARY",
+  "license_gate": "REVIEW",
+  "reported_replacement_count": 25,
+  "materialized_add_count": 25,
+  "materialized_remove_count": 25,
+  "event_materialization": "COMPLETE_SECONDARY",
+  "declared_upstream_source": "China Securities Index Co. official announcement",
+  "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED",
+  "effective_rule": "Effective after 2021-06-11 close; 2021-06-14 was a market holiday, so membership boundary is 2021-06-15."
+}

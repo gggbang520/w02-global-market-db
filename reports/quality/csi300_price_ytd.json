@@ -1,0 +1,6 @@
+{
+  "status": "NOT_AVAILABLE",
+  "reason": "No reliable 2021 year-start reference is present in the acquired historical price batch.",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

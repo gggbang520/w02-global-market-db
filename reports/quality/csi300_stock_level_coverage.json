@@ -1,0 +1,4799 @@
+[
+  {
+    "security_id": "SEC-CN-000001",
+    "listing_id": "LST-CN-000001",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000002",
+    "listing_id": "LST-CN-000002",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000063",
+    "listing_id": "LST-CN-000063",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000066",
+    "listing_id": "LST-CN-000066",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000069",
+    "listing_id": "LST-CN-000069",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000100",
+    "listing_id": "LST-CN-000100",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000157",
+    "listing_id": "LST-CN-000157",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000166",
+    "listing_id": "LST-CN-000166",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000333",
+    "listing_id": "LST-CN-000333",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000338",
+    "listing_id": "LST-CN-000338",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000425",
+    "listing_id": "LST-CN-000425",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000538",
+    "listing_id": "LST-CN-000538",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000568",
+    "listing_id": "LST-CN-000568",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000596",
+    "listing_id": "LST-CN-000596",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000625",
+    "listing_id": "LST-CN-000625",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000627",
+    "listing_id": "LST-CN-000627",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000651",
+    "listing_id": "LST-CN-000651",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000656",
+    "listing_id": "LST-CN-000656",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000661",
+    "listing_id": "LST-CN-000661",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000671",
+    "listing_id": "LST-CN-000671",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000703",
+    "listing_id": "LST-CN-000703",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000708",
+    "listing_id": "LST-CN-000708",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000723",
+    "listing_id": "LST-CN-000723",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000725",
+    "listing_id": "LST-CN-000725",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000728",
+    "listing_id": "LST-CN-000728",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000768",
+    "listing_id": "LST-CN-000768",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000776",
+    "listing_id": "LST-CN-000776",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000783",
+    "listing_id": "LST-CN-000783",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000786",
+    "listing_id": "LST-CN-000786",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000858",
+    "listing_id": "LST-CN-000858",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000860",
+    "listing_id": "LST-CN-000860",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000876",
+    "listing_id": "LST-CN-000876",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000895",
+    "listing_id": "LST-CN-000895",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000938",
+    "listing_id": "LST-CN-000938",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000961",
+    "listing_id": "LST-CN-000961",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000963",
+    "listing_id": "LST-CN-000963",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-000977",
+    "listing_id": "LST-CN-000977",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-001979",
+    "listing_id": "LST-CN-001979",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002001",
+    "listing_id": "LST-CN-002001",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002007",
+    "listing_id": "LST-CN-002007",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002008",
+    "listing_id": "LST-CN-002008",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002024",
+    "listing_id": "LST-CN-002024",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002027",
+    "listing_id": "LST-CN-002027",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002032",
+    "listing_id": "LST-CN-002032",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002044",
+    "listing_id": "LST-CN-002044",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002049",
+    "listing_id": "LST-CN-002049",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002050",
+    "listing_id": "LST-CN-002050",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002120",
+    "listing_id": "LST-CN-002120",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002129",
+    "listing_id": "LST-CN-002129",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002142",
+    "listing_id": "LST-CN-002142",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002146",
+    "listing_id": "LST-CN-002146",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002153",
+    "listing_id": "LST-CN-002153",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002157",
+    "listing_id": "LST-CN-002157",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002179",
+    "listing_id": "LST-CN-002179",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002202",
+    "listing_id": "LST-CN-002202",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002230",
+    "listing_id": "LST-CN-002230",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002236",
+    "listing_id": "LST-CN-002236",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002241",
+    "listing_id": "LST-CN-002241",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002252",
+    "listing_id": "LST-CN-002252",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002271",
+    "listing_id": "LST-CN-002271",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002304",
+    "listing_id": "LST-CN-002304",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002311",
+    "listing_id": "LST-CN-002311",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002352",
+    "listing_id": "LST-CN-002352",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002371",
+    "listing_id": "LST-CN-002371",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002384",
+    "listing_id": "LST-CN-002384",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002410",
+    "listing_id": "LST-CN-002410",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002414",
+    "listing_id": "LST-CN-002414",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002415",
+    "listing_id": "LST-CN-002415",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002422",
+    "listing_id": "LST-CN-002422",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002456",
+    "listing_id": "LST-CN-002456",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002460",
+    "listing_id": "LST-CN-002460",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002463",
+    "listing_id": "LST-CN-002463",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002475",
+    "listing_id": "LST-CN-002475",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002493",
+    "listing_id": "LST-CN-002493",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002508",
+    "listing_id": "LST-CN-002508",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002555",
+    "listing_id": "LST-CN-002555",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002558",
+    "listing_id": "LST-CN-002558",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002594",
+    "listing_id": "LST-CN-002594",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002600",
+    "listing_id": "LST-CN-002600",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002601",
+    "listing_id": "LST-CN-002601",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002602",
+    "listing_id": "LST-CN-002602",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002607",
+    "listing_id": "LST-CN-002607",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002624",
+    "listing_id": "LST-CN-002624",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002673",
+    "listing_id": "LST-CN-002673",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002714",
+    "listing_id": "LST-CN-002714",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002736",
+    "listing_id": "LST-CN-002736",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002739",
+    "listing_id": "LST-CN-002739",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002773",
+    "listing_id": "LST-CN-002773",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002812",
+    "listing_id": "LST-CN-002812",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002821",
+    "listing_id": "LST-CN-002821",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002841",
+    "listing_id": "LST-CN-002841",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002916",
+    "listing_id": "LST-CN-002916",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002938",
+    "listing_id": "LST-CN-002938",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002939",
+    "listing_id": "LST-CN-002939",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002945",
+    "listing_id": "LST-CN-002945",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-002958",
+    "listing_id": "LST-CN-002958",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-003816",
+    "listing_id": "LST-CN-003816",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300003",
+    "listing_id": "LST-CN-300003",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300014",
+    "listing_id": "LST-CN-300014",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300015",
+    "listing_id": "LST-CN-300015",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300033",
+    "listing_id": "LST-CN-300033",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300059",
+    "listing_id": "LST-CN-300059",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300122",
+    "listing_id": "LST-CN-300122",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300124",
+    "listing_id": "LST-CN-300124",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300136",
+    "listing_id": "LST-CN-300136",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300142",
+    "listing_id": "LST-CN-300142",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300144",
+    "listing_id": "LST-CN-300144",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300347",
+    "listing_id": "LST-CN-300347",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300408",
+    "listing_id": "LST-CN-300408",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300413",
+    "listing_id": "LST-CN-300413",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300433",
+    "listing_id": "LST-CN-300433",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300498",
+    "listing_id": "LST-CN-300498",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300529",
+    "listing_id": "LST-CN-300529",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300601",
+    "listing_id": "LST-CN-300601",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300628",
+    "listing_id": "LST-CN-300628",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-300676",
+    "listing_id": "LST-CN-300676",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600000",
+    "listing_id": "LST-CN-600000",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600004",
+    "listing_id": "LST-CN-600004",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600009",
+    "listing_id": "LST-CN-600009",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600010",
+    "listing_id": "LST-CN-600010",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600011",
+    "listing_id": "LST-CN-600011",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600015",
+    "listing_id": "LST-CN-600015",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600016",
+    "listing_id": "LST-CN-600016",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600018",
+    "listing_id": "LST-CN-600018",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600019",
+    "listing_id": "LST-CN-600019",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600025",
+    "listing_id": "LST-CN-600025",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600027",
+    "listing_id": "LST-CN-600027",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600028",
+    "listing_id": "LST-CN-600028",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600029",
+    "listing_id": "LST-CN-600029",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600030",
+    "listing_id": "LST-CN-600030",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600031",
+    "listing_id": "LST-CN-600031",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600036",
+    "listing_id": "LST-CN-600036",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600048",
+    "listing_id": "LST-CN-600048",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600050",
+    "listing_id": "LST-CN-600050",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600061",
+    "listing_id": "LST-CN-600061",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600066",
+    "listing_id": "LST-CN-600066",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600068",
+    "listing_id": "LST-CN-600068",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600085",
+    "listing_id": "LST-CN-600085",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600104",
+    "listing_id": "LST-CN-600104",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600109",
+    "listing_id": "LST-CN-600109",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600111",
+    "listing_id": "LST-CN-600111",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600115",
+    "listing_id": "LST-CN-600115",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600118",
+    "listing_id": "LST-CN-600118",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600150",
+    "listing_id": "LST-CN-600150",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600161",
+    "listing_id": "LST-CN-600161",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600176",
+    "listing_id": "LST-CN-600176",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600177",
+    "listing_id": "LST-CN-600177",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600183",
+    "listing_id": "LST-CN-600183",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600196",
+    "listing_id": "LST-CN-600196",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600208",
+    "listing_id": "LST-CN-600208",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600233",
+    "listing_id": "LST-CN-600233",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600271",
+    "listing_id": "LST-CN-600271",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600276",
+    "listing_id": "LST-CN-600276",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600297",
+    "listing_id": "LST-CN-600297",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600299",
+    "listing_id": "LST-CN-600299",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600309",
+    "listing_id": "LST-CN-600309",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600332",
+    "listing_id": "LST-CN-600332",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600340",
+    "listing_id": "LST-CN-600340",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600346",
+    "listing_id": "LST-CN-600346",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600352",
+    "listing_id": "LST-CN-600352",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600362",
+    "listing_id": "LST-CN-600362",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600369",
+    "listing_id": "LST-CN-600369",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600383",
+    "listing_id": "LST-CN-600383",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600390",
+    "listing_id": "LST-CN-600390",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600406",
+    "listing_id": "LST-CN-600406",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600436",
+    "listing_id": "LST-CN-600436",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600438",
+    "listing_id": "LST-CN-600438",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600482",
+    "listing_id": "LST-CN-600482",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600487",
+    "listing_id": "LST-CN-600487",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600489",
+    "listing_id": "LST-CN-600489",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600498",
+    "listing_id": "LST-CN-600498",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600519",
+    "listing_id": "LST-CN-600519",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600522",
+    "listing_id": "LST-CN-600522",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600547",
+    "listing_id": "LST-CN-600547",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600570",
+    "listing_id": "LST-CN-600570",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600584",
+    "listing_id": "LST-CN-600584",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600585",
+    "listing_id": "LST-CN-600585",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600588",
+    "listing_id": "LST-CN-600588",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600600",
+    "listing_id": "LST-CN-600600",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600606",
+    "listing_id": "LST-CN-600606",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600637",
+    "listing_id": "LST-CN-600637",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600655",
+    "listing_id": "LST-CN-600655",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600660",
+    "listing_id": "LST-CN-600660",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600690",
+    "listing_id": "LST-CN-600690",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600703",
+    "listing_id": "LST-CN-600703",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600705",
+    "listing_id": "LST-CN-600705",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600741",
+    "listing_id": "LST-CN-600741",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600745",
+    "listing_id": "LST-CN-600745",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600760",
+    "listing_id": "LST-CN-600760",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600763",
+    "listing_id": "LST-CN-600763",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600795",
+    "listing_id": "LST-CN-600795",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600809",
+    "listing_id": "LST-CN-600809",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600837",
+    "listing_id": "LST-CN-600837",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600845",
+    "listing_id": "LST-CN-600845",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600848",
+    "listing_id": "LST-CN-600848",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600872",
+    "listing_id": "LST-CN-600872",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600886",
+    "listing_id": "LST-CN-600886",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600887",
+    "listing_id": "LST-CN-600887",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600893",
+    "listing_id": "LST-CN-600893",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600900",
+    "listing_id": "LST-CN-600900",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600918",
+    "listing_id": "LST-CN-600918",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600919",
+    "listing_id": "LST-CN-600919",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600926",
+    "listing_id": "LST-CN-600926",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600958",
+    "listing_id": "LST-CN-600958",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600989",
+    "listing_id": "LST-CN-600989",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600998",
+    "listing_id": "LST-CN-600998",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-600999",
+    "listing_id": "LST-CN-600999",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601006",
+    "listing_id": "LST-CN-601006",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601009",
+    "listing_id": "LST-CN-601009",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601012",
+    "listing_id": "LST-CN-601012",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601021",
+    "listing_id": "LST-CN-601021",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601066",
+    "listing_id": "LST-CN-601066",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601077",
+    "listing_id": "LST-CN-601077",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601088",
+    "listing_id": "LST-CN-601088",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601100",
+    "listing_id": "LST-CN-601100",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601108",
+    "listing_id": "LST-CN-601108",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601111",
+    "listing_id": "LST-CN-601111",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601117",
+    "listing_id": "LST-CN-601117",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601138",
+    "listing_id": "LST-CN-601138",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601155",
+    "listing_id": "LST-CN-601155",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601162",
+    "listing_id": "LST-CN-601162",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601166",
+    "listing_id": "LST-CN-601166",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601169",
+    "listing_id": "LST-CN-601169",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601186",
+    "listing_id": "LST-CN-601186",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601198",
+    "listing_id": "LST-CN-601198",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601211",
+    "listing_id": "LST-CN-601211",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601216",
+    "listing_id": "LST-CN-601216",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601225",
+    "listing_id": "LST-CN-601225",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601229",
+    "listing_id": "LST-CN-601229",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601231",
+    "listing_id": "LST-CN-601231",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601236",
+    "listing_id": "LST-CN-601236",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601238",
+    "listing_id": "LST-CN-601238",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601288",
+    "listing_id": "LST-CN-601288",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601318",
+    "listing_id": "LST-CN-601318",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601319",
+    "listing_id": "LST-CN-601319",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601328",
+    "listing_id": "LST-CN-601328",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601336",
+    "listing_id": "LST-CN-601336",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601360",
+    "listing_id": "LST-CN-601360",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601377",
+    "listing_id": "LST-CN-601377",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601390",
+    "listing_id": "LST-CN-601390",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601398",
+    "listing_id": "LST-CN-601398",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601555",
+    "listing_id": "LST-CN-601555",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601577",
+    "listing_id": "LST-CN-601577",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601600",
+    "listing_id": "LST-CN-601600",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601601",
+    "listing_id": "LST-CN-601601",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601607",
+    "listing_id": "LST-CN-601607",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601618",
+    "listing_id": "LST-CN-601618",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601628",
+    "listing_id": "LST-CN-601628",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601633",
+    "listing_id": "LST-CN-601633",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601658",
+    "listing_id": "LST-CN-601658",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601668",
+    "listing_id": "LST-CN-601668",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601669",
+    "listing_id": "LST-CN-601669",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601688",
+    "listing_id": "LST-CN-601688",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601696",
+    "listing_id": "LST-CN-601696",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601698",
+    "listing_id": "LST-CN-601698",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601727",
+    "listing_id": "LST-CN-601727",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601766",
+    "listing_id": "LST-CN-601766",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601788",
+    "listing_id": "LST-CN-601788",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601800",
+    "listing_id": "LST-CN-601800",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601808",
+    "listing_id": "LST-CN-601808",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601816",
+    "listing_id": "LST-CN-601816",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601818",
+    "listing_id": "LST-CN-601818",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601838",
+    "listing_id": "LST-CN-601838",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601857",
+    "listing_id": "LST-CN-601857",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601872",
+    "listing_id": "LST-CN-601872",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601877",
+    "listing_id": "LST-CN-601877",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601878",
+    "listing_id": "LST-CN-601878",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601881",
+    "listing_id": "LST-CN-601881",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601888",
+    "listing_id": "LST-CN-601888",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601899",
+    "listing_id": "LST-CN-601899",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601901",
+    "listing_id": "LST-CN-601901",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601916",
+    "listing_id": "LST-CN-601916",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601919",
+    "listing_id": "LST-CN-601919",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601933",
+    "listing_id": "LST-CN-601933",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601939",
+    "listing_id": "LST-CN-601939",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601985",
+    "listing_id": "LST-CN-601985",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601988",
+    "listing_id": "LST-CN-601988",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601989",
+    "listing_id": "LST-CN-601989",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601990",
+    "listing_id": "LST-CN-601990",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-601998",
+    "listing_id": "LST-CN-601998",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603019",
+    "listing_id": "LST-CN-603019",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603087",
+    "listing_id": "LST-CN-603087",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603156",
+    "listing_id": "LST-CN-603156",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603160",
+    "listing_id": "LST-CN-603160",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603195",
+    "listing_id": "LST-CN-603195",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603259",
+    "listing_id": "LST-CN-603259",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603288",
+    "listing_id": "LST-CN-603288",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603369",
+    "listing_id": "LST-CN-603369",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603392",
+    "listing_id": "LST-CN-603392",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603501",
+    "listing_id": "LST-CN-603501",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603658",
+    "listing_id": "LST-CN-603658",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603799",
+    "listing_id": "LST-CN-603799",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603833",
+    "listing_id": "LST-CN-603833",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603899",
+    "listing_id": "LST-CN-603899",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603986",
+    "listing_id": "LST-CN-603986",
+    "first_trade_date": "2021-01-28",
+    "last_trade_date": "2021-01-29",
+    "trade_date_count": 2,
+    "missing_trade_dates": [],
+    "missing_date_classification": "NONE_OBSERVED_MISSING",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 2,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-603993",
+    "listing_id": "LST-CN-603993",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-688008",
+    "listing_id": "LST-CN-688008",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-688009",
+    "listing_id": "LST-CN-688009",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-688012",
+    "listing_id": "LST-CN-688012",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  },
+  {
+    "security_id": "SEC-CN-688036",
+    "listing_id": "LST-CN-688036",
+    "first_trade_date": null,
+    "last_trade_date": null,
+    "trade_date_count": 0,
+    "missing_trade_dates": [
+      "2021-01-28",
+      "2021-01-29"
+    ],
+    "missing_date_classification": "UNKNOWN",
+    "membership_verified_date_count": 0,
+    "pit_verified_date_count": 0,
+    "membership_evidence_date_count": 0,
+    "data_version": "DATA-2026-W39",
+    "software_version": "1.3.0"
+  }
+]

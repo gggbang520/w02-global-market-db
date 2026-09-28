@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-601328",
+  "security_id": "SEC-CN-601328",
+  "ticker": "601328",
+  "exchange_mic": "XSHG",
+  "normalized_ticker": "CN-XSHG-601328",
+  "trade_date": "2021-01-29",
+  "open": 4.46,
+  "high": 4.5,
+  "low": 4.45,
+  "close": 4.46,
+  "adjusted_close": null,
+  "price_type": "RAW_CLOSE",
+  "volume": 890726.87,
+  "turnover": 398415.114,
+  "currency": "CNY",
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

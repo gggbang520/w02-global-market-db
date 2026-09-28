@@ -1,0 +1,53 @@
+{
+  "snapshot_date": "2026-09-24",
+  "constituent_total": 297,
+  "company_available": 297,
+  "security_available": 297,
+  "listing_available": 297,
+  "price_available": 4,
+  "valuation_available": 0,
+  "capital_flow_available": 0,
+  "weekly_snapshot_available": 3,
+  "missing_count": 293,
+  "conflict_count": 0,
+  "review_count": 4,
+  "quality_distribution": {
+    "VERIFIED": 0,
+    "SOURCE_CONFIRMED": 301,
+    "PARTIAL": 0,
+    "MISSING": 0,
+    "CONFLICT": 0,
+    "REVIEW": 4,
+    "REJECTED": 0
+  },
+  "license_distribution": {
+    "PASS": 0,
+    "BLOCKED": 0,
+    "UNKNOWN": 297,
+    "REVIEW": 4
+  },
+  "notes": [
+    "The retrievable secondary constituent snapshot contained 297 visible records in this run; 3 constituent records could not be reliably retrieved and were not fabricated.",
+    "Company/Security/Listing masters are normalized identity records derived from the retrieved constituent source; unsourced fields remain null.",
+    "Only four daily price records were externally verified in this run; no values were fabricated for the remaining 293 securities.",
+    "2026-09-25 was treated as non-trading for these A-share records because the indexed historical pages stop at 2026-09-24."
+  ],
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.7.0",
+  "official_constituent_target": 300,
+  "official_constituent_retrieved": 0,
+  "official_constituent_parsed": 0,
+  "official_constituent_validated": 0,
+  "official_access_status": "DNS_FAILURE",
+  "official_parse_status": "NOT_RUN",
+  "official_license_status": "REVIEW",
+  "price_target": 300,
+  "price_coverage_pct": 1.33,
+  "price_coverage_among_retrieved_constituents_pct": 1.35,
+  "official_constituent_count": 0,
+  "secondary_constituent_count": 297,
+  "reconciled_constituent_count": 0,
+  "official_verified": false,
+  "official_file_present": false,
+  "license_gate": "MIXED_REVIEW_UNKNOWN"
+}

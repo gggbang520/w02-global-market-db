@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-600745",
+  "security_id": "SEC-CN-600745",
+  "ticker": "600745",
+  "exchange_mic": "XSHG",
+  "normalized_ticker": "CN-XSHG-600745",
+  "trade_date": "2021-01-28",
+  "open": 114.51,
+  "high": 114.52,
+  "low": 109.1,
+  "close": 109.92,
+  "adjusted_close": null,
+  "price_type": "RAW_CLOSE",
+  "volume": 230893.06,
+  "turnover": 2564541.565,
+  "currency": "CNY",
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

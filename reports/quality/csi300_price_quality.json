@@ -1,0 +1,19 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "dataset": "stock_daily",
+  "total_rows": 204,
+  "distinct_listings": 102,
+  "distinct_dates": 2,
+  "valid_rows": 204,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "review_rows": 0,
+  "missing_rows": 198,
+  "source_confirmed_rows": 204,
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "price_type": "RAW_CLOSE",
+  "turnover_unit": "source_native_amount",
+  "volume_unit": "source_native_volume",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

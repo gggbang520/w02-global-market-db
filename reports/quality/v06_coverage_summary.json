@@ -1,0 +1,36 @@
+{
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.6.0",
+  "AUTO_FETCH": {
+    "SRC-CSI-OFFICIAL": "DNS_FAILURE",
+    "SRC-SSE-OFFICIAL": "DNS_FAILURE",
+    "SRC-SZSE-OFFICIAL": "DNS_FAILURE"
+  },
+  "MANUAL_IMPORT": {
+    "SRC-CSI-OFFICIAL": "NOT_IMPORTED",
+    "SRC-SSE-OFFICIAL": "NOT_IMPORTED",
+    "SRC-SZSE-OFFICIAL": "NOT_IMPORTED"
+  },
+  "OFFICIAL_VERIFIED": {
+    "constituents": "0/300",
+    "price": "0/300"
+  },
+  "SECONDARY_VERIFIED": {
+    "constituents": "297/300",
+    "price": "4/300"
+  },
+  "FIXTURE": {
+    "csi_parser_rows": 300,
+    "counted_in_official_coverage": false
+  },
+  "actual_coverage": {
+    "constituent": "297/300 secondary",
+    "company": "297/300",
+    "security": "297/300",
+    "listing": "297/300",
+    "daily_price": "4/300 existing secondary",
+    "valuation": "0/300",
+    "capital_flow": "0/300",
+    "weekly_snapshot": "3/300"
+  }
+}

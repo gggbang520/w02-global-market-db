@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC-CSI-OFFICIAL",
+  "dataset": "CSI300_CONSTITUENTS",
+  "input_file": null,
+  "input_origin": "OFFICIAL",
+  "sha256": null,
+  "input_size": null,
+  "parser_version": "0.7.0",
+  "schema_version": "0.7.0",
+  "software_version": "0.7.0",
+  "data_version": "DATA-2026-W39",
+  "raw_rows": 0,
+  "parsed_rows": 0,
+  "valid_rows": 0,
+  "invalid_rows": 0,
+  "status": "NOT_PRESENT",
+  "publish_gate": "BLOCKED",
+  "reason": "REAL_OFFICIAL_FILE_NOT_PRESENT",
+  "created_at": "2026-09-27T13:24:40Z"
+}

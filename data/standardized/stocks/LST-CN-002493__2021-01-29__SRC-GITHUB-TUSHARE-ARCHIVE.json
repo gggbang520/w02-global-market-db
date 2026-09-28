@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-002493",
+  "security_id": "SEC-CN-002493",
+  "ticker": "002493",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-002493",
+  "trade_date": "2021-01-29",
+  "open": 34.22,
+  "high": 35.33,
+  "low": 33.46,
+  "close": 34.2,
+  "adjusted_close": null,
+  "price_type": "RAW_CLOSE",
+  "volume": 294655.79,
+  "turnover": 1014226.823,
+  "currency": "CNY",
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

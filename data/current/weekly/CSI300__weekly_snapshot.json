@@ -1,0 +1,71 @@
+{
+  "index_id": "CN-CS300",
+  "week_end_trade_date": "2026-09-24",
+  "records": [
+    {
+      "listing_id": "LST-CN-600519",
+      "security_id": "SEC-CN-600519",
+      "week_end_trade_date": "2026-09-24",
+      "close": 1237.0,
+      "previous_week_close": null,
+      "weekly_return": null,
+      "ytd": null,
+      "metric_definition_id": "STOCK_WEEKLY_RETURN_V1",
+      "calculation_method": "derived",
+      "source_layer": "price_daily",
+      "formula": "current_week_close / previous_week_close - 1",
+      "data_quality_status": "PARTIAL",
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    },
+    {
+      "listing_id": "LST-CN-601318",
+      "security_id": "SEC-CN-601318",
+      "week_end_trade_date": "2026-09-24",
+      "close": 53.25,
+      "previous_week_close": 53.37,
+      "weekly_return": -0.0022484541877458852,
+      "ytd": null,
+      "metric_definition_id": "STOCK_WEEKLY_RETURN_V1",
+      "calculation_method": "derived",
+      "source_layer": "price_daily",
+      "formula": "current_week_close / previous_week_close - 1",
+      "data_quality_status": "SOURCE_CONFIRMED",
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    },
+    {
+      "listing_id": "LST-CN-000858",
+      "security_id": "SEC-CN-000858",
+      "week_end_trade_date": "2026-09-24",
+      "close": 69.67,
+      "previous_week_close": 70.0,
+      "weekly_return": -0.004714285714285671,
+      "ytd": null,
+      "metric_definition_id": "STOCK_WEEKLY_RETURN_V1",
+      "calculation_method": "derived",
+      "source_layer": "price_daily",
+      "formula": "current_week_close / previous_week_close - 1",
+      "data_quality_status": "SOURCE_CONFIRMED",
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    },
+    {
+      "listing_id": "LST-CN-000333",
+      "security_id": "SEC-CN-000333",
+      "week_end_trade_date": "2026-09-24",
+      "close": 82.65,
+      "previous_week_close": 84.4,
+      "weekly_return": -0.020734597156398138,
+      "ytd": null,
+      "metric_definition_id": "STOCK_WEEKLY_RETURN_V1",
+      "calculation_method": "derived",
+      "source_layer": "price_daily",
+      "formula": "current_week_close / previous_week_close - 1",
+      "data_quality_status": "SOURCE_CONFIRMED",
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    }
+  ],
+  "coverage": 3
+}

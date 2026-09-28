@@ -1,0 +1,13 @@
+{
+  "source_id": "SRC-CSI-OFFICIAL",
+  "url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls",
+  "request_time": "2026-09-27T13:16:55Z",
+  "response_time": "2026-09-27T13:17:00Z",
+  "content_type": null,
+  "http_status": null,
+  "file_path": null,
+  "file_hash": null,
+  "file_size": null,
+  "access_status": "DNS_FAILURE",
+  "error": "[Errno -3] Temporary failure in name resolution"
+}

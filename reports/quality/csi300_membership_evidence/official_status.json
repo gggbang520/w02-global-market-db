@@ -1,0 +1,15 @@
+{
+  "source_id": "SRC-CSI-OFFICIAL",
+  "source_origin": "OFFICIAL_PRIMARY",
+  "evidence_type": "OFFICIAL_RULE_REFERENCE",
+  "source_url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/1475_931142_Index_Methodology_cn.pdf",
+  "evidence_id": "EVID-CSI300-OFFICIAL-HISTORICAL-2020-2021",
+  "official_historical_attachment_status": "NOT_ESTABLISHED",
+  "attachment": null,
+  "sha256": null,
+  "retrieval_status": "SEARCHED_NOT_ESTABLISHED",
+  "historical_membership_snapshot_status": "NOT_ESTABLISHED",
+  "historical_event_file_status": "NOT_ESTABLISHED",
+  "license_gate": "REVIEW",
+  "note": "Official CSI methodology confirms index adjustment rules but does not establish the 2020-12-14 or 2021-06-11 security-level event files used here."
+}

@@ -1,0 +1,2089 @@
+{
+  "source_id": "SRC-CSI300-SECONDARY",
+  "dataset": "index_constituents",
+  "market": "CN",
+  "asof": "2026-09-25",
+  "retrieved_at": "2026-09-27T13:30:00Z",
+  "raw_rows": [
+    {
+      "rank": 1,
+      "ticker": "600519",
+      "company_name": "贵州茅台",
+      "exchange": "上海",
+      "weight": 6.04
+    },
+    {
+      "rank": 2,
+      "ticker": "601318",
+      "company_name": "中国平安",
+      "exchange": "上海",
+      "weight": 3.26
+    },
+    {
+      "rank": 3,
+      "ticker": "600036",
+      "company_name": "招商银行",
+      "exchange": "上海",
+      "weight": 3.14
+    },
+    {
+      "rank": 4,
+      "ticker": "000858",
+      "company_name": "五粮液",
+      "exchange": "深圳",
+      "weight": 2.7
+    },
+    {
+      "rank": 5,
+      "ticker": "601012",
+      "company_name": "隆基股份",
+      "exchange": "上海",
+      "weight": 1.8
+    },
+    {
+      "rank": 6,
+      "ticker": "000333",
+      "company_name": "美的集团",
+      "exchange": "深圳",
+      "weight": 1.65
+    },
+    {
+      "rank": 7,
+      "ticker": "600276",
+      "company_name": "恒瑞医药",
+      "exchange": "上海",
+      "weight": 1.42
+    },
+    {
+      "rank": 8,
+      "ticker": "002415",
+      "company_name": "海康威视",
+      "exchange": "深圳",
+      "weight": 1.41
+    },
+    {
+      "rank": 9,
+      "ticker": "601166",
+      "company_name": "兴业银行",
+      "exchange": "上海",
+      "weight": 1.4
+    },
+    {
+      "rank": 10,
+      "ticker": "601888",
+      "company_name": "中国中免",
+      "exchange": "上海",
+      "weight": 1.37
+    },
+    {
+      "rank": 11,
+      "ticker": "603259",
+      "company_name": "药明康德",
+      "exchange": "上海",
+      "weight": 1.31
+    },
+    {
+      "rank": 12,
+      "ticker": "300059",
+      "company_name": "东方财富",
+      "exchange": "深圳",
+      "weight": 1.27
+    },
+    {
+      "rank": 13,
+      "ticker": "000651",
+      "company_name": "格力电器",
+      "exchange": "深圳",
+      "weight": 1.17
+    },
+    {
+      "rank": 14,
+      "ticker": "600900",
+      "company_name": "长江电力",
+      "exchange": "上海",
+      "weight": 1.1
+    },
+    {
+      "rank": 15,
+      "ticker": "002594",
+      "company_name": "比亚迪",
+      "exchange": "深圳",
+      "weight": 1.06
+    },
+    {
+      "rank": 16,
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "exchange": "深圳",
+      "weight": 1.05
+    },
+    {
+      "rank": 17,
+      "ticker": "600887",
+      "company_name": "伊利股份",
+      "exchange": "上海",
+      "weight": 1.05
+    },
+    {
+      "rank": 18,
+      "ticker": "000001",
+      "company_name": "平安银行",
+      "exchange": "深圳",
+      "weight": 1.03
+    },
+    {
+      "rank": 19,
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "exchange": "深圳",
+      "weight": 0.99
+    },
+    {
+      "rank": 20,
+      "ticker": "600030",
+      "company_name": "中信证券",
+      "exchange": "上海",
+      "weight": 0.99
+    },
+    {
+      "rank": 21,
+      "ticker": "300015",
+      "company_name": "爱尔眼科",
+      "exchange": "深圳",
+      "weight": 0.9
+    },
+    {
+      "rank": 22,
+      "ticker": "601398",
+      "company_name": "工商银行",
+      "exchange": "上海",
+      "weight": 0.85
+    },
+    {
+      "rank": 23,
+      "ticker": "000568",
+      "company_name": "泸州老窖",
+      "exchange": "深圳",
+      "weight": 0.81
+    },
+    {
+      "rank": 24,
+      "ticker": "600031",
+      "company_name": "三一重工",
+      "exchange": "上海",
+      "weight": 0.81
+    },
+    {
+      "rank": 25,
+      "ticker": "600309",
+      "company_name": "万华化学",
+      "exchange": "上海",
+      "weight": 0.8
+    },
+    {
+      "rank": 26,
+      "ticker": "603501",
+      "company_name": "韦尔股份",
+      "exchange": "上海",
+      "weight": 0.78
+    },
+    {
+      "rank": 27,
+      "ticker": "000002",
+      "company_name": "万科A",
+      "exchange": "深圳",
+      "weight": 0.76
+    },
+    {
+      "rank": 28,
+      "ticker": "603288",
+      "company_name": "海天味业",
+      "exchange": "上海",
+      "weight": 0.76
+    },
+    {
+      "rank": 29,
+      "ticker": "002714",
+      "company_name": "牧原股份",
+      "exchange": "深圳",
+      "weight": 0.75
+    },
+    {
+      "rank": 30,
+      "ticker": "600809",
+      "company_name": "山西汾酒",
+      "exchange": "上海",
+      "weight": 0.73
+    },
+    {
+      "rank": 31,
+      "ticker": "300122",
+      "company_name": "智飞生物",
+      "exchange": "深圳",
+      "weight": 0.7
+    },
+    {
+      "rank": 32,
+      "ticker": "601919",
+      "company_name": "中远海控",
+      "exchange": "上海",
+      "weight": 0.69
+    },
+    {
+      "rank": 33,
+      "ticker": "002142",
+      "company_name": "宁波银行",
+      "exchange": "深圳",
+      "weight": 0.66
+    },
+    {
+      "rank": 34,
+      "ticker": "600436",
+      "company_name": "片仔癀",
+      "exchange": "上海",
+      "weight": 0.63
+    },
+    {
+      "rank": 35,
+      "ticker": "601328",
+      "company_name": "交通银行",
+      "exchange": "上海",
+      "weight": 0.63
+    },
+    {
+      "rank": 36,
+      "ticker": "601899",
+      "company_name": "紫金矿业",
+      "exchange": "上海",
+      "weight": 0.63
+    },
+    {
+      "rank": 37,
+      "ticker": "002304",
+      "company_name": "洋河股份",
+      "exchange": "深圳",
+      "weight": 0.58
+    },
+    {
+      "rank": 38,
+      "ticker": "002352",
+      "company_name": "顺丰控股",
+      "exchange": "深圳",
+      "weight": 0.58
+    },
+    {
+      "rank": 39,
+      "ticker": "002812",
+      "company_name": "恩捷股份",
+      "exchange": "深圳",
+      "weight": 0.58
+    },
+    {
+      "rank": 40,
+      "ticker": "002230",
+      "company_name": "科大讯飞",
+      "exchange": "深圳",
+      "weight": 0.56
+    },
+    {
+      "rank": 41,
+      "ticker": "300014",
+      "company_name": "亿纬锂能",
+      "exchange": "深圳",
+      "weight": 0.55
+    },
+    {
+      "rank": 42,
+      "ticker": "300274",
+      "company_name": "阳光电源",
+      "exchange": "深圳",
+      "weight": 0.55
+    },
+    {
+      "rank": 43,
+      "ticker": "600000",
+      "company_name": "浦发银行",
+      "exchange": "上海",
+      "weight": 0.55
+    },
+    {
+      "rank": 44,
+      "ticker": "600438",
+      "company_name": "通威股份",
+      "exchange": "上海",
+      "weight": 0.55
+    },
+    {
+      "rank": 45,
+      "ticker": "300124",
+      "company_name": "汇川技术",
+      "exchange": "深圳",
+      "weight": 0.54
+    },
+    {
+      "rank": 46,
+      "ticker": "600837",
+      "company_name": "海通证券",
+      "exchange": "上海",
+      "weight": 0.52
+    },
+    {
+      "rank": 47,
+      "ticker": "000661",
+      "company_name": "长春高新",
+      "exchange": "深圳",
+      "weight": 0.51
+    },
+    {
+      "rank": 48,
+      "ticker": "000100",
+      "company_name": "TCL科技",
+      "exchange": "深圳",
+      "weight": 0.5
+    },
+    {
+      "rank": 49,
+      "ticker": "601816",
+      "company_name": "京沪高铁",
+      "exchange": "上海",
+      "weight": 0.49
+    },
+    {
+      "rank": 50,
+      "ticker": "000063",
+      "company_name": "中兴通讯",
+      "exchange": "深圳",
+      "weight": 0.48
+    },
+    {
+      "rank": 51,
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "exchange": "深圳",
+      "weight": 0.48
+    },
+    {
+      "rank": 52,
+      "ticker": "300347",
+      "company_name": "泰格医药",
+      "exchange": "深圳",
+      "weight": 0.47
+    },
+    {
+      "rank": 53,
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "exchange": "上海",
+      "weight": 0.47
+    },
+    {
+      "rank": 54,
+      "ticker": "002271",
+      "company_name": "东方雨虹",
+      "exchange": "深圳",
+      "weight": 0.46
+    },
+    {
+      "rank": 55,
+      "ticker": "002460",
+      "company_name": "赣锋锂业",
+      "exchange": "深圳",
+      "weight": 0.46
+    },
+    {
+      "rank": 56,
+      "ticker": "600585",
+      "company_name": "海螺水泥",
+      "exchange": "上海",
+      "weight": 0.46
+    },
+    {
+      "rank": 57,
+      "ticker": "600690",
+      "company_name": "海尔智家",
+      "exchange": "上海",
+      "weight": 0.46
+    },
+    {
+      "rank": 58,
+      "ticker": "601601",
+      "company_name": "中国太保",
+      "exchange": "上海",
+      "weight": 0.46
+    },
+    {
+      "rank": 59,
+      "ticker": "601668",
+      "company_name": "中国建筑",
+      "exchange": "上海",
+      "weight": 0.46
+    },
+    {
+      "rank": 60,
+      "ticker": "002027",
+      "company_name": "分众传媒",
+      "exchange": "深圳",
+      "weight": 0.45
+    },
+    {
+      "rank": 61,
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "exchange": "深圳",
+      "weight": 0.45
+    },
+    {
+      "rank": 62,
+      "ticker": "603799",
+      "company_name": "华友钴业",
+      "exchange": "上海",
+      "weight": 0.45
+    },
+    {
+      "rank": 63,
+      "ticker": "600016",
+      "company_name": "民生银行",
+      "exchange": "上海",
+      "weight": 0.44
+    },
+    {
+      "rank": 64,
+      "ticker": "600763",
+      "company_name": "通策医疗",
+      "exchange": "上海",
+      "weight": 0.43
+    },
+    {
+      "rank": 65,
+      "ticker": "600196",
+      "company_name": "复星医药",
+      "exchange": "上海",
+      "weight": 0.41
+    },
+    {
+      "rank": 66,
+      "ticker": "601288",
+      "company_name": "农业银行",
+      "exchange": "上海",
+      "weight": 0.41
+    },
+    {
+      "rank": 67,
+      "ticker": "000338",
+      "company_name": "潍柴动力",
+      "exchange": "深圳",
+      "weight": 0.4
+    },
+    {
+      "rank": 68,
+      "ticker": "600048",
+      "company_name": "保利地产",
+      "exchange": "上海",
+      "weight": 0.4
+    },
+    {
+      "rank": 69,
+      "ticker": "600703",
+      "company_name": "三安光电",
+      "exchange": "上海",
+      "weight": 0.4
+    },
+    {
+      "rank": 70,
+      "ticker": "600919",
+      "company_name": "江苏银行",
+      "exchange": "上海",
+      "weight": 0.39
+    },
+    {
+      "rank": 71,
+      "ticker": "002129",
+      "company_name": "中环股份",
+      "exchange": "深圳",
+      "weight": 0.38
+    },
+    {
+      "rank": 72,
+      "ticker": "600050",
+      "company_name": "中国联通",
+      "exchange": "上海",
+      "weight": 0.38
+    },
+    {
+      "rank": 73,
+      "ticker": "601229",
+      "company_name": "上海银行",
+      "exchange": "上海",
+      "weight": 0.38
+    },
+    {
+      "rank": 74,
+      "ticker": "601688",
+      "company_name": "华泰证券",
+      "exchange": "上海",
+      "weight": 0.38
+    },
+    {
+      "rank": 75,
+      "ticker": "600660",
+      "company_name": "福耀玻璃",
+      "exchange": "上海",
+      "weight": 0.37
+    },
+    {
+      "rank": 76,
+      "ticker": "600104",
+      "company_name": "上汽集团",
+      "exchange": "上海",
+      "weight": 0.36
+    },
+    {
+      "rank": 77,
+      "ticker": "600570",
+      "company_name": "恒生电子",
+      "exchange": "上海",
+      "weight": 0.36
+    },
+    {
+      "rank": 78,
+      "ticker": "601211",
+      "company_name": "国泰君安",
+      "exchange": "上海",
+      "weight": 0.36
+    },
+    {
+      "rank": 79,
+      "ticker": "601766",
+      "company_name": "中国中车",
+      "exchange": "上海",
+      "weight": 0.35
+    },
+    {
+      "rank": 80,
+      "ticker": "601169",
+      "company_name": "北京银行",
+      "exchange": "上海",
+      "weight": 0.34
+    },
+    {
+      "rank": 81,
+      "ticker": "688111",
+      "company_name": "金山办公",
+      "exchange": "上海",
+      "weight": 0.34
+    },
+    {
+      "rank": 82,
+      "ticker": "600999",
+      "company_name": "招商证券",
+      "exchange": "上海",
+      "weight": 0.33
+    },
+    {
+      "rank": 83,
+      "ticker": "002311",
+      "company_name": "海大集团",
+      "exchange": "深圳",
+      "weight": 0.32
+    },
+    {
+      "rank": 84,
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "exchange": "深圳",
+      "weight": 0.32
+    },
+    {
+      "rank": 85,
+      "ticker": "600019",
+      "company_name": "宝钢股份",
+      "exchange": "上海",
+      "weight": 0.32
+    },
+    {
+      "rank": 86,
+      "ticker": "002049",
+      "company_name": "紫光国微",
+      "exchange": "深圳",
+      "weight": 0.31
+    },
+    {
+      "rank": 87,
+      "ticker": "002410",
+      "company_name": "广联达",
+      "exchange": "深圳",
+      "weight": 0.3
+    },
+    {
+      "rank": 88,
+      "ticker": "300498",
+      "company_name": "温氏股份",
+      "exchange": "深圳",
+      "weight": 0.3
+    },
+    {
+      "rank": 89,
+      "ticker": "600406",
+      "company_name": "国电南瑞",
+      "exchange": "上海",
+      "weight": 0.3
+    },
+    {
+      "rank": 90,
+      "ticker": "601088",
+      "company_name": "中国神华",
+      "exchange": "上海",
+      "weight": 0.3
+    },
+    {
+      "rank": 91,
+      "ticker": "601988",
+      "company_name": "中国银行",
+      "exchange": "上海",
+      "weight": 0.3
+    },
+    {
+      "rank": 92,
+      "ticker": "300601",
+      "company_name": "康泰生物",
+      "exchange": "深圳",
+      "weight": 0.29
+    },
+    {
+      "rank": 93,
+      "ticker": "601818",
+      "company_name": "光大银行",
+      "exchange": "上海",
+      "weight": 0.29
+    },
+    {
+      "rank": 94,
+      "ticker": "000538",
+      "company_name": "云南白药",
+      "exchange": "深圳",
+      "weight": 0.28
+    },
+    {
+      "rank": 95,
+      "ticker": "000625",
+      "company_name": "长安汽车",
+      "exchange": "深圳",
+      "weight": 0.28
+    },
+    {
+      "rank": 96,
+      "ticker": "600745",
+      "company_name": "闻泰科技",
+      "exchange": "上海",
+      "weight": 0.28
+    },
+    {
+      "rank": 97,
+      "ticker": "600028",
+      "company_name": "中国石化",
+      "exchange": "上海",
+      "weight": 0.27
+    },
+    {
+      "rank": 98,
+      "ticker": "600893",
+      "company_name": "航发动力",
+      "exchange": "上海",
+      "weight": 0.27
+    },
+    {
+      "rank": 99,
+      "ticker": "300450",
+      "company_name": "先导智能",
+      "exchange": "深圳",
+      "weight": 0.26
+    },
+    {
+      "rank": 100,
+      "ticker": "601628",
+      "company_name": "中国人寿",
+      "exchange": "上海",
+      "weight": 0.26
+    },
+    {
+      "rank": 101,
+      "ticker": "601658",
+      "company_name": "邮储银行",
+      "exchange": "上海",
+      "weight": 0.26
+    },
+    {
+      "rank": 102,
+      "ticker": "002493",
+      "company_name": "荣盛石化",
+      "exchange": "深圳",
+      "weight": 0.25
+    },
+    {
+      "rank": 103,
+      "ticker": "002821",
+      "company_name": "凯莱英",
+      "exchange": "深圳",
+      "weight": 0.25
+    },
+    {
+      "rank": 104,
+      "ticker": "300595",
+      "company_name": "欧普康视",
+      "exchange": "深圳",
+      "weight": 0.25
+    },
+    {
+      "rank": 105,
+      "ticker": "600588",
+      "company_name": "用友网络",
+      "exchange": "上海",
+      "weight": 0.25
+    },
+    {
+      "rank": 106,
+      "ticker": "601009",
+      "company_name": "南京银行",
+      "exchange": "上海",
+      "weight": 0.25
+    },
+    {
+      "rank": 107,
+      "ticker": "601390",
+      "company_name": "中国中铁",
+      "exchange": "上海",
+      "weight": 0.25
+    },
+    {
+      "rank": 108,
+      "ticker": "601633",
+      "company_name": "长城汽车",
+      "exchange": "上海",
+      "weight": 0.25
+    },
+    {
+      "rank": 109,
+      "ticker": "601377",
+      "company_name": "兴业证券",
+      "exchange": "上海",
+      "weight": 0.24
+    },
+    {
+      "rank": 110,
+      "ticker": "601857",
+      "company_name": "中国石油",
+      "exchange": "上海",
+      "weight": 0.24
+    },
+    {
+      "rank": 111,
+      "ticker": "688036",
+      "company_name": "传音控股",
+      "exchange": "上海",
+      "weight": 0.24
+    },
+    {
+      "rank": 112,
+      "ticker": "300413",
+      "company_name": "芒果超媒",
+      "exchange": "深圳",
+      "weight": 0.23
+    },
+    {
+      "rank": 113,
+      "ticker": "002601",
+      "company_name": "龙佰集团",
+      "exchange": "深圳",
+      "weight": 0.22
+    },
+    {
+      "rank": 114,
+      "ticker": "300408",
+      "company_name": "三环集团",
+      "exchange": "深圳",
+      "weight": 0.22
+    },
+    {
+      "rank": 115,
+      "ticker": "600009",
+      "company_name": "上海机场",
+      "exchange": "上海",
+      "weight": 0.22
+    },
+    {
+      "rank": 116,
+      "ticker": "600132",
+      "company_name": "重庆啤酒",
+      "exchange": "上海",
+      "weight": 0.22
+    },
+    {
+      "rank": 117,
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "exchange": "上海",
+      "weight": 0.22
+    },
+    {
+      "rank": 118,
+      "ticker": "601225",
+      "company_name": "陕西煤业",
+      "exchange": "上海",
+      "weight": 0.22
+    },
+    {
+      "rank": 119,
+      "ticker": "000776",
+      "company_name": "广发证券",
+      "exchange": "深圳",
+      "weight": 0.21
+    },
+    {
+      "rank": 120,
+      "ticker": "000895",
+      "company_name": "双汇发展",
+      "exchange": "深圳",
+      "weight": 0.21
+    },
+    {
+      "rank": 121,
+      "ticker": "002001",
+      "company_name": "新和成",
+      "exchange": "深圳",
+      "weight": 0.21
+    },
+    {
+      "rank": 122,
+      "ticker": "300433",
+      "company_name": "蓝思科技",
+      "exchange": "深圳",
+      "weight": 0.21
+    },
+    {
+      "rank": 123,
+      "ticker": "600111",
+      "company_name": "北方稀土",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 124,
+      "ticker": "600426",
+      "company_name": "华鲁恒升",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 125,
+      "ticker": "600926",
+      "company_name": "杭州银行",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 126,
+      "ticker": "601100",
+      "company_name": "恒立液压",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 127,
+      "ticker": "601939",
+      "company_name": "建设银行",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 128,
+      "ticker": "603882",
+      "company_name": "金域医学",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 129,
+      "ticker": "688012",
+      "company_name": "中微公司",
+      "exchange": "上海",
+      "weight": 0.21
+    },
+    {
+      "rank": 130,
+      "ticker": "000166",
+      "company_name": "申万宏源",
+      "exchange": "深圳",
+      "weight": 0.2
+    },
+    {
+      "rank": 131,
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "exchange": "深圳",
+      "weight": 0.2
+    },
+    {
+      "rank": 132,
+      "ticker": "002179",
+      "company_name": "中航光电",
+      "exchange": "深圳",
+      "weight": 0.2
+    },
+    {
+      "rank": 133,
+      "ticker": "600958",
+      "company_name": "东方证券",
+      "exchange": "上海",
+      "weight": 0.2
+    },
+    {
+      "rank": 134,
+      "ticker": "000786",
+      "company_name": "北新建材",
+      "exchange": "深圳",
+      "weight": 0.19
+    },
+    {
+      "rank": 135,
+      "ticker": "000963",
+      "company_name": "华东医药",
+      "exchange": "深圳",
+      "weight": 0.19
+    },
+    {
+      "rank": 136,
+      "ticker": "002007",
+      "company_name": "华兰生物",
+      "exchange": "深圳",
+      "weight": 0.19
+    },
+    {
+      "rank": 137,
+      "ticker": "002841",
+      "company_name": "视源股份",
+      "exchange": "深圳",
+      "weight": 0.19
+    },
+    {
+      "rank": 138,
+      "ticker": "300003",
+      "company_name": "乐普医疗",
+      "exchange": "深圳",
+      "weight": 0.19
+    },
+    {
+      "rank": 139,
+      "ticker": "600600",
+      "company_name": "青岛啤酒",
+      "exchange": "上海",
+      "weight": 0.19
+    },
+    {
+      "rank": 140,
+      "ticker": "600741",
+      "company_name": "华域汽车",
+      "exchange": "上海",
+      "weight": 0.19
+    },
+    {
+      "rank": 141,
+      "ticker": "000157",
+      "company_name": "中联重科",
+      "exchange": "深圳",
+      "weight": 0.18
+    },
+    {
+      "rank": 142,
+      "ticker": "002236",
+      "company_name": "大华股份",
+      "exchange": "深圳",
+      "weight": 0.18
+    },
+    {
+      "rank": 143,
+      "ticker": "002607",
+      "company_name": "中公教育",
+      "exchange": "深圳",
+      "weight": 0.18
+    },
+    {
+      "rank": 144,
+      "ticker": "600015",
+      "company_name": "华夏银行",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 145,
+      "ticker": "600029",
+      "company_name": "南方航空",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 146,
+      "ticker": "600143",
+      "company_name": "金发科技",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 147,
+      "ticker": "601006",
+      "company_name": "大秦铁路",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 148,
+      "ticker": "601155",
+      "company_name": "新城控股",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 149,
+      "ticker": "601336",
+      "company_name": "新华保险",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 150,
+      "ticker": "601901",
+      "company_name": "方正证券",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 151,
+      "ticker": "601989",
+      "company_name": "中国重工",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 152,
+      "ticker": "603806",
+      "company_name": "福斯特",
+      "exchange": "上海",
+      "weight": 0.18
+    },
+    {
+      "rank": 153,
+      "ticker": "000768",
+      "company_name": "中航西飞",
+      "exchange": "深圳",
+      "weight": 0.17
+    },
+    {
+      "rank": 154,
+      "ticker": "600010",
+      "company_name": "包钢股份",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 155,
+      "ticker": "600176",
+      "company_name": "中国巨石",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 156,
+      "ticker": "600352",
+      "company_name": "浙江龙盛",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 157,
+      "ticker": "600760",
+      "company_name": "中航沈飞",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 158,
+      "ticker": "601138",
+      "company_name": "工业富联",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 159,
+      "ticker": "601877",
+      "company_name": "正泰电器",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 160,
+      "ticker": "603993",
+      "company_name": "洛阳钼业",
+      "exchange": "上海",
+      "weight": 0.17
+    },
+    {
+      "rank": 161,
+      "ticker": "000876",
+      "company_name": "新希望",
+      "exchange": "深圳",
+      "weight": 0.16
+    },
+    {
+      "rank": 162,
+      "ticker": "001979",
+      "company_name": "招商蛇口",
+      "exchange": "深圳",
+      "weight": 0.16
+    },
+    {
+      "rank": 163,
+      "ticker": "002008",
+      "company_name": "大族激光",
+      "exchange": "深圳",
+      "weight": 0.16
+    },
+    {
+      "rank": 164,
+      "ticker": "002202",
+      "company_name": "金风科技",
+      "exchange": "深圳",
+      "weight": 0.16
+    },
+    {
+      "rank": 165,
+      "ticker": "300529",
+      "company_name": "健帆生物",
+      "exchange": "深圳",
+      "weight": 0.16
+    },
+    {
+      "rank": 166,
+      "ticker": "600547",
+      "company_name": "山东黄金",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 167,
+      "ticker": "601186",
+      "company_name": "中国铁建",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 168,
+      "ticker": "601600",
+      "company_name": "中国铝业",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 169,
+      "ticker": "601788",
+      "company_name": "光大证券",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 170,
+      "ticker": "601916",
+      "company_name": "浙商银行",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 171,
+      "ticker": "603369",
+      "company_name": "今世缘",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 172,
+      "ticker": "688169",
+      "company_name": "石头科技",
+      "exchange": "上海",
+      "weight": 0.16
+    },
+    {
+      "rank": 173,
+      "ticker": "000938",
+      "company_name": "紫光股份",
+      "exchange": "深圳",
+      "weight": 0.15
+    },
+    {
+      "rank": 174,
+      "ticker": "002555",
+      "company_name": "三七互娱",
+      "exchange": "深圳",
+      "weight": 0.15
+    },
+    {
+      "rank": 175,
+      "ticker": "002736",
+      "company_name": "国信证券",
+      "exchange": "深圳",
+      "weight": 0.15
+    },
+    {
+      "rank": 176,
+      "ticker": "003816",
+      "company_name": "中国广核",
+      "exchange": "深圳",
+      "weight": 0.15
+    },
+    {
+      "rank": 177,
+      "ticker": "601799",
+      "company_name": "星宇股份",
+      "exchange": "上海",
+      "weight": 0.15
+    },
+    {
+      "rank": 178,
+      "ticker": "603899",
+      "company_name": "晨光文具",
+      "exchange": "上海",
+      "weight": 0.15
+    },
+    {
+      "rank": 179,
+      "ticker": "000069",
+      "company_name": "华侨城A",
+      "exchange": "深圳",
+      "weight": 0.14
+    },
+    {
+      "rank": 180,
+      "ticker": "000425",
+      "company_name": "徐工机械",
+      "exchange": "深圳",
+      "weight": 0.14
+    },
+    {
+      "rank": 181,
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "exchange": "深圳",
+      "weight": 0.14
+    },
+    {
+      "rank": 182,
+      "ticker": "600109",
+      "company_name": "国金证券",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 183,
+      "ticker": "600150",
+      "company_name": "中国船舶",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 184,
+      "ticker": "600989",
+      "company_name": "宝丰能源",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 185,
+      "ticker": "601066",
+      "company_name": "中信建投",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 186,
+      "ticker": "601669",
+      "company_name": "中国电建",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 187,
+      "ticker": "603160",
+      "company_name": "汇顶科技",
+      "exchange": "上海",
+      "weight": 0.14
+    },
+    {
+      "rank": 188,
+      "ticker": "000596",
+      "company_name": "古井贡酒",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 189,
+      "ticker": "000783",
+      "company_name": "长江证券",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 190,
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 191,
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 192,
+      "ticker": "002624",
+      "company_name": "完美世界",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 193,
+      "ticker": "300558",
+      "company_name": "贝达药业",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 194,
+      "ticker": "300677",
+      "company_name": "英科医疗",
+      "exchange": "深圳",
+      "weight": 0.13
+    },
+    {
+      "rank": 195,
+      "ticker": "600079",
+      "company_name": "人福医药",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 196,
+      "ticker": "600085",
+      "company_name": "同仁堂",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 197,
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 198,
+      "ticker": "600795",
+      "company_name": "国电电力",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 199,
+      "ticker": "601238",
+      "company_name": "广汽集团",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 200,
+      "ticker": "601838",
+      "company_name": "成都银行",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 201,
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 202,
+      "ticker": "603659",
+      "company_name": "璞泰来",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 203,
+      "ticker": "688008",
+      "company_name": "澜起科技",
+      "exchange": "上海",
+      "weight": 0.13
+    },
+    {
+      "rank": 204,
+      "ticker": "000066",
+      "company_name": "中国长城",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 205,
+      "ticker": "000703",
+      "company_name": "恒逸石化",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 206,
+      "ticker": "002044",
+      "company_name": "美年健康",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 207,
+      "ticker": "002252",
+      "company_name": "上海莱士",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 208,
+      "ticker": "002414",
+      "company_name": "高德红外",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 209,
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 210,
+      "ticker": "002938",
+      "company_name": "鹏鼎控股",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 211,
+      "ticker": "300144",
+      "company_name": "宋城演艺",
+      "exchange": "深圳",
+      "weight": 0.12
+    },
+    {
+      "rank": 212,
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 213,
+      "ticker": "601077",
+      "company_name": "渝农商行",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 214,
+      "ticker": "601108",
+      "company_name": "财通证券",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 215,
+      "ticker": "601360",
+      "company_name": "三六零",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 216,
+      "ticker": "601555",
+      "company_name": "东吴证券",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 217,
+      "ticker": "601985",
+      "company_name": "中国核电",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 218,
+      "ticker": "603517",
+      "company_name": "绝味食品",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 219,
+      "ticker": "603833",
+      "company_name": "欧派家居",
+      "exchange": "上海",
+      "weight": 0.12
+    },
+    {
+      "rank": 220,
+      "ticker": "000728",
+      "company_name": "国元证券",
+      "exchange": "深圳",
+      "weight": 0.11
+    },
+    {
+      "rank": 221,
+      "ticker": "002602",
+      "company_name": "世纪华通",
+      "exchange": "深圳",
+      "weight": 0.11
+    },
+    {
+      "rank": 222,
+      "ticker": "300033",
+      "company_name": "同花顺",
+      "exchange": "深圳",
+      "weight": 0.11
+    },
+    {
+      "rank": 223,
+      "ticker": "300628",
+      "company_name": "亿联网络",
+      "exchange": "深圳",
+      "weight": 0.11
+    },
+    {
+      "rank": 224,
+      "ticker": "600115",
+      "company_name": "中国东航",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 225,
+      "ticker": "600161",
+      "company_name": "天坛生物",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 226,
+      "ticker": "600332",
+      "company_name": "白云山",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 227,
+      "ticker": "600362",
+      "company_name": "江西铜业",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 228,
+      "ticker": "600383",
+      "company_name": "金地集团",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 229,
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 230,
+      "ticker": "600872",
+      "company_name": "中炬高新",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 231,
+      "ticker": "601111",
+      "company_name": "中国国航",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 232,
+      "ticker": "601607",
+      "company_name": "上海医药",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 233,
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 234,
+      "ticker": "688396",
+      "company_name": "华润微",
+      "exchange": "上海",
+      "weight": 0.11
+    },
+    {
+      "rank": 235,
+      "ticker": "000708",
+      "company_name": "中信特钢",
+      "exchange": "深圳",
+      "weight": 0.1
+    },
+    {
+      "rank": 236,
+      "ticker": "000860",
+      "company_name": "顺鑫农业",
+      "exchange": "深圳",
+      "weight": 0.1
+    },
+    {
+      "rank": 237,
+      "ticker": "002024",
+      "company_name": "苏宁易购",
+      "exchange": "深圳",
+      "weight": 0.1
+    },
+    {
+      "rank": 238,
+      "ticker": "002508",
+      "company_name": "老板电器",
+      "exchange": "深圳",
+      "weight": 0.1
+    },
+    {
+      "rank": 239,
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "exchange": "深圳",
+      "weight": 0.1
+    },
+    {
+      "rank": 240,
+      "ticker": "600061",
+      "company_name": "国投资本",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 241,
+      "ticker": "600705",
+      "company_name": "中航产融",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 242,
+      "ticker": "601021",
+      "company_name": "春秋航空",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 243,
+      "ticker": "601162",
+      "company_name": "天风证券",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 244,
+      "ticker": "601618",
+      "company_name": "中国中冶",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 245,
+      "ticker": "601727",
+      "company_name": "上海电气",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 246,
+      "ticker": "601878",
+      "company_name": "浙商证券",
+      "exchange": "上海",
+      "weight": 0.1
+    },
+    {
+      "rank": 247,
+      "ticker": "000656",
+      "company_name": "金科股份",
+      "exchange": "深圳",
+      "weight": 0.09
+    },
+    {
+      "rank": 248,
+      "ticker": "002157",
+      "company_name": "正邦科技",
+      "exchange": "深圳",
+      "weight": 0.09
+    },
+    {
+      "rank": 249,
+      "ticker": "002456",
+      "company_name": "欧菲光",
+      "exchange": "深圳",
+      "weight": 0.09
+    },
+    {
+      "rank": 250,
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "exchange": "深圳",
+      "weight": 0.09
+    },
+    {
+      "rank": 251,
+      "ticker": "600011",
+      "company_name": "华能国际",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 252,
+      "ticker": "600521",
+      "company_name": "华海药业",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 253,
+      "ticker": "600606",
+      "company_name": "绿地控股",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 254,
+      "ticker": "601990",
+      "company_name": "南京证券",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 255,
+      "ticker": "603939",
+      "company_name": "益丰药房",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 256,
+      "ticker": "688363",
+      "company_name": "华熙生物",
+      "exchange": "上海",
+      "weight": 0.09
+    },
+    {
+      "rank": 257,
+      "ticker": "002558",
+      "company_name": "巨人网络",
+      "exchange": "深圳",
+      "weight": 0.08
+    },
+    {
+      "rank": 258,
+      "ticker": "600018",
+      "company_name": "上港集团",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 259,
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 260,
+      "ticker": "600489",
+      "company_name": "中金黄金",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 261,
+      "ticker": "600655",
+      "company_name": "豫园股份",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 262,
+      "ticker": "600848",
+      "company_name": "上海临港",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 263,
+      "ticker": "601216",
+      "company_name": "君正集团",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 264,
+      "ticker": "601696",
+      "company_name": "中银证券",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 265,
+      "ticker": "601933",
+      "company_name": "永辉超市",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 266,
+      "ticker": "601995",
+      "company_name": "中金公司",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 267,
+      "ticker": "603392",
+      "company_name": "万泰生物",
+      "exchange": "上海",
+      "weight": 0.08
+    },
+    {
+      "rank": 268,
+      "ticker": "002120",
+      "company_name": "韵达股份",
+      "exchange": "深圳",
+      "weight": 0.07
+    },
+    {
+      "rank": 269,
+      "ticker": "002673",
+      "company_name": "西部证券",
+      "exchange": "深圳",
+      "weight": 0.07
+    },
+    {
+      "rank": 270,
+      "ticker": "002739",
+      "company_name": "万达电影",
+      "exchange": "深圳",
+      "weight": 0.07
+    },
+    {
+      "rank": 271,
+      "ticker": "601319",
+      "company_name": "中国人保",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 272,
+      "ticker": "601872",
+      "company_name": "招商轮船",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 273,
+      "ticker": "601881",
+      "company_name": "中国银河",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 274,
+      "ticker": "601998",
+      "company_name": "中信银行",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 275,
+      "ticker": "603195",
+      "company_name": "公牛集团",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 276,
+      "ticker": "603338",
+      "company_name": "浙江鼎力",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 277,
+      "ticker": "688009",
+      "company_name": "中国通号",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 278,
+      "ticker": "688126",
+      "company_name": "沪硅产业",
+      "exchange": "上海",
+      "weight": 0.07
+    },
+    {
+      "rank": 279,
+      "ticker": "600233",
+      "company_name": "圆通速递",
+      "exchange": "上海",
+      "weight": 0.06
+    },
+    {
+      "rank": 280,
+      "ticker": "603233",
+      "company_name": "大参林",
+      "exchange": "上海",
+      "weight": 0.06
+    },
+    {
+      "rank": 281,
+      "ticker": "603658",
+      "company_name": "安图生物",
+      "exchange": "上海",
+      "weight": 0.06
+    },
+    {
+      "rank": 282,
+      "ticker": "000800",
+      "company_name": "一汽解放",
+      "exchange": "深圳",
+      "weight": 0.05
+    },
+    {
+      "rank": 283,
+      "ticker": "002032",
+      "company_name": "苏泊尔",
+      "exchange": "深圳",
+      "weight": 0.05
+    },
+    {
+      "rank": 284,
+      "ticker": "002153",
+      "company_name": "石基信息",
+      "exchange": "深圳",
+      "weight": 0.05
+    },
+    {
+      "rank": 285,
+      "ticker": "002939",
+      "company_name": "长城证券",
+      "exchange": "深圳",
+      "weight": 0.05
+    },
+    {
+      "rank": 286,
+      "ticker": "600025",
+      "company_name": "华能水电",
+      "exchange": "上海",
+      "weight": 0.05
+    },
+    {
+      "rank": 287,
+      "ticker": "600340",
+      "company_name": "华夏幸福",
+      "exchange": "上海",
+      "weight": 0.05
+    },
+    {
+      "rank": 288,
+      "ticker": "600482",
+      "company_name": "中国动力",
+      "exchange": "上海",
+      "weight": 0.05
+    },
+    {
+      "rank": 289,
+      "ticker": "601231",
+      "company_name": "环旭电子",
+      "exchange": "上海",
+      "weight": 0.05
+    },
+    {
+      "rank": 290,
+      "ticker": "601236",
+      "company_name": "红塔证券",
+      "exchange": "上海",
+      "weight": 0.05
+    },
+    {
+      "rank": 291,
+      "ticker": "002773",
+      "company_name": "康弘药业",
+      "exchange": "深圳",
+      "weight": 0.04
+    },
+    {
+      "rank": 292,
+      "ticker": "600918",
+      "company_name": "中泰证券",
+      "exchange": "上海",
+      "weight": 0.04
+    },
+    {
+      "rank": 293,
+      "ticker": "601808",
+      "company_name": "中海油服",
+      "exchange": "上海",
+      "weight": 0.04
+    },
+    {
+      "rank": 294,
+      "ticker": "601698",
+      "company_name": "中国卫通",
+      "exchange": "上海",
+      "weight": 0.03
+    },
+    {
+      "rank": 295,
+      "ticker": "603087",
+      "company_name": "甘李药业",
+      "exchange": "上海",
+      "weight": 0.03
+    },
+    {
+      "rank": 296,
+      "ticker": "002945",
+      "company_name": "华林证券",
+      "exchange": "深圳",
+      "weight": 0.02
+    },
+    {
+      "rank": 297,
+      "ticker": "600299",
+      "company_name": "安迪苏",
+      "exchange": "上海",
+      "weight": 0.02
+    }
+  ],
+  "source_note": "Secondary page; official CSI XLS registered separately."
+}

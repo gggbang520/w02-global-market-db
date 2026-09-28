@@ -1,0 +1,77 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "fields": [
+    {
+      "source_field": "ticker",
+      "W02_field": "ticker",
+      "source_definition": "ts_code stock code",
+      "unit": null,
+      "currency": null,
+      "transform": "strip .SH/.SZ and map exchange",
+      "notes": "source-native ts_code"
+    },
+    {
+      "source_field": "trade_date",
+      "W02_field": "trade_date",
+      "source_definition": "transaction date",
+      "unit": "date",
+      "currency": null,
+      "transform": "ISO date",
+      "notes": ""
+    },
+    {
+      "source_field": "open",
+      "W02_field": "open",
+      "source_definition": "opening price",
+      "unit": "CNY/share",
+      "currency": "CNY",
+      "transform": "numeric",
+      "notes": ""
+    },
+    {
+      "source_field": "high",
+      "W02_field": "high",
+      "source_definition": "highest price",
+      "unit": "CNY/share",
+      "currency": "CNY",
+      "transform": "numeric",
+      "notes": ""
+    },
+    {
+      "source_field": "low",
+      "W02_field": "low",
+      "source_definition": "lowest price",
+      "unit": "CNY/share",
+      "currency": "CNY",
+      "transform": "numeric",
+      "notes": ""
+    },
+    {
+      "source_field": "close",
+      "W02_field": "close",
+      "source_definition": "closing price",
+      "unit": "CNY/share",
+      "currency": "CNY",
+      "transform": "numeric",
+      "notes": "RAW_CLOSE"
+    },
+    {
+      "source_field": "vol",
+      "W02_field": "volume",
+      "source_definition": "transaction volume",
+      "unit": "source_native",
+      "currency": null,
+      "transform": "numeric",
+      "notes": "not rescaled"
+    },
+    {
+      "source_field": "amount",
+      "W02_field": "turnover",
+      "source_definition": "stock amount",
+      "unit": "source_native",
+      "currency": "CNY",
+      "transform": "numeric",
+      "notes": "source-native amount"
+    }
+  ]
+}

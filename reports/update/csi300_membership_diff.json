@@ -1,0 +1,12 @@
+{
+  "comparison": "no_previous_historical_membership_snapshot_to_2021-01-29",
+  "previous_membership_records": 0,
+  "current_membership_records": 300,
+  "NEW": 300,
+  "REMOVED": 0,
+  "MATCH": 0,
+  "CHANGED": 0,
+  "CONFLICT": 0,
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.0.0"
+}

@@ -1,0 +1,21 @@
+{
+  "event_records": 104,
+  "ADD": 51,
+  "REMOVE": 51,
+  "WEIGHT_CHANGE": 0,
+  "RANK_CHANGE": 0,
+  "REBALANCE": 2,
+  "UNKNOWN": 0,
+  "reported_add_events": 51,
+  "reported_remove_events": 51,
+  "materialized_add_events": 51,
+  "materialized_remove_events": 51,
+  "event_reconstruction_status": "PARTIAL",
+  "official_event_source": "NOT_ESTABLISHED",
+  "source_security_level_status": {
+    "2020-12-14": "COMPLETE_SECONDARY",
+    "2021-06-11": "COMPLETE_SECONDARY"
+  },
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

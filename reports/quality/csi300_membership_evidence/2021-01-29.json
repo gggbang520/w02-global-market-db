@@ -1,0 +1,16 @@
+{
+  "observation_date": "2021-01-29",
+  "source_id": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "source_origin": "SECONDARY",
+  "source_url": "https://github.com/unliftedq/index-constitution/blob/main/history/csi300.csv",
+  "evidence_type": "SECONDARY_SNAPSHOT",
+  "retrieval_status": "RETRIEVED",
+  "license_gate": "REVIEW",
+  "raw_file_sha256": "dcabd6c92f9b208505cf30a0b9b83329ccaa7709b5f0d6679d10b9e403867616",
+  "member_count": 300,
+  "official_evidence_status": "NOT_ESTABLISHED",
+  "data_quality_status": "SOURCE_CONFIRMED_SECONDARY",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.1.0",
+  "notes": "The archive README attributes CSI300 history to official CSI announcements, but W02 did not retrieve the underlying CSI files directly; therefore source_origin remains SECONDARY."
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "csi300_point_in_time",
+  "observation_date": "2021-01-29",
+  "price_source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "membership_source_id": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "price_file_sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4",
+  "price_raw_rows": 204,
+  "price_valid_rows": 204,
+  "membership_records": 300,
+  "point_in_time_rows": 204,
+  "point_in_time_in_index_rows": 202,
+  "point_in_time_out_of_index_rows": 2,
+  "point_in_time_unknown_rows": 0,
+  "publish_gate": "PASS_FOR_INTERNAL_SNAPSHOT",
+  "status": "SUCCESS",
+  "retrieved_at": "2026-09-27T00:00:00Z",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.0.0"
+}

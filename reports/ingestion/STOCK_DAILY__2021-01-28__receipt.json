@@ -1,0 +1,19 @@
+{
+  "source_id": "SRC-MANUAL-FILE",
+  "input_file": "data/raw/inbox/market/CSI300_EOD__TushareArchive__2021-01-28_2021-01-29.csv",
+  "sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4",
+  "input_size": 24616,
+  "input_origin": "MANUAL",
+  "dataset": "stock_daily",
+  "trade_date_min": "2021-01-28",
+  "trade_date_max": "2021-01-29",
+  "raw_rows": 204,
+  "parsed_rows": 204,
+  "valid_rows": 204,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "review_rows": 0,
+  "publish_gate": "PASS",
+  "status": "SUCCESS",
+  "retrieved_at": "2026-09-27T14:31:48Z"
+}

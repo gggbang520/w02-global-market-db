@@ -1,0 +1,23 @@
+{
+  "software_version": "1.0.0",
+  "data_version": "DATA-2026-W39",
+  "historical_membership_source_status": "SECONDARY_ESTABLISHED_OFFICIAL_NOT_ESTABLISHED",
+  "historical_membership_2021-01-29": 300,
+  "historical_price_rows": 204,
+  "historical_price_distinct_listings": 102,
+  "historical_price_distinct_trade_dates": 2,
+  "pit_rows": 204,
+  "pit_in_index_rows": 202,
+  "pit_out_of_index_rows": 2,
+  "pit_unknown_rows": 0,
+  "pit_quality": "POINT_IN_TIME_PARTIAL",
+  "canonical_current_unchanged": true,
+  "canonical_current_latest_trade_date": "2026-09-24",
+  "weekly": "NOT_DERIVED",
+  "ytd": "NOT_AVAILABLE",
+  "license_gate": "REVIEW",
+  "price_provider": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "membership_provider": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "pytest": "113 passed, 2 skipped",
+  "pipeline": "V1.0 PIPELINE OK"
+}

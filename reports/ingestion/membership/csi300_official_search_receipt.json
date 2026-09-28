@@ -1,0 +1,12 @@
+{
+  "dataset": "csi300_official_historical_membership",
+  "software_version": "1.3.0",
+  "data_version": "DATA-2026-W39",
+  "retrieval_status": "SEARCHED_NOT_ESTABLISHED",
+  "files_acquired": 0,
+  "official_primary_records": 0,
+  "retrieved_at": "2026-09-27T00:00:00Z",
+  "license_gate": "REVIEW",
+  "status": "SUCCESS_WITHOUT_OFFICIAL_FILE",
+  "notes": "Search and official rule validation completed; no historical security-level attachment acquired."
+}

@@ -1,0 +1,35 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_name": "shaocongWu/Multivariate_Stock_Time_Series_Dataset (Tushare Pro-sourced archive)",
+  "market": "CN A-share",
+  "dataset": "stock_daily",
+  "delivery_model": "PUBLIC_FILE",
+  "batch": true,
+  "historical": true,
+  "date_range": {
+    "min": "2021-01-28",
+    "max": "2021-01-29"
+  },
+  "coverage": {
+    "distinct_listings": 102,
+    "distinct_trade_dates": 2,
+    "rows": 204
+  },
+  "fields": [
+    "ticker",
+    "trade_date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "turnover"
+  ],
+  "access_status": "AVAILABLE",
+  "parse_status": "SUCCESS",
+  "quality_status": "PASS",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+  "qualification": "CONDITIONAL",
+  "reason": "Real public batch archive successfully parsed and mapped for 102 current CSI300 names across 2 dates; archive README attributes raw data to Tushare Pro, but this is not a direct Tushare endpoint and license/redistribution terms for this archived file are not established."
+}

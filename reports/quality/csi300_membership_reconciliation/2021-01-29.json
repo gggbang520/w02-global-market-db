@@ -1,0 +1,13 @@
+{
+  "observation_date": "2021-01-29",
+  "official_only": 0,
+  "secondary_only": 300,
+  "both_same": 0,
+  "both_different": 0,
+  "unknown": 0,
+  "secondary_source": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "official_source": "SRC-CSI-OFFICIAL",
+  "status": "OFFICIAL_NOT_ESTABLISHED",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.0.0"
+}

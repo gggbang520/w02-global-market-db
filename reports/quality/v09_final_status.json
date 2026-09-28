@@ -1,0 +1,32 @@
+{
+  "software_version": "0.9.0",
+  "data_version": "DATA-2026-W39",
+  "real_batch_file": "YES",
+  "file_name": "CSI300_EOD__TushareArchive__2021-01-28_2021-01-29.csv",
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "MANUAL_FILE",
+  "sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4",
+  "file_size": 24616,
+  "trade_date_range": [
+    "2021-01-28",
+    "2021-01-29"
+  ],
+  "raw_rows": 204,
+  "parsed_rows": 204,
+  "valid_rows": 204,
+  "distinct_listings": 102,
+  "distinct_trade_dates": 2,
+  "coverage_rate": 0.34,
+  "qualification": "CONDITIONAL",
+  "license_gate": "REVIEW",
+  "canonical_current_promotion": false,
+  "canonical_current_reason": "Batch ends 2021-01-29; canonical current latest is 2026-09-24",
+  "weekly_snapshot": "UNCHANGED",
+  "ytd": "NOT_AVAILABLE",
+  "auto_provider": "0/300",
+  "manual_provider_file": "102/300",
+  "official": "0/300",
+  "secondary": "4/300",
+  "pytest": "84 passed, 2 skipped",
+  "pipeline": "PIPELINE OK"
+}

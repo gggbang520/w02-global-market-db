@@ -1,0 +1,21 @@
+{
+  "dataset": "csi300_historical_membership_and_price",
+  "price_source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "membership_source_id": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "price_file_sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4",
+  "membership_file_sha256": "dcabd6c92f9b208505cf30a0b9b83329ccaa7709b5f0d6679d10b9e403867616",
+  "price_raw_rows": 204,
+  "price_valid_rows": 204,
+  "price_distinct_listings": 102,
+  "price_distinct_trade_dates": 2,
+  "membership_snapshot_records": 300,
+  "membership_event_records": 8,
+  "pit_rows": 204,
+  "pit_verified": 0,
+  "pit_partial": 204,
+  "publish_gate": "PASS_FOR_INTERNAL_SNAPSHOT",
+  "status": "SUCCESS",
+  "retrieved_at": "2026-09-27T00:00:00Z",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.1.0"
+}

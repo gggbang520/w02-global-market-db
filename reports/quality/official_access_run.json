@@ -1,0 +1,20 @@
+[
+  {
+    "module": "scripts.fetch.official.csi_constituents",
+    "returncode": 2,
+    "stdout": "{\n  \"source_id\": \"SRC-CSI-OFFICIAL\",\n  \"url\": \"https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls\",\n  \"request_time\": \"2026-09-27T13:16:55Z\",\n  \"response_time\": \"2026-09-27T13:17:00Z\",\n  \"content_type\": null,\n  \"http_status\": null,\n  \"file_path\": null,\n  \"file_hash\": null,\n  \"file_size\": null,\n  \"access_status\": \"DNS_FAILURE\",\n  \"error\": \"[Errno -3] Temporary failure in name resolution\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "module": "scripts.fetch.official.sse_eod",
+    "returncode": 2,
+    "stdout": "{\n  \"source_id\": \"SRC-SSE-OFFICIAL\",\n  \"url\": \"https://www.sse.com.cn/market/stockdata/\",\n  \"request_time\": \"2026-09-27T13:17:01Z\",\n  \"response_time\": \"2026-09-27T13:17:01Z\",\n  \"content_type\": null,\n  \"http_status\": null,\n  \"file_path\": null,\n  \"file_hash\": null,\n  \"file_size\": null,\n  \"access_status\": \"DNS_FAILURE\",\n  \"error\": \"[Errno -3] Temporary failure in name resolution\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "module": "scripts.fetch.official.szse_eod",
+    "returncode": 2,
+    "stdout": "{\n  \"source_id\": \"SRC-SZSE-OFFICIAL\",\n  \"url\": \"https://www.szse.cn/market/stock/\",\n  \"request_time\": \"2026-09-27T13:17:02Z\",\n  \"response_time\": \"2026-09-27T13:17:07Z\",\n  \"content_type\": null,\n  \"http_status\": null,\n  \"file_path\": null,\n  \"file_hash\": null,\n  \"file_size\": null,\n  \"access_status\": \"DNS_FAILURE\",\n  \"error\": \"[Errno -3] Temporary failure in name resolution\"\n}\n",
+    "stderr": ""
+  }
+]

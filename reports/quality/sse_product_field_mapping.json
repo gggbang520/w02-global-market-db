@@ -1,0 +1,16 @@
+{
+  "source_id": "SRC-SSE-OFFICIAL",
+  "market": "CN",
+  "notes": "Only fields explicitly observed in official product/documentation are marked available=true; product delivery must not be inferred from general Level-1 capability.",
+  "fields": [
+    {"source_product":"Official stock-data page","source_field":"security code","W02_field":"security_code","availability":true,"license_status":"REVIEW","notes":"Observed on official stock-data pages."},
+    {"source_product":"Official stock-data page","source_field":"security name","W02_field":"security_name","availability":true,"license_status":"REVIEW","notes":"Observed on official stock-data pages."},
+    {"source_product":"Official market-data specification","source_field":"OpenPrice","W02_field":"open","availability":true,"license_status":"REVIEW","notes":"Field documented by SSE market-data specification."},
+    {"source_product":"Official market-data specification","source_field":"HighPrice","W02_field":"high","availability":true,"license_status":"REVIEW","notes":"Field documented by SSE market-data specification."},
+    {"source_product":"Official market-data specification","source_field":"LowPrice","W02_field":"low","availability":true,"license_status":"REVIEW","notes":"Field documented by SSE market-data specification."},
+    {"source_product":"Official market-data specification","source_field":"TradePrice/ClosePx","W02_field":"close","availability":true,"license_status":"REVIEW","notes":"Documented market-data fields; exact EOD product delivery remains unverified."},
+    {"source_product":"Official market-data specification","source_field":"TradeVolume","W02_field":"volume","availability":true,"license_status":"REVIEW","notes":"Documented market-data field; exact EOD product delivery remains unverified."},
+    {"source_product":"Official market-data specification","source_field":"TotalValueTraded","W02_field":"turnover","availability":true,"license_status":"REVIEW","notes":"Documented market-data field; exact EOD product delivery remains unverified."},
+    {"source_product":"EOD batch file","source_field":"","W02_field":"trade_date","availability":false,"license_status":"REVIEW","notes":"Specific anonymous public EOD batch delivery not verified in this runtime."}
+  ]
+}

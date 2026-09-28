@@ -1,0 +1,13 @@
+{
+  "source_id": "SRC-SSE-OFFICIAL",
+  "url": "https://www.sse.com.cn/market/stockdata/",
+  "request_time": "2026-09-27T13:17:01Z",
+  "response_time": "2026-09-27T13:17:01Z",
+  "content_type": null,
+  "http_status": null,
+  "file_path": null,
+  "file_hash": null,
+  "file_size": null,
+  "access_status": "DNS_FAILURE",
+  "error": "[Errno -3] Temporary failure in name resolution"
+}

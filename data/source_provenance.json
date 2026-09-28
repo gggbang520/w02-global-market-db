@@ -1,0 +1,50 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "acquisition_source": {
+    "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+    "source_type": "PUBLIC_ARCHIVE",
+    "access_method": "MANUAL_FILE_ASSEMBLY_FROM_PUBLIC_REPOSITORY",
+    "verification_status": "ACQUIRED_AND_PARSED_BY_W02"
+  },
+  "declared_upstream_source": {
+    "source_name": "Tushare Pro",
+    "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED"
+  },
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+  "note": "W02 did not directly retrieve Tushare Pro API data; GitHub archive is the acquisition source.",
+  "membership_event_source": {
+    "acquisition_source": {
+      "source_id": "SRC-INDEX-CONSTITUTION-SECONDARY",
+      "source_type": "PUBLIC_ARCHIVE"
+    },
+    "declared_upstream_source": {
+      "source_name": "China Securities Index Co. official announcements",
+      "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED"
+    },
+    "event_secondary_evidence": {
+      "source_id": "SRC-CSI-ADJUSTMENT-SECONDARY-2021-06-11",
+      "verification_status": "SECONDARY_REPORT_RETRIEVED"
+    }
+  },
+  "membership_event_sources": {
+    "2020-12-14": {
+      "acquisition_source": "SRC-CSI-ADJUSTMENT-SECONDARY-2020-12-14",
+      "declared_upstream_source": "China Securities Index Co. official announcement",
+      "source_origin": "SECONDARY_REPRODUCTION",
+      "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED"
+    },
+    "2021-06-11": {
+      "acquisition_source": "SRC-CSI-ADJUSTMENT-SECONDARY-2021-06-11",
+      "declared_upstream_source": "China Securities Index Co. official announcement",
+      "source_origin": "SECONDARY_REPRODUCTION",
+      "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED"
+    },
+    "archive_identity": {
+      "acquisition_source": "SRC-INDEX-CONSTITUTION-SECONDARY",
+      "declared_upstream_source": "China Securities Index Co. official announcements",
+      "source_origin": "SECONDARY_ARCHIVE",
+      "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED"
+    }
+  }
+}

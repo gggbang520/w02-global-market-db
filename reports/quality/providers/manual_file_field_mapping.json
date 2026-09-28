@@ -1,0 +1,10 @@
+[
+ {"source_field":"ticker/code","W02_field":"ticker","source_definition":"provider security code","unit":null,"currency":null,"transform":"6-digit normalized string","notes":"exchange resolved from explicit field first, otherwise W02 mapping"},
+ {"source_field":"open","W02_field":"open","source_definition":"opening price","unit":"price","currency":"source/CNY","transform":"numeric","notes":"RAW_CLOSE context unless adjusted_close supplied"},
+ {"source_field":"high","W02_field":"high","source_definition":"high price","unit":"price","currency":"source/CNY","transform":"numeric","notes":"OHLC validation"},
+ {"source_field":"low","W02_field":"low","source_definition":"low price","unit":"price","currency":"source/CNY","transform":"numeric","notes":"OHLC validation"},
+ {"source_field":"close","W02_field":"close","source_definition":"closing price","unit":"price","currency":"source/CNY","transform":"numeric","notes":"not replaced by adjusted close"},
+ {"source_field":"adjusted_close","W02_field":"adjusted_close","source_definition":"provider-adjusted close","unit":"price","currency":"source/CNY","transform":"numeric/null","notes":"never fabricated"},
+ {"source_field":"volume","W02_field":"volume","source_definition":"traded volume","unit":"shares","currency":null,"transform":"numeric","notes":"null allowed"},
+ {"source_field":"turnover/amount","W02_field":"turnover","source_definition":"traded value","unit":"source-defined","currency":"source-defined","transform":"numeric/null","notes":"null allowed; no zero fill"}
+]

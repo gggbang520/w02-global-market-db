@@ -1,0 +1,24 @@
+{
+  "migration": "V0.3_TO_V0.4_QUALITY_MODEL",
+  "source_version": "0.3.0",
+  "target_version": "0.4.0",
+  "preserve_source_data": true,
+  "mapping": {
+    "quality_status": "data_quality_status"
+  },
+  "new_fields": {
+    "license_gate": [
+      "PASS",
+      "BLOCKED",
+      "UNKNOWN",
+      "REVIEW"
+    ],
+    "publication_scope": [
+      "INTERNAL_SNAPSHOT_ONLY",
+      "PUBLIC_DERIVATIVE_ALLOWED",
+      "PUBLIC_RAW_ALLOWED",
+      "BLOCKED"
+    ]
+  },
+  "rule": "license_gate and publication_scope never determine data_quality_status"
+}

@@ -1,0 +1,18 @@
+{
+  "target_minimum": {
+    "distinct_listings": 100,
+    "distinct_trade_dates": 10
+  },
+  "actual": {
+    "distinct_listings": 102,
+    "distinct_trade_dates": 2,
+    "rows": 204
+  },
+  "status": "NOT_MET",
+  "real_data_only": true,
+  "reason": "The existing public GitHub/Tushare-derived archive locally acquired by W02 ends at 2021-01-29. No additional verified real historical price file or direct Tushare API credential/data response was available during V1.2. No fixture rows were added.",
+  "candidate_provider": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "license_gate": "REVIEW",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.2.0"
+}

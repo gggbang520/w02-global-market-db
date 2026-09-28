@@ -1,0 +1,14 @@
+{
+  "observation_date": "2020-12-14",
+  "official_security_level_records": 0,
+  "secondary_security_level_records": 52,
+  "official_only": 0,
+  "secondary_only": 52,
+  "both_same": 0,
+  "both_different": 0,
+  "official_source": "SRC-CSI-OFFICIAL",
+  "secondary_source": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "status": "OFFICIAL_NOT_ESTABLISHED",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

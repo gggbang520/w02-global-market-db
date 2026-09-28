@@ -1,0 +1,23 @@
+{
+  "evidence_id": "EVID-CSI300-2020-12-14-SECONDARY",
+  "event_date": "2020-12-14",
+  "effective_date": "2020-12-14",
+  "index_id": "CN-CS300",
+  "source_id": "SRC-INDEX-CONSTITUTION-SECONDARY",
+  "source_origin": "SECONDARY_ARCHIVE",
+  "evidence_type": "SECONDARY_EVENT_LIST",
+  "source_url": "https://github.com/unliftedq/index-constitution/blob/main/history/csi300.csv",
+  "document_title": "CSI300 historical composition archive",
+  "attachment": null,
+  "hash": null,
+  "retrieval_date": "2026-09-27",
+  "quality_status": "SOURCE_CONFIRMED_SECONDARY",
+  "license_gate": "REVIEW",
+  "reported_replacement_count": 26,
+  "materialized_add_count": 26,
+  "materialized_remove_count": 26,
+  "event_materialization": "COMPLETE_SECONDARY",
+  "declared_upstream_source": "China Securities Index Co. official announcements",
+  "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED",
+  "secondary_reproduction_url": "https://finance.sina.com.cn/money/fund/fundzmt/2020-11-28/doc-iiznezxs4108904.shtml"
+}

@@ -1,0 +1,26 @@
+{
+  "evidence_id": "EVID-CSI300-OFFICIAL-HISTORICAL-2020-2021",
+  "source_id": "SRC-CSI-OFFICIAL",
+  "source_origin": "OFFICIAL_PRIMARY",
+  "evidence_type": "OFFICIAL_HISTORICAL_MEMBERSHIP_SEARCH",
+  "official_historical_attachment_status": "NOT_ESTABLISHED",
+  "historical_membership_snapshot_status": "NOT_ESTABLISHED",
+  "historical_event_file_status": "NOT_ESTABLISHED",
+  "retrieval_status": "SEARCHED_NOT_ESTABLISHED",
+  "original_url": null,
+  "attachment": null,
+  "sha256": null,
+  "retrieved_at": "2026-09-27T00:00:00Z",
+  "license_gate": "REVIEW",
+  "search_scope": [
+    "csindex.com.cn",
+    "oss-ch.csindex.com.cn"
+  ],
+  "target_nodes": [
+    "2020-12-14",
+    "2021-06-11"
+  ],
+  "note": "Official CSI methodology/rule documents were found, but no directly acquired historical 2020-12-14 or 2021-06-11 security-level adjustment attachment was established. Secondary reproductions remain separate.",
+  "event_date": "2020-12-14",
+  "event_evidence_status": "NOT_ESTABLISHED"
+}

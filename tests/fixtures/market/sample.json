@@ -1,0 +1,24 @@
+[
+  {
+    "ticker": "600519",
+    "trade_date": "2026-09-24",
+    "open": 1250,
+    "high": 1256,
+    "low": 1231,
+    "close": 1237,
+    "volume": 3120000,
+    "turnover": null,
+    "currency": "CNY"
+  },
+  {
+    "ticker": "000333",
+    "trade_date": "2026-09-24",
+    "open": 82.18,
+    "high": 83.05,
+    "low": 82.05,
+    "close": 82.65,
+    "volume": 14320000,
+    "turnover": null,
+    "currency": "CNY"
+  }
+]

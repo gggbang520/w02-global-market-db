@@ -1,0 +1,14 @@
+{
+  "target": 300,
+  "raw_rows": 0,
+  "parsed_rows": 0,
+  "valid_rows": 0,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "missing_code": 0,
+  "missing_name": 0,
+  "missing_weight": 0,
+  "official_verified": false,
+  "status": "NOT_RUN",
+  "reason": "REAL_OFFICIAL_FILE_NOT_PRESENT"
+}

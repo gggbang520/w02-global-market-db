@@ -1,0 +1,47 @@
+[
+  {
+    "metric_definition_id": "PE_TTM",
+    "name": "P/E TTM",
+    "formula": "price / trailing_12m_eps",
+    "source_layer": "valuation_daily",
+    "status": "SCHEMA_ONLY",
+    "data_version": "DATA-2026-W39",
+    "software_version": "0.5.0"
+  },
+  {
+    "metric_definition_id": "PB_MRQ",
+    "name": "P/B MRQ",
+    "formula": "price / latest_reported_bvps",
+    "source_layer": "valuation_daily",
+    "status": "SCHEMA_ONLY",
+    "data_version": "DATA-2026-W39",
+    "software_version": "0.5.0"
+  },
+  {
+    "metric_definition_id": "MARKET_CAP",
+    "name": "Market Cap",
+    "formula": "price * shares_outstanding",
+    "source_layer": "valuation_daily",
+    "status": "SCHEMA_ONLY",
+    "data_version": "DATA-2026-W39",
+    "software_version": "0.5.0"
+  },
+  {
+    "metric_definition_id": "FLOAT_MARKET_CAP",
+    "name": "Float Market Cap",
+    "formula": "price * float_shares",
+    "source_layer": "valuation_daily",
+    "status": "SCHEMA_ONLY",
+    "data_version": "DATA-2026-W39",
+    "software_version": "0.5.0"
+  },
+  {
+    "metric_definition_id": "STOCK_WEEKLY_RETURN_V1",
+    "name": "Weekly Return",
+    "formula": "current_week_close / previous_week_close - 1",
+    "source_layer": "price_daily",
+    "status": "ACTIVE",
+    "data_version": "DATA-2026-W39",
+    "software_version": "0.5.0"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "project": "W02 V0.8",
+  "status": "COMPLETED",
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.8.0",
+  "provider_architecture": {
+    "provider_interface": "scripts/providers/base.py",
+    "manual_file": "scripts/providers/manual_file.py",
+    "registry": "scripts/providers/provider_registry.py"
+  },
+  "input_formats": [
+    "CSV",
+    "XLS",
+    "XLSX",
+    "JSON"
+  ],
+  "manual_import_status": "NOT_PRESENT",
+  "auto_provider_status": "NOT_IMPLEMENTED_PROVIDER; existing official auto access remains DNS_FAILURE",
+  "coverage": {
+    "AUTO_PROVIDER": 0,
+    "MANUAL_PROVIDER_FILE": 0,
+    "OFFICIAL": 0,
+    "SECONDARY": 4,
+    "CSI300_TARGET": 300,
+    "REAL_COVERAGE_RATE": 0.013333333333333334
+  },
+  "tests": {
+    "passed": 62,
+    "skipped": 2,
+    "failed": 0
+  },
+  "pipeline": "PIPELINE OK"
+}

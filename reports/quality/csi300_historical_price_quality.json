@@ -1,0 +1,15 @@
+{
+  "total_rows": 204,
+  "distinct_listings": 102,
+  "distinct_trade_dates": 2,
+  "valid_rows": 204,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "review_rows": 0,
+  "earliest_trade_date": "2021-01-28",
+  "latest_trade_date": "2021-01-29",
+  "price_type": "RAW_CLOSE",
+  "adjusted_price_consistency": "NOT_APPLICABLE_NO_ADJUSTED_PRICE",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

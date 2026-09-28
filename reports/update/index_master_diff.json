@@ -1,0 +1,15 @@
+{
+  "object_type": "INDEX_MASTER",
+  "from_version": "DATA-2026-W39",
+  "to_version": "DATA-2026-W39-V0.4",
+  "master_total": 25,
+  "daily_data_available": 5,
+  "published_internal": 5,
+  "NEW": 25,
+  "CHANGED": 0,
+  "UNCHANGED": 0,
+  "REMOVED": 0,
+  "CONFLICT": 0,
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.5.0"
+}

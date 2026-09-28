@@ -1,0 +1,18 @@
+{
+  "target": 300,
+  "retrieved": 0,
+  "parsed": 0,
+  "validated": 0,
+  "missing": 300,
+  "access_status": "NETWORK_ERROR",
+  "parse_status": "NOT_RUN",
+  "license_status": "REVIEW",
+  "official_file_url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls",
+  "secondary_crosscheck_retrieved": 297,
+  "secondary_crosscheck_note": "V0.4 secondary page remains preserved; not promoted to official.",
+  "software_version": "0.6.0",
+  "auto_fetch_status": "DNS_FAILURE",
+  "manual_import_status": "NOT_IMPORTED",
+  "official_verified": false,
+  "official_verified_count": 0
+}

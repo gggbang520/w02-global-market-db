@@ -1,0 +1,14 @@
+{
+  "observed_global_trade_dates": [
+    "2021-01-28",
+    "2021-01-29"
+  ],
+  "NO_TRADE": 0,
+  "SUSPENDED": 0,
+  "NOT_LISTED": 0,
+  "DATA_MISSING": 0,
+  "UNKNOWN": 199,
+  "note": "No authoritative exchange suspension/trading-calendar feed is attached to this historical batch; absent observations remain UNKNOWN.",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

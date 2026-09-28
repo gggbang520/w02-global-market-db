@@ -1,0 +1,16 @@
+{
+  "primary_candidate": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "acquisition_source": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "declared_upstream_source": "Tushare Pro",
+  "verification_status": "SOURCE_DECLARED_NOT_DIRECTLY_RETRIEVED",
+  "license_gate": "REVIEW",
+  "continuous_date_range_available_in_public_archive": true,
+  "locally_acquired_date_range": [
+    "2021-01-28",
+    "2021-01-29"
+  ],
+  "new_price_files_acquired_v13": 0,
+  "reason": "The public repository exposes per-stock CSV history, but the current execution environment could not retrieve additional repository files into the local W02 RAW inbox. No fixture rows were added.",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}

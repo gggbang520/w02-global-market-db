@@ -1,0 +1,13 @@
+{
+  "from": "V0.6 secondary current",
+  "to": "V0.7 official",
+  "status": "NOT_RUN",
+  "NEW": 0,
+  "REMOVED": 0,
+  "MATCH": 0,
+  "CHANGED": 0,
+  "CONFLICT": 0,
+  "reason": "REAL_OFFICIAL_FILE_NOT_PRESENT",
+  "secondary_only": 297,
+  "official_only": 0
+}

@@ -1,0 +1,5 @@
+{
+  "status": "NO_PROVIDER_IMPLEMENTED_IN_V08",
+  "official_access": "DNS_FAILURE",
+  "policy": "Provider abstraction is ready; concrete licensed/approved provider adapters remain future work."
+}

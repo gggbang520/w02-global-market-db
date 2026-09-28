@@ -1,0 +1,38 @@
+{
+  "SRC-SSE-OFFICIAL": {
+    "status": "DISCOVERY_ONLY",
+    "mapping": {
+      "证券代码": "security_code",
+      "证券简称": "security_name",
+      "日期": "trade_date",
+      "开盘价": "open",
+      "最高价": "high",
+      "最低价": "low",
+      "收盘价": "close",
+      "成交量": "volume",
+      "成交金额": "turnover"
+    },
+    "unit_notes": {
+      "成交量": "Official pages may expose 万股/手 depending on page; parser must retain source unit and normalize explicitly before W02 standardization.",
+      "成交金额": "Official pages may expose 万元; convert to CNY only when unit is explicitly known."
+    }
+  },
+  "SRC-SZSE-OFFICIAL": {
+    "status": "DISCOVERY_ONLY",
+    "mapping": {
+      "证券代码": "security_code",
+      "证券简称": "security_name",
+      "交易日期": "trade_date",
+      "开盘价": "open",
+      "最高价": "high",
+      "最低价": "low",
+      "收盘价": "close",
+      "成交量": "volume",
+      "成交金额": "turnover"
+    },
+    "unit_notes": {
+      "成交量": "Retain source unit until standardized; do not assume shares without source-unit confirmation.",
+      "成交金额": "Retain source currency/unit until standardized."
+    }
+  }
+}

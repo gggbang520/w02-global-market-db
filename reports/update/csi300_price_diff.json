@@ -1,0 +1,12 @@
+{
+  "from_version": "DATA-2026-W39",
+  "to_version": "DATA-2026-W39-V0.4",
+  "daily_data_available": 4,
+  "NEW": 4,
+  "CHANGED": 0,
+  "UNCHANGED": 0,
+  "REMOVED": 0,
+  "CONFLICT": 0,
+  "data_version": "DATA-2026-W39",
+  "software_version": "0.5.0"
+}

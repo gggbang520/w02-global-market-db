@@ -1,0 +1,2286 @@
+{
+  "software_version": "1.1.0",
+  "data_version": "DATA-2026-W39",
+  "files": [
+    {
+      "file": "MANIFEST.sha256.json",
+      "path": "MANIFEST.sha256.json",
+      "size": 107486,
+      "sha256": "0ea66ea1e928020e0116b06c1174e1f296a4bc4be58e141627a78fa816889959"
+    },
+    {
+      "file": "README.md",
+      "path": "README.md",
+      "size": 705,
+      "sha256": "1f7d28a6460f040535f1ab6fd1c809b1770429a2afc17f78b1f3ef5fde55ad95"
+    },
+    {
+      "file": "README_V1.1.md",
+      "path": "README_V1.1.md",
+      "size": 1765,
+      "sha256": "8daff45d3d06b74d5eabd9a055392cfa8294b58cb4d066532bd925e030db920e"
+    },
+    {
+      "file": "V07_STATUS.md",
+      "path": "V07_STATUS.md",
+      "size": 306,
+      "sha256": "93eab8254445213027dc9e8f0536f3cf6c7ba29704a3ab5faf482ed40e98f41d"
+    },
+    {
+      "file": "data/current/constituents/CSI300__current.json",
+      "path": "data/current/constituents/CSI300__current.json",
+      "size": 185328,
+      "sha256": "2155ffe605e6b49e5d2131e3437e0710c77dc403949fa242f24cb2a1ff119cf2"
+    },
+    {
+      "file": "data/current/stocks/capital_flow_daily.json",
+      "path": "data/current/stocks/capital_flow_daily.json",
+      "size": 140,
+      "sha256": "3801a1ea2e10d55e7b6164b554348f427d763dc0fc96fa61078ada5f80047c79"
+    },
+    {
+      "file": "data/current/stocks/csi300_price_point_in_time.json",
+      "path": "data/current/stocks/csi300_price_point_in_time.json",
+      "size": 316637,
+      "sha256": "61480dd5fd8147fa279594de77d82281d36dd0f14c129c7a29c0bec3222aad6a"
+    },
+    {
+      "file": "data/current/stocks/price_daily.json",
+      "path": "data/current/stocks/price_daily.json",
+      "size": 3016,
+      "sha256": "db726e391a15a131dadad0ba840d943961eb7067cabb236f6f7e21e4d532bc5c"
+    },
+    {
+      "file": "data/current/stocks/providers/SRC-GITHUB-TUSHARE-ARCHIVE__latest.json",
+      "path": "data/current/stocks/providers/SRC-GITHUB-TUSHARE-ARCHIVE__latest.json",
+      "size": 72767,
+      "sha256": "a25662b576cb76d5661502918f75ba94f31c985ddf5a2088243ea57fb703b21c"
+    },
+    {
+      "file": "data/current/stocks/valuation_daily.json",
+      "path": "data/current/stocks/valuation_daily.json",
+      "size": 122,
+      "sha256": "219fcf32e3de2b249e87de7752a05ca2ef70511fa99bdfa6ef25d300d650593b"
+    },
+    {
+      "file": "data/current/weekly/CSI300__weekly_snapshot.json",
+      "path": "data/current/weekly/CSI300__weekly_snapshot.json",
+      "size": 2412,
+      "sha256": "ad2e19fe59fbdd349ea343755707eeba25445fd4cc548433068176d3026d2c8d"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/constituents/CSI300__current.json",
+      "path": "data/history/DATA-2026-W39/constituents/CSI300__current.json",
+      "size": 185328,
+      "sha256": "2155ffe605e6b49e5d2131e3437e0710c77dc403949fa242f24cb2a1ff119cf2"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/LST-CN-000333__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39/stocks/LST-CN-000333__2026-09-24.json",
+      "size": 584,
+      "sha256": "d123bf8abcc87025b10d248efdbfa3d3313379b34eaab3d6603fa646b52353fd"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/LST-CN-000858__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39/stocks/LST-CN-000858__2026-09-24.json",
+      "size": 583,
+      "sha256": "bca3dc863983887b1c7727d2eb0f3d3e6670cd6c7bc03da593233d94ecb6f6d2"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/LST-CN-600519__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39/stocks/LST-CN-600519__2026-09-24.json",
+      "size": 590,
+      "sha256": "12013b89c1495a86a3d876a58ce7819a5c0f4f708638b290f72aeecd8282d91e"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/LST-CN-601318__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39/stocks/LST-CN-601318__2026-09-24.json",
+      "size": 583,
+      "sha256": "a51416a374ed531c85f104433db5b93b96c60447ca8f1e1acb1b6a4254395c55"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 145512,
+      "sha256": "2614f2360ac5db982796dc1bac21a2d7fe286da462484fa59769d084749b674e"
+    },
+    {
+      "file": "data/history/DATA-2026-W39/stocks/price_daily__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39/stocks/price_daily__2026-09-24.json",
+      "size": 3016,
+      "sha256": "db726e391a15a131dadad0ba840d943961eb7067cabb236f6f7e21e4d532bc5c"
+    },
+    {
+      "file": "data/history/DATA-2026-W39-V0.4/constituents/CSI300__current.json",
+      "path": "data/history/DATA-2026-W39-V0.4/constituents/CSI300__current.json",
+      "size": 164644,
+      "sha256": "a4ebd3bdf8378a4b61cc222171073374a1ee676058366d359e977a21868e7e92"
+    },
+    {
+      "file": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-000333__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-000333__2026-09-24.json",
+      "size": 584,
+      "sha256": "d123bf8abcc87025b10d248efdbfa3d3313379b34eaab3d6603fa646b52353fd"
+    },
+    {
+      "file": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-000858__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-000858__2026-09-24.json",
+      "size": 583,
+      "sha256": "bca3dc863983887b1c7727d2eb0f3d3e6670cd6c7bc03da593233d94ecb6f6d2"
+    },
+    {
+      "file": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-600519__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-600519__2026-09-24.json",
+      "size": 590,
+      "sha256": "12013b89c1495a86a3d876a58ce7819a5c0f4f708638b290f72aeecd8282d91e"
+    },
+    {
+      "file": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-601318__2026-09-24.json",
+      "path": "data/history/DATA-2026-W39-V0.4/stocks/LST-CN-601318__2026-09-24.json",
+      "size": 583,
+      "sha256": "a51416a374ed531c85f104433db5b93b96c60447ca8f1e1acb1b6a4254395c55"
+    },
+    {
+      "file": "data/history/by_ingestion_snapshot/DATA-2026-W39/membership/CSI300__2021-01-29__membership.json",
+      "path": "data/history/by_ingestion_snapshot/DATA-2026-W39/membership/CSI300__2021-01-29__membership.json",
+      "size": 334332,
+      "sha256": "8ab7726794659905da31db1a57adc740ab641ad1dfa6c2fcce4cf4e966d50ecf"
+    },
+    {
+      "file": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 93099,
+      "sha256": "ed5a115b0eb82255da01fbccb47af9d00bd9314df07ab74bbe8b2ba0306cffe6"
+    },
+    {
+      "file": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/history/by_ingestion_snapshot/DATA-2026-W39/prices/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 93096,
+      "sha256": "3fc245e7e760c495a6d591d6537d1469c5aaeabfca2e3d5db88f2ca4bb0fbbd9"
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/CSI300__2021-01-29__membership.json",
+      "path": "data/history/by_observation_date/2021/01/CSI300__2021-01-29__membership.json",
+      "size": 334332,
+      "sha256": "8ab7726794659905da31db1a57adc740ab641ad1dfa6c2fcce4cf4e966d50ecf"
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/CSI300__membership__2021-01-29.json",
+      "path": "data/history/by_observation_date/2021/01/CSI300__membership__2021-01-29.json",
+      "size": 334400,
+      "sha256": "7c3ef399f0735f840e1d66bb8c1eea5bb94351dd94094f01e66cf2e292570eb3"
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/history/by_observation_date/2021/01/price_daily__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 93099,
+      "sha256": "ed5a115b0eb82255da01fbccb47af9d00bd9314df07ab74bbe8b2ba0306cffe6"
+    },
+    {
+      "file": "data/history/by_observation_date/2021/01/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/history/by_observation_date/2021/01/price_daily__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 93096,
+      "sha256": "3fc245e7e760c495a6d591d6537d1469c5aaeabfca2e3d5db88f2ca4bb0fbbd9"
+    },
+    {
+      "file": "data/migrations/v0.3_quality_model.json",
+      "path": "data/migrations/v0.3_quality_model.json",
+      "size": 544,
+      "sha256": "9183ed435b64a196219730c115fe0c1e1ce99846e2ea34626b2d903f235a02b3"
+    },
+    {
+      "file": "data/raw/_metadata/SRC-CSI-OFFICIAL__fetch.json",
+      "path": "data/raw/_metadata/SRC-CSI-OFFICIAL__fetch.json",
+      "size": 440,
+      "sha256": "d70fc1cef0780408c4650e9f74dcec099ee2a9f5ebeb7e63a7df3bef621452db"
+    },
+    {
+      "file": "data/raw/_metadata/SRC-SSE-OFFICIAL__company_disclosures_fetch.json",
+      "path": "data/raw/_metadata/SRC-SSE-OFFICIAL__company_disclosures_fetch.json",
+      "size": 402,
+      "sha256": "9b44cef3ef6bcf41140a690770ad83647011ef21e8cef56c6a5014fbb93b60fb"
+    },
+    {
+      "file": "data/raw/_metadata/SRC-SSE-OFFICIAL__fetch.json",
+      "path": "data/raw/_metadata/SRC-SSE-OFFICIAL__fetch.json",
+      "size": 382,
+      "sha256": "3a840281fae446a28f7334491fe0a34a719634764e4c7aced5dad468cd3a5881"
+    },
+    {
+      "file": "data/raw/_metadata/SRC-SZSE-OFFICIAL__fetch.json",
+      "path": "data/raw/_metadata/SRC-SZSE-OFFICIAL__fetch.json",
+      "size": 376,
+      "sha256": "fcc343a01bb9d08b58a16836cc5363b8bda636e471b9b3c02d50ccb2cab677ba"
+    },
+    {
+      "file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2026-09-25__20260927T133000Z.json",
+      "path": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2026-09-25__20260927T133000Z.json",
+      "size": 43112,
+      "sha256": "9f8f5f8024c87bdb8704b81f3adec646a3220f6f5441a68f787dc483d9a466b0"
+    },
+    {
+      "file": "data/raw/cn/SRC-INVESTING-CN-STOCK__stock_daily__CN__2026-09-24__20260927T133000Z.json",
+      "path": "data/raw/cn/SRC-INVESTING-CN-STOCK__stock_daily__CN__2026-09-24__20260927T133000Z.json",
+      "size": 2843,
+      "sha256": "58076ec3fcad197a6819de18ce53ee8d1289cc8b52d5b12f4894b2c628af5614"
+    },
+    {
+      "file": "data/raw/inbox/market/CSI300_EOD__TushareArchive__2021-01-28_2021-01-29.csv",
+      "path": "data/raw/inbox/market/CSI300_EOD__TushareArchive__2021-01-28_2021-01-29.csv",
+      "size": 24616,
+      "sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4"
+    },
+    {
+      "file": "data/raw/inbox/market/CSI300_membership_secondary_2021-01-29.csv",
+      "path": "data/raw/inbox/market/CSI300_membership_secondary_2021-01-29.csv",
+      "size": 2700,
+      "sha256": "dcabd6c92f9b208505cf30a0b9b83329ccaa7709b5f0d6679d10b9e403867616"
+    },
+    {
+      "file": "data/raw/inbox/market/SRC-MANUAL-FILE__stock_daily__2021-01-29__8917db4cda1e.csv",
+      "path": "data/raw/inbox/market/SRC-MANUAL-FILE__stock_daily__2021-01-29__8917db4cda1e.csv",
+      "size": 24616,
+      "sha256": "8917db4cda1e4d8e39cbcb05a1669bc5c996d7a40fc2c9b43ba54c59cc461ff4"
+    },
+    {
+      "file": "data/raw/inbox_manifest.json",
+      "path": "data/raw/inbox_manifest.json",
+      "size": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "data/source_provenance.json",
+      "path": "data/source_provenance.json",
+      "size": 1119,
+      "sha256": "51526b036721918467e054749c52d418482e38beb21603f1b6852d1b71abc2f7"
+    },
+    {
+      "file": "data/source_registry.json",
+      "path": "data/source_registry.json",
+      "size": 21025,
+      "sha256": "332c28fc87bde8dd10719502932e04d6b3dd934fffcc0eb8d999b9317d1752f6"
+    },
+    {
+      "file": "data/standardized/company_master.json",
+      "path": "data/standardized/company_master.json",
+      "size": 173085,
+      "sha256": "2f8eed973ea950ea09e1d995c4f2da796b09a8f17c61aa323ff9c1b3771bdca2"
+    },
+    {
+      "file": "data/standardized/index/index_constituent_event.json",
+      "path": "data/standardized/index/index_constituent_event.json",
+      "size": 7199,
+      "sha256": "605e685a515d7b1de1110194e7341b369ec290aec07c1817b0af8b17bb97514a"
+    },
+    {
+      "file": "data/standardized/index/index_constituent_history.json",
+      "path": "data/standardized/index/index_constituent_history.json",
+      "size": 318302,
+      "sha256": "45968951229a89e2fa3044017c91417cf3123bfb3cef4405fcf8796dd879c937"
+    },
+    {
+      "file": "data/standardized/index_master.json",
+      "path": "data/standardized/index_master.json",
+      "size": 14225,
+      "sha256": "d59c1c770af259d7d70d4d96f42eb96969f3177ce745e66c955e25a5f3894db8"
+    },
+    {
+      "file": "data/standardized/listing_master.json",
+      "path": "data/standardized/listing_master.json",
+      "size": 138405,
+      "sha256": "4be3402a567e1e317dae9a815456467015a6a26583ba40bc7579ce46f163d5be"
+    },
+    {
+      "file": "data/standardized/metric_definition.json",
+      "path": "data/standardized/metric_definition.json",
+      "size": 1314,
+      "sha256": "75e397831831d6e106065df8a588b6af5653447b81ce3c6fe39e146f494b1cf4"
+    },
+    {
+      "file": "data/standardized/security_master.json",
+      "path": "data/standardized/security_master.json",
+      "size": 132396,
+      "sha256": "2ec4b3b158d61f3e6f58375eacb704b441a1d0b121763662ec227c4377d2f511"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000001__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000001__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 622,
+      "sha256": "80d79eac4f81c808850a9d6446d685a6a54109e68e096ce82a76c3ec8ca87035"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000001__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000001__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 623,
+      "sha256": "233d3b8a0e2a2bcf184aea516038acdefc47c03429d725b3b9cfda91316612b6"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000002__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000002__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "8d5b0b9d948fe74437c6bf34dd37f9c1cfade7084462f0d6707ad348dd9e5cf5"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000002__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000002__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "0fec75716e2bcb435dc3344052103fd115b9db2d230d6e98ab23852fccd3b7c6"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000063__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000063__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "27bc8344cefa08225903a422c324114187c93b0dded4ec00188b7fb77a6e2bcd"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000063__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000063__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "016ff7aec8b0de555770fb126735495369ce2f88050f8f9b08a1837567772e70"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000100__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000100__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "35e591529a37a01328458db13f9ab088f380e765e0384e9b9199326d21012486"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000100__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000100__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "09b28e6eb2d46b51676382e1f728bae9f4875cc499ceba65732d28a1f84d0c77"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000333__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000333__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "3a07caaae7c3684ee40bf462521b1ba2d4440daf6476b198d7af4a3873ca3b04"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000333__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000333__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "a5ed890cc9fb6ec4b59d2c7c309b21a9040b8ffa5bd23bcad6d6ea697c4db021"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000333__2026-09-24.json",
+      "path": "data/standardized/stocks/LST-CN-000333__2026-09-24.json",
+      "size": 712,
+      "sha256": "be7fe0aa8def9d3e493fb0b6bdcf851b70306426811fb4bea7e3e0e6ab806c89"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000338__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000338__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "7c8a51d2e5bff44d7a767ec6363eaefaccb6f8a4f84ce9ef113737843e73c455"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000338__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000338__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "fcad8f5b6dde19e93cf3e5e933e5f46116b23136b8fcf0afdc3d9ea14b694519"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000538__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000538__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "f1a0c933458af8c986ed977401c450e10c4714a1e1d05e25633852e68379b7f8"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000538__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000538__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "36a5e9e1d161578db230ffa1e2b3aacba6cae5c9f05a95a5511cb102131fa269"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000568__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000568__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "9bc737428aa5d041456d6e1e74fcfe6157dc13b373353cb45c0677db0b296b00"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000568__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000568__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "f5b0c41b1d9c80f072c5a13ca0c00666f1b22db95231aab19ca6fb103bbc6207"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000625__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000625__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "c18727027c620b7ffbe252fa98ae7fbdeb5b4eab34e83d113902a0f66a00dd30"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000625__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000625__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "5857539f15cc5627156d0d85e69e61cf66c254cc63b72e5882c11930dd2b0fb9"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000651__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000651__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "286fc5fa0ea468477ba18f2465a3ad6203481cc469941d0f5c28a0abcd984a61"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000651__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000651__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "6c8b5553625600a82ae23c93864c7e05fa4484934492e078dda17337dda1a372"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000661__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000661__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "b0aeb741d2e1e3c2978d076e12ef8db4771d2cec8bd773e2f54a24dfa19285a6"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000661__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000661__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "e8b7cba3fe3bca5af406205f508afe4f8d861533389c5238eafd8b92d49301d2"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000725__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000725__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "f3a7426a037c1fb666bb60253cc24f73c0661c8a5b9878a66fd0c1c5acc17589"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000725__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000725__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "d6f33cf44bb3f7dfe48358f584ce7314c1293e85d25060aa5da4ebdd9f018182"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000858__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000858__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "5fde3bb265abe4437fbaa02f853e45ed93b5749485ccc1a78ffca308e1c0479f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000858__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-000858__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "e3351656090e922d49ea28ec38e30d7f617430fd008b3626d5620f113e72cd7b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-000858__2026-09-24.json",
+      "path": "data/standardized/stocks/LST-CN-000858__2026-09-24.json",
+      "size": 711,
+      "sha256": "e1bf2c7944a7f595cc3184617ebecec54900850221b4ba3dc44bb7b768c4cf24"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002027__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002027__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "bd9e3e52cecbcf6db3b9b44b1a6f19980f9b9172c1aae21148a08ea4b12fc28e"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002027__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002027__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "6a7188d738f56b7a6d0c98ce45510300821aa0b247b28e5cdcfa47d3ca125f8f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002049__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002049__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "1ecfb8a1d3b684cf1f59d6af864ac9fa6dfc976fc3931ac6df8e16c09631e7d3"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002049__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002049__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "7c1e83372b746f6943d718e342e94a7e3f167389bf50a1addb7dc5e26cf13277"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002129__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002129__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "79d85394d3eeeb1c4f80b19943b48d57eae23923c1db985128ae351ce242fc37"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002129__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002129__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "fd32056e9889b20aa4f24f6f25092decdd225bfee1c55c4c03a3c6dea867cc8c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002142__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002142__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "a212ef6d6a11d250b71c69786d50915ca8d7b5112ffbd1c36638d712ffafaf96"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002142__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002142__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "82ddabaa9e65ba59317a3031b3b168d8cc84e72ff93227dfdee65f0db5367ae9"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002230__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002230__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "c7227113f3128768019ce9825805dd539fea9579df79d6669df87f6adcb84a9b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002230__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002230__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "bf79e13e80ed05c39ecd8f5fa2559bf2e6b5ab2474b4e04f2dcd4db039a50cbc"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002241__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002241__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "210c15088f0c8bc645bedd6a45831ee9a1b58a9bb841680e821f94d11dd30341"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002241__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002241__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "a3914fc659f2b8e63550719af64bb7a8d69887fcda5e54251166823f115f37d6"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002271__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002271__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "7e964e044ce46b5e69959b2e5c6b211d0cd1e5d98392bef24b5e2900aadd665c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002271__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002271__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "979f1655f1c20a7b6d90d5fb5a6cc4c8171019b03f9d7297aa568f7a38e33697"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002304__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002304__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "01754bcc49d2135904a61232420c509cb8f0c91b21382c55a3102679a300b928"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002304__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002304__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "f75aafc29c7b9e57c02a62d60f5549d5e0a7ee420ff7d207fa8af74d5c9c4587"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002311__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002311__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "c4e52e871631034bdf8b7215a7cf5cc7b3402795b153c9887df2e5bbb4855e1b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002311__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002311__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "8d049bddda681ce42ddecc488c37059f89b5301cba15d7d4705d8716a359e79d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002352__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002352__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 620,
+      "sha256": "2daa5b5fbf1d5c0f47754b80d2fc463155aa0792048ee84d2d38c15f801c6247"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002352__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002352__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 620,
+      "sha256": "c02c78d1beb17bb8199eed4327814e4d0b5860d8383e190eb4f877c9603c4b26"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002371__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002371__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "f2c5b00b92a399aa6db5cd1b07034ccb4579c173bfff9b888efb759b582dde4a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002371__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002371__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "05aeee284e20849c279e9093115af5229cff32f395703f3a07e3ca0693f0e483"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002410__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002410__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 620,
+      "sha256": "4011cc5b980fa548b139bd8b1fe0c0e9fddc525f5c05b3a60cece763292fe092"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002410__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002410__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 618,
+      "sha256": "80387ea9e63d5eb49e7425f34f8aac739f79bee1cb4fd355da40d09437f7d442"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002415__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002415__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "9057ffcb3b4206745f83c70fd09cfe2749cea7fd670d2f149fb5fda163c654de"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002415__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002415__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "8087be387679cecf88d1d0b7286a66a210704533193ad8317f2dfce5dd620ba6"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002460__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002460__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 618,
+      "sha256": "f4867fc64b93239c2f391bffcee06da780671b0499f6f262ec2615cd3f57df08"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002460__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002460__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "dfa6c694fe3f3a93a1ca65b0bdd8f3f3a585a6ce2c04093fa4a84b9bc1568659"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002475__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002475__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "2372bcf60dca94ee3d7be9a8196315d3f38ff405b95a9691c220b96276196231"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002475__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002475__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "9268b3be8e75a0a4148adeb9daef6f8892e21bac7aaf60091eb307737831fd8c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002493__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002493__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "db792028bac6847dcb3c11315b7b4cb8cc73544dd56e344317147fc9675eda9f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002493__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002493__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "13fbd1261459bd465cf33696af7d94c1fd284ab2b55e1281fa925b0b1dc136ec"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002594__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002594__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "173160f7159c914cdfc15875804e6fdfb340494f5f3233ebea3e9f87780a5358"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002594__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002594__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "d7b28f07ff6cfc6bc9160b9efb895cbb2f9a80e51696762de88f80e8772e5d5a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002714__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002714__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "96c4752c3c40fae76465690e9a0d344b6aca8332bd05f193de2a0b10a1cba1ec"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002714__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002714__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "c049547e18cbdc35bd67c17ae17412894f75e695a497e50fb5cb7b449cc2e7a5"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002812__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002812__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 621,
+      "sha256": "c99b900695de406df16115fc8e754c612fc1e18de51d6fda4e3501e270774116"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002812__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002812__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 621,
+      "sha256": "3ab537d776b119d1d93df50c578a69177459c1cd3d4c1f3fe5844fe022851bb9"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002821__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002821__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "acbf5c27b43fe703a31897a803f995e7c7ad51b539e67a7a330bc536b22a8dd7"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-002821__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-002821__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "55fd8a7e9bea503bd7c0cacb06450d1477f725e764591738f760167427319e40"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300014__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300014__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "4ec4308bc4ab90b66ce31ea8a69d4513134b06c045a7bc1bdc63e637629f52f8"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300014__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300014__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "ab574e0aa89f5977efa84c09b71265fdc27f4723fab39d9fb3a5412f4d49ad0b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300015__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300015__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "218f545fe47fdaa9d779981ba7076881b90fd67d1b80fd06686988c5f523a467"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300015__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300015__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "8d639089177b6a75e88082921440a68f10b73b2baf84ee92c9a4d31827c17eb0"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300059__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300059__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "8c8fd1e0233f0a02a17b250c3e2ddfd5ec391addc15cc6dda834eb583ef8d449"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300059__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300059__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "650029f45e70bd6d60d179227e1dc03c672a965bbec1b3b25228afaf0908b0d7"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300122__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300122__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "74d2b29ad9f6461247b5255ba5db3670a27a4f49c3c88715dcc973ff35ff951c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300122__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300122__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "bcfa79fcdf7f4cc2fb2ad4465e1df0711b744951fad7df29564fbb652cb18ec5"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300124__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300124__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "90b808dcfba991cb8a4f3720a71b97b4c72c47dcbcb3d6471e20f3dd55f0953c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300124__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300124__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "ca6755bcc55990237ea4d0472e3df7ba3ab4072b20320721ecf85db6d7ff7cce"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300142__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300142__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "7265b4fd9dfb7dd4c1660e0e19c0ad508996d6a523f586195fc6e766cd0982fc"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300142__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300142__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "1d61ee107578d2c04d6481d05a772063d5268c6d1e9c2c9f600aecfadaf555f2"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300274__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300274__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "2cc4b63f52eadcbcd37e4df386a572e3b775180b5c5308d245be58a616c825f1"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300274__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300274__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "5827744f575ca0505a2a22e55519887facbd5a46a7fb74ef1fed65eb7da31d77"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300347__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300347__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "254e743f70d6bcbc41ff527cb6ea1220176c697589e93599866af6cc3bd290a8"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300347__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300347__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "9fde9e1b78018768e1557d780ca29c9a3c7335b33d7ec2a909e7593d7d60f60e"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300498__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300498__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "ec3e74a8e169b5b63fdd87b0678041eb6d954a86ba21ca87f89708624bc50ca7"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-300498__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-300498__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "c0a7a4ee9503f852d5b831735f118145dee4ded8e519a10c7507244ce0ad196b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600000__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600000__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "8f34d485d51dea0f0b5ce842452e0272f0cdd797c7831a843e34b2cfd3e04bda"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600000__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600000__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "031f85aafc33f33d2d956536537fbc84860eb1c64d2888fe14d13c9381207091"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600016__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600016__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "1c2d143a7ca633bb2f36a04bdee61237226877b59942bef43990fe3fa25abbeb"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600016__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600016__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "6fc3566b86cc42ba32c7007047cd569f5e6886f8498884dfa3849791d7779aa8"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600019__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600019__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "2d3f6250d80b28f74cb45b8b6c51d395f73882752af7e9fc1d48dd7ed8052d70"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600019__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600019__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "8f4754109031278ceb87536ab485fd3f60c53405c7742408fbafea67c66d2202"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600028__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600028__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "f21c6d9de723d1863e1bad1fb870198d9ec6bf076829f73d3e660f005b910439"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600028__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600028__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "cb92782c4825009a61d7a26d8ffeb097822fa354956fea09ab9eb92a762f006d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600030__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600030__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "be0623ab7c4ef1b0fdcc04ef662668e5c458450969944681f231b890085a74af"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600030__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600030__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "2cecc41f8e05417afbe9ee4eacf274651493890d1cfe21e1d32b9a9c63d49ba0"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600031__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600031__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "abbf122684f846739936ec9b121ce88bdb8e849b9ecf42ff1a01f4b22fe4327b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600031__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600031__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "628eb92db9407050ca393df65d80ce1f923a44ae0f741e32694ecf69116c440e"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600036__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600036__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "f036fae47ab90b427b8f3c838f53c02254e5c1beafeea14df18fd532e8e3524b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600036__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600036__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "47a5a73c9d8b6a103fdd471a80ce65091241b50d9bd4d1727d2bdaa8708b9384"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600048__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600048__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "fd93096f42f58b16e73b76433c9d0b3d9ee65c4c7a72cb22f96c1994f1a236ce"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600048__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600048__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "e11312f3e0a3dd208455de10d67f0d8ff3166c68d0907615eb01d8638b02cbd3"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600050__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600050__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "f0d6d8c310f2b98c20b1460712d8851f6750942a987cc552c9a1c75cee44924b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600050__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600050__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "89ac6521a80d6e83145500751b790aec5807bbe39adf8ac488ec194ab50e95a4"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600104__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600104__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "75e00945bf5a9b36b321dcf647f4dfdbaeab14bd4264b35634d7fcc50e9135fc"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600104__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600104__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "13edf9ebd49202c1cfa7796299e2cd94af31455841e0a19b304789113494da5d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600196__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600196__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "19ee7e159cfdf809b845494c0a59b964f7ae341834f2b68f3f90b9e0097c78ad"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600196__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600196__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "56cf9e97fa643cab39ec7fe5cf80e9ab96693b6401e05c33c87869347d5f03f2"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600276__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600276__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 618,
+      "sha256": "886a17f64ed916f35f0b789cc2822a49b88302c472bac053ce8ec34c79746c72"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600276__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600276__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 618,
+      "sha256": "3f954a9d162ccde4bf699fa77dccc6befbbd5f3c72b25389f8194c375869fe55"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600309__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600309__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 625,
+      "sha256": "a3195769169c3d82929ff1e3dcbe12e1a0d49f3e2b5b61776cb388e0434112ce"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600309__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600309__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 626,
+      "sha256": "7c9d3fa50820aa23ddb8acb639269fef7956d1a7ae3c26938bfe3e18cab4cdde"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600406__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600406__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "49bda3786addf6ee8b345c0a20549464ac8f41f90c3bb6ee4bde0adb7180cc9c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600406__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600406__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "d0795547324574ae69fd618d213e13d918b1e236e517ad773b7b0690b1f034c3"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600436__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600436__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "a8354d746bf3bacde0b538704a457ea69654095fe33ed691e1a82d29cc34abcb"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600436__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600436__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "ea0f22c596af2307778b82c1a350ef8a543563a8b3206a24d4d12ffd0beaab6f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600438__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600438__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "707a7cc3f456df8f472c80b100ee62e83ee8e21b8bac35b987274eaaaabe8f79"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600438__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600438__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "1fdc6c2e6d1e262b76582efeb1d27769914cd5e90d1a3f873f6ed444e0b391be"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600519__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600519__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 619,
+      "sha256": "0d5f945a4ce3615452cbd8c7ac26d1c6a86fc58dc4d40e2dad743b4057808202"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600519__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600519__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 621,
+      "sha256": "547a9b09a4907d68fd4e8ea7b25f84344f2cfb9fe488804733ec613d1939228c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600519__2026-09-24.json",
+      "path": "data/standardized/stocks/LST-CN-600519__2026-09-24.json",
+      "size": 718,
+      "sha256": "058f34e2559afd4e9e4a9f9cdcd8a09f6552be17a917a99b3b45b76e675eb03f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600570__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600570__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "a03187859320c8a11228c25d270b7ce6a7ed69193190b193f90cf605f968a6da"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600570__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600570__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "ac3132c00a8c1483e32a0c4daedfc70239a418b37c537b244ba923d169a4d128"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600585__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600585__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "caaadb684edc7250a01f0860704ea3e8d653befd37ec6f6d69b15326a76af79c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600585__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600585__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "4a5a39f9a1b34742b54984ff59a2bf91b8fd72e5655cee8113315a490f6b7267"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600588__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600588__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 621,
+      "sha256": "b26d49a06dba5e2794d7ca8c0b12f62705ca80d4e74cdf403d100bd865bfe10c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600588__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600588__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 622,
+      "sha256": "cbd09bf3c423a31fa2563b29085f236d8e19a5a3c349394ccdadb6c943adfdf9"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600660__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600660__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "f2cff2a2e6a3d202e43468142fc862babbcb94790b6950b069a5e8eba361c4ae"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600660__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600660__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "d03c272da4c81011ce6a4de1c1e9cd08769c2061e85b590e760c4aa313a67406"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600690__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600690__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "fdac126083eea20f7e1beda48b4492c5955d1afcb851764ce98698e5181ced09"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600690__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600690__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "998dbf91ebc7ddec2b7d63163a0f005b2398f6998e930fbff02e9a129dd7de58"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600703__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600703__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "4f4086ec8768223056c45f7b4ad21a414face12632e3a89d915c854220932066"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600703__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600703__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "b97433543d564d1c33738e7da7ecf9919a3fa88c5e502ba8eef7866e026b1b78"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600745__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600745__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "968465f1f49130a1b257eb7a01ca9070b5a99053994c0c3f8258524beb6697ab"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600745__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600745__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "2853cd7d1b1d02d16376368870d631363a1bbeda547be2663ea3b6fa9e21051f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600763__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600763__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "ce4a04b683a50a4d4f7996fc096b8e7ef14f14e254079473d1149e101fb89a2c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600763__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600763__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "f4ab1de153861b6ab1ff9000984c32c40db41b6c058a73a007230341b328d751"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600809__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600809__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "ae223d0b6b4bacaf15944b07c4d30a617e7cf414ba95e2896b8bbe4557380987"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600809__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600809__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "0cbac0b01d22d9535124990be27598acd1d848b6b08f3e633d33acc8bcdbdc1c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600837__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600837__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "7763abae8462889bfca895244e3fcf188eec1a96bf3ae414dc347eafcac66c22"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600837__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600837__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "e3cd4b52056f110a48ed252b40c08ccab9a35b2a7b5e26ca9657f7415dca3637"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600887__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600887__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "901648404956acbd05f238dc1b1808e0a0cc81e2a67ba3d020f3a1197f688268"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600887__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600887__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "1f457a05f4e7b4fe5bc9402cf2a97676a7f6de7454954339f3cdb48ab8522491"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600893__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600893__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "3bdafb14b49bce8ade9fcf7f3119a143b977200b1c4bdc68160fd59322162953"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600893__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600893__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "c24b30a76893ecd29ab36ff36d424cf7705f0ce3eff33f3b2c5f503fed770020"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600900__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600900__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "37f2ad3accc4c34c0b99831c40f24f8628e5b5d4e1abda49fdba0876ec5ecf6c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600900__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600900__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "3caabbbe2826d78bfa26e19a96210c30e49627d4ef2e81bf71af188cdb4feb15"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600919__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600919__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "32b7821f8e993af2ac4f716a59285cf60e6ee1f789920a5cadb7ffedbc14e558"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600919__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600919__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "daf5c5813ff823a81644f8ad39ea1e97db0a832e666feb2aacd30ce7ffca4c2b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600999__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600999__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "a8560d635af3635fa5ae88892d59f1f44c50e16562f3ebcbb4807f2be954d669"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-600999__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-600999__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "5ab873541f357e961f845c3e715329e143581fe4bfdcdb4aba5d0914c40a9936"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601009__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601009__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "6b7a93c69ef6a457c25c2efe98bdb9d87b30fe4a455412c8682df2bf79cdf0fc"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601009__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601009__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 607,
+      "sha256": "8726adaac8c61beda1e242bc3a2b91e5fce576dfca3d27af67cee9b08162319d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601012__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601012__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 619,
+      "sha256": "39f7108948b38540f6222b38f32988512bf7ba40bda95020df4d38e356effc15"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601012__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601012__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 617,
+      "sha256": "6905f4ca9cccdb8c6ad9ad8f02ef51b726364c1eab23286aa14ac153e6d645a0"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601088__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601088__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "fa92d11b4a810a6627379a27a691e9031af3da19f65f19125291cf1adc307696"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601088__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601088__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "34784fac1138c809aad89f1823ed7f02a172e6e9670a9f269744a73eac420332"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601166__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601166__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "a7959208d591aff85857489dbf72d7be380d9e7c550649cdfba6539c65bd6e0c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601166__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601166__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "c3b831e7003cd367c280e68ddc3be548390ec14ef85948e068757d2481f60cae"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601169__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601169__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "2c35224d2a7261c976fca996712baa78a7aa922ef86522bd97a4705c0aded1a8"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601169__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601169__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "9a33a5b635e090acd46253841ca38e05871376ab6ca75f0e1ded738ba12de1a1"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601211__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601211__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "83958d2c1967bc921a68fc500c0181829e4afe6f171a4d05ed3719a53c68b316"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601211__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601211__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "2a3379081feb37521c5ee2a9e343b963d0120e3e8b6d99b0a049e78fd6eac35c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601229__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601229__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "327c1b5d6a95f71451c960c12ea2cea432e6b55c281e879a41ce753584954e6e"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601229__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601229__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "1f97f5cc1b6091d7a08ef07d2bb2b8ef1a38093b469c40c3f15413896f3ea523"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601288__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601288__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "6e2c805641f6af4cd99795350b2d6c86089b771dab71827748d6b707ffed846d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601288__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601288__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "6e9ba08f4bccc35b1cb7ea3e9bb057d25d99f73e0771d74c41f1e9a976af9a16"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601318__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601318__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 621,
+      "sha256": "9388d16253ec263b11f3565802533fe62d15f9518e82d085ed2b442c84348654"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601318__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601318__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 624,
+      "sha256": "f5c753dea34dd0ffaada336e67ac9e6963d3b56a602a5c9febcafe0efccfe5ea"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601318__2026-09-24.json",
+      "path": "data/standardized/stocks/LST-CN-601318__2026-09-24.json",
+      "size": 711,
+      "sha256": "11d79223cb5784ea75ac4a8101c52897dbb8234564b38660cbf500c09cecb52a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601328__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601328__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "2abca39555bc91996077a90575296552f8892b586cdb7ee156905548f35e2ebe"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601328__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601328__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "eb32d36917852d9a56362297e621cd03fca6d62d7dc427f88df452c21e6cbc75"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601390__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601390__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 608,
+      "sha256": "67b1e4e1b38fd4a8c99ff6bfbef896f2757efeff0cbb34f32d77e32577f54d49"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601390__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601390__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "06f15059548abb4481063482b4f9e314077faf01a8742f6d272bd183cf74afc0"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601398__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601398__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "7395158deefb50bea722c8e5992dcc68c02bf7732b7fc90b1b939915177fa17c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601398__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601398__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "74d0de1a59fced2ab731ab21c80761c4349d73a761e768f7e50f1346cbae124f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601601__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601601__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "2176b92d2235f4880986482faa85d8cb7f4fbe124de0425bfc00c7b586327aca"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601601__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601601__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "cc0b577696b3b7faca8989e455ad0722217b895d95268c72b99b8e52944c9b83"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601628__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601628__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "1c4465206115630521daaf81210b1d9c16cc74e3c28b73665defd6d2c2619eb9"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601628__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601628__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 613,
+      "sha256": "ab467e9260af172b7bd99c8d0bc9447716503d93287deb0123104a2384fcbe50"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601633__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601633__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 622,
+      "sha256": "ec4494bdf006fd41c666c527aec520c6c4555dc675b25b53c43b66dc0671706f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601633__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601633__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 622,
+      "sha256": "ec1fd1a4a09d755e5b21828b2e96d5e3a3ba86cb191d20435828f36430d1a850"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601668__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601668__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "1f27c6a0596b67b33607a592a1467bb06cbf7253f91c783e4dc7b48f221588c3"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601668__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601668__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "e01cbdd9f3268dc156a18c9b56f6c49c4e94eb10b1b26ebe0a395a12a7c6c450"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601688__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601688__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 612,
+      "sha256": "6468e1321658bd8b7f95b2ca61e4656418671da893d6d64f3d0ab468a20d0279"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601688__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601688__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "a03729d9bab14ce5457ff6687e31837f4a98f58923247c3e028b232500406b5a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601766__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601766__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "a90cea2c56fa1281397d22810e56e379fcc7923707a9da83048cddd43fa0ec7b"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601766__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601766__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "4cdfb5b107c7e8d442816f5597abe9be0834c5916d7f21a9b33bb3355b66284a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601818__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601818__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "df3dde67eb9f8d1aeb634dde477fe23959aeb8e3196782e1057316f2dbf9627d"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601818__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601818__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "956a649a321b9c948a8f4085d4f4f32e7819092df95f5a9adfcd22eabae9e3c1"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601888__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601888__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "0a0281ff8c90d12e1b602384b196d220ccf7127acce7f437fb5ed87086bc0075"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601888__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601888__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "168a86bb5e3b1b4629cfae59231da4bdfabe4f38da8d471f16de891171692b7e"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601899__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601899__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 611,
+      "sha256": "db1d97a6c5f83b76bb20f1526954269213d8f39a3d5abb882889d7954ffa8ffd"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601899__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601899__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "b5f8418fcab662a0020684eccee4c26ecc0e91d4d3775ba756a4853bf60e1b84"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601919__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601919__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "da5f37f52c5b5008634c7e66f6ec5c371ebd13b790bba1d6ba5d5fab7ab2c675"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601919__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601919__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "c82a096d8095dc0d0e0441252a363fce18d59f1a0896029362f96a92e877625a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601988__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601988__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 609,
+      "sha256": "d571e567e08eee2e5b65e790840e92ccce762a3fabf8310ea52d23c5f5706ce1"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-601988__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-601988__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 610,
+      "sha256": "160043c9238355789b33128d2036ed938b5befabf42c0350273e440eeb45c33c"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603259__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603259__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "55185b248ae4b1cafae442db64ddb215f7fe2e152200d2cd96c42fb77de6b32f"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603259__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603259__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "b20489e94b6058a5fed199cccc411d1c95c3aa84d3e90c80bfbf4a81f0ed333a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603288__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603288__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 624,
+      "sha256": "6b51c68f9f6dcff6d68099aa9db37da8ad6409ea5aee5d32176c0ae7bcb4cd20"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603288__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603288__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 624,
+      "sha256": "f67f1c0f4aa2db28841d2d05c080833f178da5f020071349888f7296f8a776a0"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603501__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603501__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "9ec3fb106b736b6f5a41e21dd1156f80f5381d885d40c0fbede906fc59861ff3"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603501__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603501__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "489b9177859d3b34f0f9541c9cc8b9b07f0c89c312e871f0b40dd1b48ebf5173"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603799__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603799__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 616,
+      "sha256": "9ff2a155d1f184153d2a265acc002465f5d811da972e13b46ceb21ee6403bfcf"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603799__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603799__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "c025e216db35fd975d95de3a295f89dbee1dd2904847961af7c70d322347840a"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603986__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603986__2021-01-28__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 615,
+      "sha256": "b4307c4ffd68dc48b8a61622e8b6b066432b9f75c9b2666eec1645ccd3648c64"
+    },
+    {
+      "file": "data/standardized/stocks/LST-CN-603986__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "data/standardized/stocks/LST-CN-603986__2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 614,
+      "sha256": "a9901a5ae2555d7c9731361d741a4feef39d79532667f9bb90bdd51f22794250"
+    },
+    {
+      "file": "data-version.json",
+      "path": "data-version.json",
+      "size": 718,
+      "sha256": "1a6deb42762f8e7bdfe5c6d8ddc922c249d63bf01e18d5be2a82f544d2646168"
+    },
+    {
+      "file": "reports/ingestion/CSI300_EOD__SRC-GITHUB-TUSHARE-ARCHIVE__2021-01-29__receipt.json",
+      "path": "reports/ingestion/CSI300_EOD__SRC-GITHUB-TUSHARE-ARCHIVE__2021-01-29__receipt.json",
+      "size": 757,
+      "sha256": "4e7ca35302d3ddafe6fcb162631920158e2d77680e8ae0c646854262e527fb20"
+    },
+    {
+      "file": "reports/ingestion/CSI300_POINT_IN_TIME__2021-01-29__receipt.json",
+      "path": "reports/ingestion/CSI300_POINT_IN_TIME__2021-01-29__receipt.json",
+      "size": 681,
+      "sha256": "c114b19f6b18bfecca772cf0fd7e400dbaf8a59ca5b4f1435d2d87529ff69752"
+    },
+    {
+      "file": "reports/ingestion/CSI300_V11__2026-09-27__receipt.json",
+      "path": "reports/ingestion/CSI300_V11__2026-09-27__receipt.json",
+      "size": 790,
+      "sha256": "692673a2792fb3febdc234f0a49205e094a39d0e099a5aed5e50e56164af0f6b"
+    },
+    {
+      "file": "reports/ingestion/CSI300__2026-09-27__ingestion_receipt.json",
+      "path": "reports/ingestion/CSI300__2026-09-27__ingestion_receipt.json",
+      "size": 509,
+      "sha256": "da40f02bd20ef240a06e96e050dd563032ee97308f9d190725b70160f479f159"
+    },
+    {
+      "file": "reports/ingestion/STOCK_DAILY__2021-01-28__receipt.json",
+      "path": "reports/ingestion/STOCK_DAILY__2021-01-28__receipt.json",
+      "size": 575,
+      "sha256": "4c6d6b3b2b84f60e50d3c8868bb0de64ef6a39f9186427d31dd4c7e1dddec492"
+    },
+    {
+      "file": "reports/ingestion/STOCK_DAILY__UNKNOWN__receipt.json",
+      "path": "reports/ingestion/STOCK_DAILY__UNKNOWN__receipt.json",
+      "size": 561,
+      "sha256": "b8f2094c45c58a652c97cdd6736a1054135479e69357c7896d3922b9cadee23c"
+    },
+    {
+      "file": "reports/ingestion/STOCK_DAILY__V08__manual_import_status.json",
+      "path": "reports/ingestion/STOCK_DAILY__V08__manual_import_status.json",
+      "size": 128,
+      "sha256": "5c29b366bfd3e81466944fbba8c7308d94ebbc9fa2be33aa1dd3dac4d45c3a05"
+    },
+    {
+      "file": "reports/lineage/csi300_stock_lineage.json",
+      "path": "reports/lineage/csi300_stock_lineage.json",
+      "size": 221248,
+      "sha256": "21d399a731f0ae826ae1cf48988bf80595d2f122582f961fc8f13b3617310e2f"
+    },
+    {
+      "file": "reports/lineage/price_lineage.json",
+      "path": "reports/lineage/price_lineage.json",
+      "size": 147494,
+      "sha256": "94c9351781e79fda739e53c579221de03937f4fbd78a1ce7f5f1dfbba7b18556"
+    },
+    {
+      "file": "reports/lineage/price_membership_dual_lineage.json",
+      "path": "reports/lineage/price_membership_dual_lineage.json",
+      "size": 242558,
+      "sha256": "014c69947bef1e3564dd3ec686d1409a8beccf17400aecda04bbef19d343127e"
+    },
+    {
+      "file": "reports/quality/acquisition_state.json",
+      "path": "reports/quality/acquisition_state.json",
+      "size": 229,
+      "sha256": "2f751b8528836d2dd317f5e4330cdfb8ba2c607a47b5d232474e825f7044e6f2"
+    },
+    {
+      "file": "reports/quality/auto_provider_status.json",
+      "path": "reports/quality/auto_provider_status.json",
+      "size": 195,
+      "sha256": "ed7aba1c1f25fc02f5772d471f3f5d317174a379ba5a24af59a52d6257584518"
+    },
+    {
+      "file": "reports/quality/csi300_constituent_access_report.json",
+      "path": "reports/quality/csi300_constituent_access_report.json",
+      "size": 622,
+      "sha256": "141cbdd6652b3848bfb435bbf1ccbcba396205cbbfe393f741951f43d93c899d"
+    },
+    {
+      "file": "reports/quality/csi300_historical_coverage_matrix.json",
+      "path": "reports/quality/csi300_historical_coverage_matrix.json",
+      "size": 702,
+      "sha256": "f4ffed8fe693a2e18f9d3c89f0fc16a5d828cfa091d4ef830d441fb1e52c602c"
+    },
+    {
+      "file": "reports/quality/csi300_membership_event_summary.json",
+      "path": "reports/quality/csi300_membership_event_summary.json",
+      "size": 435,
+      "sha256": "a97f624d75d64ce548a070c5a6e88ef414224339c9cf4e969600c3a018b40306"
+    },
+    {
+      "file": "reports/quality/csi300_membership_evidence/2021-01-29.json",
+      "path": "reports/quality/csi300_membership_evidence/2021-01-29.json",
+      "size": 796,
+      "sha256": "3425624aacb40d4facff4b029a45e9882707d15321736b80845558f47d3696b5"
+    },
+    {
+      "file": "reports/quality/csi300_membership_evidence/2021-06-11.json",
+      "path": "reports/quality/csi300_membership_evidence/2021-06-11.json",
+      "size": 548,
+      "sha256": "05e549a4eff28c6a147f0270712c8a850ee8f15b4bc1eb6cc2d821c105f73ff3"
+    },
+    {
+      "file": "reports/quality/csi300_membership_evidence/official_status.json",
+      "path": "reports/quality/csi300_membership_evidence/official_status.json",
+      "size": 805,
+      "sha256": "4ca95fa5112a7e47022ac1cc723f7342886a810f5f9d1fa364eb7bf7cb83857b"
+    },
+    {
+      "file": "reports/quality/csi300_membership_reconciliation/2021-01-29.json",
+      "path": "reports/quality/csi300_membership_reconciliation/2021-01-29.json",
+      "size": 347,
+      "sha256": "d55b58c24389fd7eeacb70493b989925c2f1a85d781e6451c8cd3b4651713ac9"
+    },
+    {
+      "file": "reports/quality/csi300_membership_reconciliation/2021-06-11.json",
+      "path": "reports/quality/csi300_membership_reconciliation/2021-06-11.json",
+      "size": 470,
+      "sha256": "4485394d84fd375db0c5cd7652704a179df85a945657b65d729ec65eb673d896"
+    },
+    {
+      "file": "reports/quality/csi300_missing_date_classification.json",
+      "path": "reports/quality/csi300_missing_date_classification.json",
+      "size": 382,
+      "sha256": "86ed186cec17f0b76e7bad59309418db604a8d60182b9a7785ab235ea796e1bd"
+    },
+    {
+      "file": "reports/quality/csi300_official_validation.json",
+      "path": "reports/quality/csi300_official_validation.json",
+      "size": 284,
+      "sha256": "b2d33bc4fcd11fcf45c6835bc95052f3df82ac28aaab0fb3ca431e70df945f79"
+    },
+    {
+      "file": "reports/quality/csi300_point_in_time_quality.json",
+      "path": "reports/quality/csi300_point_in_time_quality.json",
+      "size": 1005,
+      "sha256": "ba601ec0370bba644102f78686a94c1d5690488c7faa603541d8c24cc3f46777"
+    },
+    {
+      "file": "reports/quality/csi300_price_coverage.json",
+      "path": "reports/quality/csi300_price_coverage.json",
+      "size": 831,
+      "sha256": "660b6745604f4798dc84d3c7cec6c2c0dd62035e672cb6acea758e127fdeaaa2"
+    },
+    {
+      "file": "reports/quality/csi300_price_quality.json",
+      "path": "reports/quality/csi300_price_quality.json",
+      "size": 522,
+      "sha256": "f48ba9f5b073e9c481a1339a364f7bf6d59dcaeb6e46ef4b573afa18c1f69da8"
+    },
+    {
+      "file": "reports/quality/csi300_price_ytd.json",
+      "path": "reports/quality/csi300_price_ytd.json",
+      "size": 216,
+      "sha256": "ed5b9cf9910cabaad008d6b3bf05de6b71c55bb793703d1c67aba27e622472fa"
+    },
+    {
+      "file": "reports/quality/csi300_source_reconciliation.json",
+      "path": "reports/quality/csi300_source_reconciliation.json",
+      "size": 179,
+      "sha256": "9f9fba0de24452075a2e70221ca28f103fd5aae2cbfc12294229ac72aa639347"
+    },
+    {
+      "file": "reports/quality/csi300_stock_level_coverage.json",
+      "path": "reports/quality/csi300_stock_level_coverage.json",
+      "size": 119432,
+      "sha256": "7674bb8f19c9394caa3b9ea91e6aa544a1a57086e45378ea1826b87c6039eac2"
+    },
+    {
+      "file": "reports/quality/csi300_stock_quality.json",
+      "path": "reports/quality/csi300_stock_quality.json",
+      "size": 1878,
+      "sha256": "c1b0939e6883efe261e8f2bc70487f12f3ab678e899c3ff0d4fa24ed4d12ae72"
+    },
+    {
+      "file": "reports/quality/csi300_weekly_guard.json",
+      "path": "reports/quality/csi300_weekly_guard.json",
+      "size": 203,
+      "sha256": "46aa5fc169e0572adf6921b6ca5fcb4d3904caabb617b54e75bcddf742adb4a4"
+    },
+    {
+      "file": "reports/quality/manual_acquisition_report.json",
+      "path": "reports/quality/manual_acquisition_report.json",
+      "size": 506,
+      "sha256": "1bee92b2501f2d0eb0161652ba37016cbbe30e290a47f085d916e70983bdd90f"
+    },
+    {
+      "file": "reports/quality/network_diagnostics.json",
+      "path": "reports/quality/network_diagnostics.json",
+      "size": 995,
+      "sha256": "4d9b6f0e440dd2e156894c886ea0dcdd47ca214c5c6988f568c39539e1d66811"
+    },
+    {
+      "file": "reports/quality/network_diagnostics_run.txt",
+      "path": "reports/quality/network_diagnostics_run.txt",
+      "size": 91,
+      "sha256": "23a51e3ffdb70514d27ba385e055c16a28490f0b89518584396fe8b3991b7e3a"
+    },
+    {
+      "file": "reports/quality/official_access_run.json",
+      "path": "reports/quality/official_access_run.json",
+      "size": 1691,
+      "sha256": "3086f490993066ebd4943636132c400bb0e4b5be92a7632ef3d1dfdc03f2ca77"
+    },
+    {
+      "file": "reports/quality/official_field_mapping.json",
+      "path": "reports/quality/official_field_mapping.json",
+      "size": 1247,
+      "sha256": "39a373ba477ba4f1936c53f8a10b47408cf0a90f045b21b57afcb0e272ad9bc9"
+    },
+    {
+      "file": "reports/quality/price_license_gate.json",
+      "path": "reports/quality/price_license_gate.json",
+      "size": 192,
+      "sha256": "ed3a0990f10b5e12f3c27e02940340ec447740e7a5f85bdfb7e272ddc2e023f5"
+    },
+    {
+      "file": "reports/quality/provider_capability_matrix.json",
+      "path": "reports/quality/provider_capability_matrix.json",
+      "size": 1939,
+      "sha256": "f2211e59a192f502623a2d339b8fdd714382e21736f6063a1b8d5fa7f389d105"
+    },
+    {
+      "file": "reports/quality/provider_qualification/SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "path": "reports/quality/provider_qualification/SRC-GITHUB-TUSHARE-ARCHIVE.json",
+      "size": 1060,
+      "sha256": "3b968de8bcbe7f2777b54eb777b77061b1ad1cd10359f256244a7b39a667510f"
+    },
+    {
+      "file": "reports/quality/providers/SRC-GITHUB-TUSHARE-ARCHIVE_field_mapping.json",
+      "path": "reports/quality/providers/SRC-GITHUB-TUSHARE-ARCHIVE_field_mapping.json",
+      "size": 1890,
+      "sha256": "8c7c072bf2aab552bdf4bbe4a2aaacc347367c98fffad92b8763fcab0bed6356"
+    },
+    {
+      "file": "reports/quality/providers/manual_file_field_mapping.json",
+      "path": "reports/quality/providers/manual_file_field_mapping.json",
+      "size": 1537,
+      "sha256": "a3b35620bf151b46adb31c1399445ccfa0294284108ef680e7a6e77c9dfe4082"
+    },
+    {
+      "file": "reports/quality/source_capability_matrix.json",
+      "path": "reports/quality/source_capability_matrix.json",
+      "size": 2432,
+      "sha256": "a6d546641d3f16a1f5eee749c74ccf51974563789202a296260a7e3505ea0f8a"
+    },
+    {
+      "file": "reports/quality/sse_product_field_mapping.json",
+      "path": "reports/quality/sse_product_field_mapping.json",
+      "size": 2264,
+      "sha256": "6038e057ce659ea6c09e852b623c403cbe263766868d211eabce15349d56efe2"
+    },
+    {
+      "file": "reports/quality/szse_product_field_mapping.json",
+      "path": "reports/quality/szse_product_field_mapping.json",
+      "size": 1482,
+      "sha256": "e3ca311288605535f18da738015e4a853585e56a7c9b9606dcecde80ed378cfe"
+    },
+    {
+      "file": "reports/quality/v05_coverage_summary.json",
+      "path": "reports/quality/v05_coverage_summary.json",
+      "size": 914,
+      "sha256": "81cc0c9cb2cb4a0fc97c8474fa3db925842ef4d040f4e47081215e8d178e1274"
+    },
+    {
+      "file": "reports/quality/v06_coverage_summary.json",
+      "path": "reports/quality/v06_coverage_summary.json",
+      "size": 888,
+      "sha256": "29ae2a6c4aa3616b2cacf1e257411b9de897ad18aef0626b56952c0598521d10"
+    },
+    {
+      "file": "reports/quality/v07_official_acceptance.json",
+      "path": "reports/quality/v07_official_acceptance.json",
+      "size": 612,
+      "sha256": "67b84c4b113a840a4dbcc19baa86ea8b79646e5b6c1e47c0990f97a5c0b9ae98"
+    },
+    {
+      "file": "reports/quality/v08_acceptance.json",
+      "path": "reports/quality/v08_acceptance.json",
+      "size": 823,
+      "sha256": "b0d91f646e1c71016854bd4fc7230a60cfffb8a71753fa880477d3b999506fa1"
+    },
+    {
+      "file": "reports/quality/v09_final_status.json",
+      "path": "reports/quality/v09_final_status.json",
+      "size": 991,
+      "sha256": "c5a6f1a42ec696e2d1ba1fdc44c930abbf78ef70b4f533f1860c93f1ac955bdf"
+    },
+    {
+      "file": "reports/quality/v10_final_status.json",
+      "path": "reports/quality/v10_final_status.json",
+      "size": 826,
+      "sha256": "5b5d2a875ceccacc2d8400db5e7afa6f9ddfec7f20e360605c3b84c28a119798"
+    },
+    {
+      "file": "reports/quality/v11_final_status.json",
+      "path": "reports/quality/v11_final_status.json",
+      "size": 1147,
+      "sha256": "0696c285b3fa3f6a9562608b54d8dfae371476b8f50e008868d2d7fea674f0b9"
+    },
+    {
+      "file": "reports/update/csi300_historical_price_diff.json",
+      "path": "reports/update/csi300_historical_price_diff.json",
+      "size": 263,
+      "sha256": "f10108f68136f38793719b20230a56a3b88041a96148b9076ca8497046064c95"
+    },
+    {
+      "file": "reports/update/csi300_master_diff.json",
+      "path": "reports/update/csi300_master_diff.json",
+      "size": 246,
+      "sha256": "dd83488489b8a0806fc570451c6d954e153d7917ec8874b14ea20d2f24fe99d2"
+    },
+    {
+      "file": "reports/update/csi300_membership_diff.json",
+      "path": "reports/update/csi300_membership_diff.json",
+      "size": 294,
+      "sha256": "0eeb328b95ff1f4cff2f74a067390519568e9324ff52f2c1711271b5d92f6a47"
+    },
+    {
+      "file": "reports/update/csi300_membership_event_diff.json",
+      "path": "reports/update/csi300_membership_event_diff.json",
+      "size": 254,
+      "sha256": "61618b4c740742b7db997390ddb1ba70efd9df67e2d6877f78fd5d35a9cdf3cf"
+    },
+    {
+      "file": "reports/update/csi300_official_access_diff.json",
+      "path": "reports/update/csi300_official_access_diff.json",
+      "size": 336,
+      "sha256": "c293bb32ddd8adfcf69b0d16273d1245557e72cdfbb6603141231382f77d7b88"
+    },
+    {
+      "file": "reports/update/csi300_official_constituent_diff.json",
+      "path": "reports/update/csi300_official_constituent_diff.json",
+      "size": 255,
+      "sha256": "8a3dbd94f65a40209d716c2d1da3269599b0df37a9d585fa6f72be18c5e976e4"
+    },
+    {
+      "file": "reports/update/csi300_pit_diff.json",
+      "path": "reports/update/csi300_pit_diff.json",
+      "size": 355,
+      "sha256": "11cd110948b74b074848770da9ad7f7b6df58e714bf5728f8c013f4b128857c1"
+    },
+    {
+      "file": "reports/update/csi300_point_in_time_diff.json",
+      "path": "reports/update/csi300_point_in_time_diff.json",
+      "size": 222,
+      "sha256": "5201ad2b4ac64ee4f4b201859d83638cb760249fd834f639fb83f5b7935d2216"
+    },
+    {
+      "file": "reports/update/csi300_price_diff.json",
+      "path": "reports/update/csi300_price_diff.json",
+      "size": 250,
+      "sha256": "fecac6c5d8a784e90b11e553557cb94a007c6e00e6759fc238f6e0efd6084170"
+    },
+    {
+      "file": "reports/update/csi300_price_provider_diff.json",
+      "path": "reports/update/csi300_price_provider_diff.json",
+      "size": 356,
+      "sha256": "45626a607a193e749f3fc2864d37299259467f84d65dd78866adfa0cc5198fb6"
+    },
+    {
+      "file": "reports/update/csi300_price_provider_reconciliation.json",
+      "path": "reports/update/csi300_price_provider_reconciliation.json",
+      "size": 182,
+      "sha256": "4b43b35716ad564ad4a1940d0efeb15090ce57f72f0f5d70b9b14ea2df9f27f6"
+    },
+    {
+      "file": "reports/update/csi300_published_diff.json",
+      "path": "reports/update/csi300_published_diff.json",
+      "size": 248,
+      "sha256": "aaded5493f89439f640abbb8b15a63a38891963fe46e9f93c4fa60cc0555ff97"
+    },
+    {
+      "file": "reports/update/index_daily_data_diff.json",
+      "path": "reports/update/index_daily_data_diff.json",
+      "size": 287,
+      "sha256": "eebbb38a48d598622e07c97d398a7ff63c09a15930c06fc20ae0d1d2d4a9c7a1"
+    },
+    {
+      "file": "reports/update/index_master_diff.json",
+      "path": "reports/update/index_master_diff.json",
+      "size": 333,
+      "sha256": "ddea9f5cd4ecc3d34eacd1f47a0c607e1e3fc0ab45d8afcd315870d6023aab22"
+    },
+    {
+      "file": "reports/update/index_published_diff.json",
+      "path": "reports/update/index_published_diff.json",
+      "size": 284,
+      "sha256": "9002c6dcf49e4dcf9794574b5596b538ef2c63c0ae987678c33086bf2038a5de"
+    },
+    {
+      "file": "scripts/acquisition_state.py",
+      "path": "scripts/acquisition_state.py",
+      "size": 421,
+      "sha256": "d4633886eb5017ce9e80b6d9449a36f87f1997ec28328604d034a95724ef1aa6"
+    },
+    {
+      "file": "scripts/analysis/csi300_historical_join.py",
+      "path": "scripts/analysis/csi300_historical_join.py",
+      "size": 4015,
+      "sha256": "9ccd3b59e49d14a456317fa46fedcd78461f4d36f888abd6015b1c112562e394"
+    },
+    {
+      "file": "scripts/analysis/csi300_v11_events.py",
+      "path": "scripts/analysis/csi300_v11_events.py",
+      "size": 8532,
+      "sha256": "9896750082db66f2fbfad140d181637a1c854fe954eb0465d144b7705a6843ec"
+    },
+    {
+      "file": "scripts/analysis/membership_events.py",
+      "path": "scripts/analysis/membership_events.py",
+      "size": 2300,
+      "sha256": "35a3ffa7994682750c850e6232b3bab98851c9527a84f2addc644c9915e00cda"
+    },
+    {
+      "file": "scripts/analysis/point_in_time.py",
+      "path": "scripts/analysis/point_in_time.py",
+      "size": 1032,
+      "sha256": "5df479c1fdf53e6fb091ccb2c6af208939d5cb84210e3f99213d712be8b743fb"
+    },
+    {
+      "file": "scripts/analysis_point_in_time_tmp.py",
+      "path": "scripts/analysis_point_in_time_tmp.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/diagnostics/__init__.py",
+      "path": "scripts/diagnostics/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/diagnostics/content_probe.py",
+      "path": "scripts/diagnostics/content_probe.py",
+      "size": 760,
+      "sha256": "cf3fee0e02290e52517f91bd714545579bc76c8ac9d1817a68f22f0ab6e6b047"
+    },
+    {
+      "file": "scripts/diagnostics/dns_probe.py",
+      "path": "scripts/diagnostics/dns_probe.py",
+      "size": 703,
+      "sha256": "57d9c7737cd967f13057fc2e9e72119694df542720196149ae896a9a8a886428"
+    },
+    {
+      "file": "scripts/diagnostics/http_probe.py",
+      "path": "scripts/diagnostics/http_probe.py",
+      "size": 2315,
+      "sha256": "4a8a9c9b3972fbbe4adcc8845eed10aaa03f31ad504290534c1c076a48d66493"
+    },
+    {
+      "file": "scripts/diagnostics/network_probe.py",
+      "path": "scripts/diagnostics/network_probe.py",
+      "size": 1249,
+      "sha256": "309b7d89abc7dbe43d0287df69d26a05da8a2fabc2409024abfb86bc07946a6d"
+    },
+    {
+      "file": "scripts/fetch/official/__init__.py",
+      "path": "scripts/fetch/official/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/fetch/official/common.py",
+      "path": "scripts/fetch/official/common.py",
+      "size": 3207,
+      "sha256": "5e34e22e16c8f77624344ee8cacf844f5f012991e6c47a858afd07d0e74d7a9d"
+    },
+    {
+      "file": "scripts/fetch/official/company_disclosures.py",
+      "path": "scripts/fetch/official/company_disclosures.py",
+      "size": 724,
+      "sha256": "1486fc0b7f8a6b6e0b1ce011b58aa1857a450d8c5384a9fe899217c63d67e8d7"
+    },
+    {
+      "file": "scripts/fetch/official/csi_constituents.py",
+      "path": "scripts/fetch/official/csi_constituents.py",
+      "size": 856,
+      "sha256": "0e6280f677dd6e2649e6981fe0f2d0c57de133ac7a5b470c7fba30ecb0b3981e"
+    },
+    {
+      "file": "scripts/fetch/official/sse_eod.py",
+      "path": "scripts/fetch/official/sse_eod.py",
+      "size": 982,
+      "sha256": "0ec5db8b5192a15b230e0bddf4ae2ab1c3ea4e98dcd91808a1ab829701ad807a"
+    },
+    {
+      "file": "scripts/fetch/official/szse_eod.py",
+      "path": "scripts/fetch/official/szse_eod.py",
+      "size": 938,
+      "sha256": "3cdea5ecdc368777a63d0d08b38607c134c9032b422ac34db05836115d67c8c1"
+    },
+    {
+      "file": "scripts/ingest/__init__.py",
+      "path": "scripts/ingest/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/ingest_market_data.py",
+      "path": "scripts/ingest_market_data.py",
+      "size": 4523,
+      "sha256": "0574b9a89cd3814fc48ffe317bb67b7d871b3f97d942e8687e84152ec30a506b"
+    },
+    {
+      "file": "scripts/ingest_official.py",
+      "path": "scripts/ingest_official.py",
+      "size": 1682,
+      "sha256": "5aebb18e74ba4cdf3d92007f4795ae9b7a59d1b46242e86a3712b9d3ab973888"
+    },
+    {
+      "file": "scripts/normalize/__init__.py",
+      "path": "scripts/normalize/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/parse/__init__.py",
+      "path": "scripts/parse/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "scripts/parse/csi_constituents_parser.py",
+      "path": "scripts/parse/csi_constituents_parser.py",
+      "size": 4656,
+      "sha256": "92d07d9ce96d4935d1d83772ac9cb883effcec454df9374e02692f6fca255bdb"
+    },
+    {
+      "file": "scripts/providers/__init__.py",
+      "path": "scripts/providers/__init__.py",
+      "size": 81,
+      "sha256": "7db70b4e5ec53baa99f8292a8407363b744561c8644cf509feef0249b10699a7"
+    },
+    {
+      "file": "scripts/providers/base.py",
+      "path": "scripts/providers/base.py",
+      "size": 527,
+      "sha256": "b4219c396ffc6a2347acfb2c689c40c6cd758e6c7d7e5e378a018e12b41b4a1b"
+    },
+    {
+      "file": "scripts/providers/manual_file.py",
+      "path": "scripts/providers/manual_file.py",
+      "size": 5625,
+      "sha256": "1ca440a9859ca6a5fd4b4d0bd952a5e6f4c47d6c4997c018e14c6c435412f115"
+    },
+    {
+      "file": "scripts/providers/market_schema.py",
+      "path": "scripts/providers/market_schema.py",
+      "size": 265,
+      "sha256": "9cd5374cb4ade35c6ab14a596c3c8fd0c946d4ef81c24b93d9ed60468b92fb54"
+    },
+    {
+      "file": "scripts/providers/price_quality.py",
+      "path": "scripts/providers/price_quality.py",
+      "size": 619,
+      "sha256": "ac5d014d74da758f2ac5032d5adc3a0e19c9934eae81f5d89cab741196577107"
+    },
+    {
+      "file": "scripts/providers/provider_registry.py",
+      "path": "scripts/providers/provider_registry.py",
+      "size": 293,
+      "sha256": "f3d231da528b6b0321a206bd918990933f4d01192f73ca1fd09b04796c166a8c"
+    },
+    {
+      "file": "scripts/providers/reconciliation.py",
+      "path": "scripts/providers/reconciliation.py",
+      "size": 1085,
+      "sha256": "71d0a300cd565e6e669ea2d95cbd9f73525ca09f5e6da33ff12bf6c737c62fee"
+    },
+    {
+      "file": "scripts/publish/publish_v09_batch.py",
+      "path": "scripts/publish/publish_v09_batch.py",
+      "size": 9012,
+      "sha256": "4eb47e0b46807c4d6f2277bfca8a36381ab8d05804d997d3fe843ad7ec6e5596"
+    },
+    {
+      "file": "scripts/publish_v10.py",
+      "path": "scripts/publish_v10.py",
+      "size": 8064,
+      "sha256": "9c043b9e5b12ab1f6215b297c67cd1b22e50cc5d1bac07ae282076fb84194d55"
+    },
+    {
+      "file": "scripts/publish_v11.py",
+      "path": "scripts/publish_v11.py",
+      "size": 10212,
+      "sha256": "b6d7f19565da2c0cec0b6f6af0b4f2370b0e621f330c84cfcf29a1922ecc2802"
+    },
+    {
+      "file": "scripts/run_pipeline.py",
+      "path": "scripts/run_pipeline.py",
+      "size": 1725,
+      "sha256": "7e7e3de208edef5db720b0cd7d5203f0ead8f677ad7ec502a6d24db2726db735"
+    },
+    {
+      "file": "scripts/run_pipeline_v10.py",
+      "path": "scripts/run_pipeline_v10.py",
+      "size": 466,
+      "sha256": "1b53072bb97ad66b00aa81f62b62c02b364905c70942dd662c6d0bc7c125b0e7"
+    },
+    {
+      "file": "scripts/run_pipeline_v11.py",
+      "path": "scripts/run_pipeline_v11.py",
+      "size": 562,
+      "sha256": "68d3c6ee0a0dbf7f4bee101b2f2c6e3c4856b935d6da8ee82e5aeaae871cc8f3"
+    },
+    {
+      "file": "scripts/v07_official.py",
+      "path": "scripts/v07_official.py",
+      "size": 11140,
+      "sha256": "a038517b45e604131e257991c42b78c392da266619ae1e4355bc831dac4927a8"
+    },
+    {
+      "file": "scripts/validate/validate_csi300.py",
+      "path": "scripts/validate/validate_csi300.py",
+      "size": 644,
+      "sha256": "fe98f25dd8367cfc9d490e6f77ca63e49c20b322bf31dee6d248dba7d4fb8b58"
+    },
+    {
+      "file": "tests/fixtures/csi300_parser_fixture.xlsx",
+      "path": "tests/fixtures/csi300_parser_fixture.xlsx",
+      "size": 11100,
+      "sha256": "e2bfe292c633a2f2a5285ca2b969a0e999dcd2f1338c104de2bb5a081182f56d"
+    },
+    {
+      "file": "tests/fixtures/market/bad_ohlc.csv",
+      "path": "tests/fixtures/market/bad_ohlc.csv",
+      "size": 98,
+      "sha256": "7d1e417138e0175bad1e70f6dd5f70c65a3d756555fac78e353d1b24277e1746"
+    },
+    {
+      "file": "tests/fixtures/market/bad_volume.csv",
+      "path": "tests/fixtures/market/bad_volume.csv",
+      "size": 99,
+      "sha256": "7cec1fef92df285e46d2ac7957853b924717592b27d76f477aa392fc1a08a11e"
+    },
+    {
+      "file": "tests/fixtures/market/duplicate.csv",
+      "path": "tests/fixtures/market/duplicate.csv",
+      "size": 142,
+      "sha256": "7bf5ca5d7f910bde5a996161bd40f6aac4c9f7756cbeca7bc20f2ea9c0a70891"
+    },
+    {
+      "file": "tests/fixtures/market/future.csv",
+      "path": "tests/fixtures/market/future.csv",
+      "size": 212,
+      "sha256": "984c99f58c40b9181d6d39f920a6872d0221c58cd325d88cbfbc9440beea19e3"
+    },
+    {
+      "file": "tests/fixtures/market/sample.csv",
+      "path": "tests/fixtures/market/sample.csv",
+      "size": 212,
+      "sha256": "07b08ac03c547c6741763057fda4e5173d622327793781f773846800e0540966"
+    },
+    {
+      "file": "tests/fixtures/market/sample.json",
+      "path": "tests/fixtures/market/sample.json",
+      "size": 415,
+      "sha256": "9039abf6ee2a493894c620efc565d6f74caf5551f67c25d48fa77f35577e048e"
+    },
+    {
+      "file": "tests/fixtures/market/sample.xlsx",
+      "path": "tests/fixtures/market/sample.xlsx",
+      "size": 5042,
+      "sha256": "fb7670b450c21ce26d344a1ba70371f9c6367c89d187f1d6fc2b32ff447afab8"
+    },
+    {
+      "file": "tests/fixtures/xls/csi300_parser_fixture.xls",
+      "path": "tests/fixtures/xls/csi300_parser_fixture.xls",
+      "size": 39424,
+      "sha256": "d406b1ffb25d660f8d7389624801e7f4194e60c66e3e68e17b76a55333410edf"
+    },
+    {
+      "file": "tests/test_csi300.py",
+      "path": "tests/test_csi300.py",
+      "size": 1559,
+      "sha256": "5fcdd24112ce76e0d335e8df7fa7c5eca568bd75d4a714a948606c57612bc745"
+    },
+    {
+      "file": "tests/test_csi_official_parser.py",
+      "path": "tests/test_csi_official_parser.py",
+      "size": 1268,
+      "sha256": "33ba00f3b03cf2a3ea840f2a547df8049bc7bd70bd8e7d4344b03aab142bf760"
+    },
+    {
+      "file": "tests/test_v05_access_layer.py",
+      "path": "tests/test_v05_access_layer.py",
+      "size": 1347,
+      "sha256": "6034ceb529fcf3a9bc47e13611e7d6d053fd5e2b8eff09e1f0724d1ac6a6fb29"
+    },
+    {
+      "file": "tests/test_v06_ingestion_bridge.py",
+      "path": "tests/test_v06_ingestion_bridge.py",
+      "size": 2754,
+      "sha256": "aab41f2723bff2436203899c333c672b70338c37bb1f81ac3d85606afb5eefe7"
+    },
+    {
+      "file": "tests/test_v07_real_official.py",
+      "path": "tests/test_v07_real_official.py",
+      "size": 3874,
+      "sha256": "031097bd6c685523e2127f747cca60b02047fe30cbc885278d40528dc0af13e2"
+    },
+    {
+      "file": "tests/test_v08_market_provider.py",
+      "path": "tests/test_v08_market_provider.py",
+      "size": 4568,
+      "sha256": "3133ba428c98978cbe8612672b5d8ad81496ca085b0f796e63465248ef927f7d"
+    },
+    {
+      "file": "tests/test_v09_real_batch.py",
+      "path": "tests/test_v09_real_batch.py",
+      "size": 4251,
+      "sha256": "725f77c205b06929b86016b3bfc9d969901b86227878da90cb7a21c30a7e2534"
+    },
+    {
+      "file": "tests/test_v10_point_in_time.py",
+      "path": "tests/test_v10_point_in_time.py",
+      "size": 5169,
+      "sha256": "b0bb594abc145c85a2c0becb0695a6973cd78b1e37b131beb817004db79b789f"
+    },
+    {
+      "file": "tests/test_v11_events.py",
+      "path": "tests/test_v11_events.py",
+      "size": 5040,
+      "sha256": "98b7024da256297fab879b86827448a55627a569e1b74a52aaa059754fe0e7ed"
+    }
+  ]
+}

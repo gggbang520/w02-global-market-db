@@ -1,0 +1,13 @@
+{
+  "comparison": "V1.1_vs_V1.3",
+  "previous_rows": 204,
+  "current_rows": 204,
+  "NEW": 0,
+  "REMOVED": 0,
+  "MATCH": 0,
+  "CHANGED": 204,
+  "CONFLICT": 0,
+  "change_note": "V1.3 membership event/snapshot provenance is upgraded, while the two-date business join remains unchanged and PIT remains PARTIAL.",
+  "data_version": "DATA-2026-W39",
+  "software_version": "1.3.0"
+}
