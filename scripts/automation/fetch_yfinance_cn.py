@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-from common import load_csi300_listings, yahoo_symbol
+from common import ROOT, load_csi300_listings, yahoo_symbol
 
 SOURCE_ID = "SRC-YAHOO-YFINANCE"
 
@@ -50,7 +50,6 @@ def main():
             level0 = set(df.columns.get_level_values(0))
             fields = {"Open","High","Low","Close","Adj Close","Volume"}
 
-            # Expected yfinance layout: field -> ticker
             if level0.intersection(fields):
                 tickers = sorted(set(df.columns.get_level_values(1)))
                 for sym in tickers:
@@ -84,8 +83,8 @@ def main():
     if not out.empty:
         out = out.drop_duplicates(["ticker","exchange","trade_date"]).sort_values(["trade_date","exchange","ticker"])
 
-    dest = Path("data/raw/inbox/market")
-    meta = Path("data/raw/_metadata")
+    dest = ROOT / "data/raw/inbox/market"
+    meta = ROOT / "data/raw/_metadata"
     dest.mkdir(parents=True, exist_ok=True)
     meta.mkdir(parents=True, exist_ok=True)
 
