@@ -66,7 +66,7 @@ def intervals_for(df, start, end):
     return out
 
 
-def allowed(intervals, exchange, ticker, dt):
+def membership_allows(intervals, exchange, ticker, dt):
     return any(s <= dt and (e is None or dt <= e)
                for s, e in intervals.get((exchange, ticker), []))
 
@@ -209,7 +209,7 @@ def main():
             raise RuntimeError(f"{q}: zero Yahoo rows")
 
         prices["dt"] = pd.to_datetime(prices["trade_date"]).dt.date
-        mask = [allowed(intervals, "XSHG" if s.endswith(".SS") else "XSHE", s[:6], d)
+        mask = [membership_allows(intervals, "XSHG" if s.endswith(".SS") else "XSHE", s[:6], d)
                 for s, d in zip(prices["yahoo_symbol"], prices["dt"])]
         prices = prices.loc[mask].drop(columns=["dt"]).drop_duplicates(["ticker", "trade_date"])
 
