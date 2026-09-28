@@ -57,7 +57,11 @@ def test_real_batch_provider_missing_record():
     assert reconcile(a,b)['missing_b']==1
 
 def test_real_batch_sha256_recorded():
-    d=hashlib.sha256(REAL.read_bytes()).hexdigest(); r=list((ROOT/'reports/ingestion').glob(f'CSI300_EOD__{SOURCE}__*receipt.json')); assert r; assert json.loads(r[-1].read_text())['sha256']==d
+    d=hashlib.sha256(REAL.read_bytes()).hexdigest()
+    r=list((ROOT/'reports/ingestion').glob(f'CSI300_EOD__{SOURCE}__*receipt.json'))
+    assert r
+    receipt=json.loads(r[-1].read_text())
+    assert receipt.get('repository_sha256', receipt.get('sha256'))==d
 
 def test_real_batch_import_receipt():
     p=list((ROOT/'reports/ingestion').glob(f'CSI300_EOD__{SOURCE}__*receipt.json')); d=json.loads(p[-1].read_text()); assert d['raw_rows']==204 and d['valid_rows']==204 and d['publish_gate']=='PASS'
