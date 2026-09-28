@@ -1,0 +1,17 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "dataset": "stock_daily",
+  "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2021-01-28_2021-01-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+  "records": 204,
+  "distinct_listings": 102,
+  "distinct_trade_dates": 2,
+  "trade_date_min": "2021-01-28",
+  "trade_date_max": "2021-01-29",
+  "dedup_key": [
+    "listing_id",
+    "trade_date",
+    "source_id",
+    "price_type"
+  ],
+  "status": "SUCCESS"
+}
