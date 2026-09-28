@@ -1,19 +1,21 @@
 {
   "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "source_origin": "AUTO_PROVIDER",
   "dataset": "stock_daily",
-  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2020-01-01_2020-03-31__20260928T121935Z.csv",
-  "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2020-01-02_2020-03-31__SRC-GITHUB-TUSHARE-ARCHIVE.json",
-  "input_rows": 15049,
-  "records": 15049,
-  "distinct_listings": 260,
+  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-01-01_2019-03-31__20260928T130455Z.csv",
+  "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2019-01-02_2019-03-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
+  "input_rows": 16665,
+  "records": 16665,
+  "distinct_listings": 288,
   "distinct_trade_dates": 58,
-  "trade_date_min": "2020-01-02",
-  "trade_date_max": "2020-03-31",
+  "trade_date_min": "2019-01-02",
+  "trade_date_max": "2019-03-29",
   "dedup_key": [
     "listing_id",
     "trade_date",
     "source_id",
     "price_type"
   ],
+  "synthetic_historical_identity": true,
   "status": "SUCCESS"
 }

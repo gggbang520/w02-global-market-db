@@ -1,11 +1,11 @@
 {
   "status": "SUCCESS",
   "source_directory": "data/standardized/stocks",
-  "source_files": 17856,
-  "source_records": 17856,
-  "compacted_records": 17856,
+  "source_files": 16665,
+  "source_records": 16665,
+  "compacted_records": 16665,
   "dedupe_removed": 0,
-  "partition_count": 6,
+  "partition_count": 3,
   "partition_root": "data/standardized/partitions",
   "dedupe_key": [
     "listing_id",
@@ -16,46 +16,25 @@
   "raw_and_history_preserved": true,
   "partitions": [
     {
-      "file": "data/standardized/partitions/2020/01/SRC-MANUAL-FILE/stock_daily.jsonl",
-      "records": 4159,
-      "year": "2020",
-      "month": "01",
-      "source_id": "SRC-MANUAL-FILE"
-    },
-    {
-      "file": "data/standardized/partitions/2020/02/SRC-MANUAL-FILE/stock_daily.jsonl",
-      "records": 5200,
-      "year": "2020",
-      "month": "02",
-      "source_id": "SRC-MANUAL-FILE"
-    },
-    {
-      "file": "data/standardized/partitions/2020/03/SRC-MANUAL-FILE/stock_daily.jsonl",
-      "records": 5690,
-      "year": "2020",
-      "month": "03",
-      "source_id": "SRC-MANUAL-FILE"
-    },
-    {
-      "file": "data/standardized/partitions/2021/01/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-      "records": 204,
-      "year": "2021",
+      "file": "data/standardized/partitions/2019/01/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
+      "records": 6325,
+      "year": "2019",
       "month": "01",
       "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     },
     {
-      "file": "data/standardized/partitions/2021/01/SRC-MANUAL-FILE/stock_daily.jsonl",
-      "records": 2599,
-      "year": "2021",
-      "month": "01",
-      "source_id": "SRC-MANUAL-FILE"
+      "file": "data/standardized/partitions/2019/02/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
+      "records": 4313,
+      "year": "2019",
+      "month": "02",
+      "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     },
     {
-      "file": "data/standardized/partitions/2026/09/SRC-INVESTING-CN-STOCK/stock_daily.jsonl",
-      "records": 4,
-      "year": "2026",
-      "month": "09",
-      "source_id": "SRC-INVESTING-CN-STOCK"
+      "file": "data/standardized/partitions/2019/03/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
+      "records": 6027,
+      "year": "2019",
+      "month": "03",
+      "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE"
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
+  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-01-01_2019-03-31__20260928T130455Z.csv",
+  "sha256": "bdce28e464d8a5ff7a56afc0e44b377445c487b9cafe0ebdfa0c86045e556879",
+  "input_size": 1467648,
+  "input_origin": "AUTO_PROVIDER",
+  "dataset": "stock_daily",
+  "trade_date_min": "2019-01-02",
+  "trade_date_max": "2019-03-29",
+  "raw_rows": 16665,
+  "parsed_rows": 16665,
+  "valid_rows": 16665,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "review_rows": 0,
+  "synthetic_historical_identity": true,
+  "publish_gate": "PASS",
+  "status": "SUCCESS",
+  "retrieved_at": "2026-09-28T13:04:56Z"
+}
