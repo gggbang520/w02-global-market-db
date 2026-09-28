@@ -64,7 +64,7 @@ def main():
         "source_id": SOURCE,
         "source_origin": "AUTO_PROVIDER",
         "dataset": "stock_daily",
-        "input_file": str(raw_path.relative_to(ROOT)),
+        "input_file": str(raw_path.relative_to(ROOT)) if raw_path.is_relative_to(ROOT) else str(raw_path),
         "history_file": str(out.relative_to(ROOT)),
         "input_rows": len(raw),
         "records": len(records),
