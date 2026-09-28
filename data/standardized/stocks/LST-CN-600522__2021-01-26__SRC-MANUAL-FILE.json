@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-600522",
+  "security_id": "SEC-CN-600522",
+  "ticker": "600522",
+  "exchange_mic": "XSHG",
+  "normalized_ticker": "CN-XSHG-600522",
+  "trade_date": "2021-01-26",
+  "open": 10.761,
+  "high": 10.9491,
+  "low": 10.5927,
+  "close": 10.6125,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 344762.71,
+  "turnover": 374490.634,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

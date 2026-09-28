@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-300408",
+  "security_id": "SEC-CN-300408",
+  "ticker": "300408",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-300408",
+  "trade_date": "2021-01-26",
+  "open": 42.75,
+  "high": 42.8,
+  "low": 40.6,
+  "close": 40.75,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 224361.5,
+  "turnover": 932691.682,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

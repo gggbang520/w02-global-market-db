@@ -1,0 +1,23 @@
+{
+  "listing_id": "LST-CN-001979",
+  "security_id": "SEC-CN-001979",
+  "ticker": "001979",
+  "exchange_mic": "XSHE",
+  "normalized_ticker": "CN-XSHE-001979",
+  "trade_date": "2021-01-20",
+  "open": 13.59,
+  "high": 13.65,
+  "low": 13.23,
+  "close": 13.3,
+  "adjusted_close": null,
+  "price_type": "ADJUSTED_CLOSE",
+  "volume": 181611.64,
+  "turnover": 242543.144,
+  "currency": "CNY",
+  "source_id": "SRC-MANUAL-FILE",
+  "source_origin": "MANUAL_FILE",
+  "identity_status": "MAPPED",
+  "data_quality_status": "SOURCE_CONFIRMED",
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+}

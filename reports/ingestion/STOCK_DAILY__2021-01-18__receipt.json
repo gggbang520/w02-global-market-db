@@ -1,0 +1,19 @@
+{
+  "source_id": "SRC-MANUAL-FILE",
+  "input_file": "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T114750Z.csv",
+  "sha256": "a0ba5c898c456ba752cfee797ff9c9fe3a2c7d817e45e99e4e1440ffd1e3cf5e",
+  "input_size": 215111,
+  "input_origin": "MANUAL",
+  "dataset": "stock_daily",
+  "trade_date_min": "2021-01-18",
+  "trade_date_max": "2021-01-29",
+  "raw_rows": 2599,
+  "parsed_rows": 2599,
+  "valid_rows": 2599,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "review_rows": 0,
+  "publish_gate": "PASS",
+  "status": "SUCCESS",
+  "retrieved_at": "2026-09-28T11:47:50Z"
+}
