@@ -1,0 +1,56 @@
+name: W02 Normalize 2019 Historical Partitions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Move 2019 partitions to canonical layout
+        run: |
+          set -e
+          mkdir -p data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019
+          for m in 01 02 03; do
+            src="data/standardized/partitions/2019/${m}/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl"
+            dst="data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019/${m}/stock_daily.jsonl"
+            if [ -f "$src" ]; then
+              mkdir -p "$(dirname "$dst")"
+              mv "$src" "$dst"
+            fi
+          done
+          find data/standardized/partitions/2019 -type d -empty -delete || true
+          echo 'Canonical 2019 partition layout:'
+          find data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019 -type f -name stock_daily.jsonl -print | sort
+      - name: Verify partition counts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root=Path('data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2019')
+          expected={'01':6325,'02':4313,'03':6027}
+          for m,n in expected.items():
+              p=root/m/'stock_daily.jsonl'
+              assert p.exists(), f'Missing {p}'
+              count=sum(1 for _ in p.open(encoding='utf-8'))
+              assert count==n, (p,count,n)
+              print(m, count)
+          print('2019 partition verification = PASS')
+          PY
+      - name: Commit canonical layout
+        run: |
+          git config user.name 'W02 Data Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/standardized/partitions
+          if git diff --cached --quiet; then
+            echo 'No partition layout changes.'
+            exit 0
+          fi
+          git commit -m 'fix: normalize 2019 historical partition layout'
+          git push
