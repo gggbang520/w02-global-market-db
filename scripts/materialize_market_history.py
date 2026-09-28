@@ -1,9 +1,12 @@
 from __future__ import annotations
 import json
+import sys
 from collections import OrderedDict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 SOURCE = "SRC-GITHUB-TUSHARE-ARCHIVE"
 DEST_DIR = ROOT / "data/history/DATA-2026-W39/stocks"
 
