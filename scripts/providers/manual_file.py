@@ -74,7 +74,7 @@ def _exchange(ticker, supplied=None):
         aliases={'SH':'XSHG','SSE':'XSHG','XSHG':'XSHG','SZ':'XSHE','SZSE':'XSHE','XSHE':'XSHE'}
         if s in aliases: return aliases[s]
     if ticker.startswith(('600','601','603','605','688')): return 'XSHG'
-    if ticker.startswith(('000','001','002','003','300','301')): return 'XSHE'
+    if ticker.startswith(('000','001','002','003','300','301','302')): return 'XSHE'
     return None
 
 class ManualFileProvider(MarketDataProvider):
