@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "scripts/automation/build_global_index_weekly.py"
+      - "scripts/automation/build_global_index_current.py"
       - "tests/test_global_index_weekly.py"
       - "data/standardized/index_master.json"
   workflow_dispatch:
