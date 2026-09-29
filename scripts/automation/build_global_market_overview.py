@@ -23,13 +23,44 @@ def main():
     performance = load(PERFORMANCE) if PERFORMANCE.exists() else {}
     regional = load(REGIONAL) if REGIONAL.exists() else {}
 
+    performance_records = performance.get("records", []) if isinstance(performance, dict) else []
+    performance_map = {
+        record.get("index_id"): record
+        for record in performance_records
+        if isinstance(record, dict) and record.get("index_id")
+    }
+
+    snapshot_records = snapshot.get("indices", []) if isinstance(snapshot, dict) else []
+    merged_indices = []
+
+    for item in snapshot_records:
+        if not isinstance(item, dict):
+            continue
+
+        index_id = item.get("index_id")
+        merged = dict(item)
+        performance_item = performance_map.get(index_id, {})
+
+        for field in [
+            "daily_change_pct",
+            "monthly_change_pct",
+            "ytd_change_pct",
+            "close",
+            "latest_trade_date",
+            "records_available",
+        ]:
+            if performance_item.get(field) is not None:
+                merged[field] = performance_item[field]
+
+        merged_indices.append(merged)
+
     output = {
         "version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_id": "SRC-DERIVED-GLOBAL-MARKET-OVERVIEW",
         "source_origin": "DERIVED_FROM_SNAPSHOT_PERFORMANCE_REGIONAL",
-        "snapshot": snapshot,
-        "performance": performance,
+        "index_count": len(merged_indices),
+        "indices": merged_indices,
         "regional_strength": regional,
     }
 
