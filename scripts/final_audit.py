@@ -119,11 +119,16 @@ def main():
 
             # Duplicate logical observations across history batches of the SAME source.
             for r in records:
-                listing = r.get("listing_id") or f"{r.get('exchange_mic')}:{r.get('ticker')}"
+                entity = (
+                    r.get("listing_id")
+                    or r.get("index_id")
+                    or r.get("security_id")
+                    or f"{r.get('exchange_mic')}:{r.get('ticker')}"
+                )
                 dt = r.get("trade_date")
                 price_type = r.get("price_type")
-                if listing and dt:
-                    key = (source_id, listing, dt, price_type)
+                if entity and dt:
+                    key = (source_id, entity, dt, price_type)
                     if key in seen_keys:
                         overlap_count += 1
                         if len(overlap_samples) < 50:
