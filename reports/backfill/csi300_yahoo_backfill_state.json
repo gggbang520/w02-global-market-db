@@ -291,7 +291,7 @@
     },
     "2024Q1": {
       "quarter": "2024Q1",
-      "status": "SUCCESS",
+      "status": "PARTIAL",
       "source_id": "SRC-YAHOO-YFINANCE",
       "source_origin": "AUTO_PROVIDER",
       "provider": "yfinance / Yahoo Finance",
@@ -308,10 +308,10 @@
       "download_failures": [],
       "license_gate": "REVIEW",
       "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-      "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2024-01-01_2024-03-31__20260929T005525Z.csv",
+      "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2024-01-01_2024-03-31__20260929T011847Z.csv",
       "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2024-01-01_2024-03-31__SRC-YAHOO-YFINANCE.json",
-      "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2024-01-01_2024-03-31__20260929T005525Z.csv",
-      "retrieved_at": "2026-09-29T00:55:26.256583+00:00",
+      "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2024-01-01_2024-03-31__20260929T011847Z.csv",
+      "retrieved_at": "2026-09-29T01:18:47.815007+00:00",
       "validation_invalid_rows": 65,
       "validation_duplicate_rows": 0,
       "validation_review_rows": 0,
@@ -598,5 +598,5 @@
       "validation_status": "PARTIAL"
     }
   },
-  "updated_at": "2026-09-29T01:03:30.593567+00:00"
+  "updated_at": "2026-09-29T01:18:47.815462+00:00"
 }
