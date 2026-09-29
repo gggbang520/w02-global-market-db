@@ -4,12 +4,12 @@
   "end_date": "2026-09-29",
   "indexes": {
     "CN-CS300": {
-      "status": "SUCCESS",
+      "status": "PARTIAL",
       "yahoo_symbol": "000300.SS",
       "records": 1,
       "invalid_rows": 0,
-      "trade_date_min": "2026-09-28",
-      "trade_date_max": "2026-09-28",
+      "trade_date_min": "2026-09-29",
+      "trade_date_max": "2026-09-29",
       "history_file": "data/history/DATA-2026-W39/indices/price_daily__CN-CS300__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
       "source_id": "SRC-YAHOO-INDEX",
       "declared_upstream_source": "China Securities Index Co., Ltd.",
@@ -17,16 +17,25 @@
       "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
     },
     "CN-SSE": {
-      "status": "ACCESS_OR_NO_DATA",
-      "yahoo_symbol": "^SSEC"
+      "status": "SUCCESS",
+      "yahoo_symbol": "000001.SS",
+      "records": 1877,
+      "invalid_rows": 0,
+      "trade_date_min": "2019-01-02",
+      "trade_date_max": "2026-09-29",
+      "history_file": "data/history/DATA-2026-W39/indices/price_daily__CN-SSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+      "source_id": "SRC-YAHOO-INDEX",
+      "declared_upstream_source": "Shanghai Stock Exchange",
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
     },
     "CN-SZSE": {
       "status": "SUCCESS",
       "yahoo_symbol": "399001.SZ",
-      "records": 1876,
+      "records": 1877,
       "invalid_rows": 0,
       "trade_date_min": "2019-01-02",
-      "trade_date_max": "2026-09-28",
+      "trade_date_max": "2026-09-29",
       "history_file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
       "source_id": "SRC-YAHOO-INDEX",
       "declared_upstream_source": "Shenzhen Stock Exchange",
@@ -177,16 +186,17 @@
       "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
     },
     "JP-TOPIX": {
-      "status": "ACCESS_OR_NO_DATA",
-      "yahoo_symbol": "^TOPX"
+      "status": "MANUAL_PENDING",
+      "reason": "official metadata registered; no Yahoo symbol used as proxy",
+      "official_index_code": null
     },
     "HK-HSI": {
       "status": "SUCCESS",
       "yahoo_symbol": "^HSI",
-      "records": 1904,
+      "records": 1905,
       "invalid_rows": 0,
       "trade_date_min": "2019-01-02",
-      "trade_date_max": "2026-09-28",
+      "trade_date_max": "2026-09-29",
       "history_file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
       "source_id": "SRC-YAHOO-INDEX",
       "declared_upstream_source": "Hang Seng Indexes Company Limited",
@@ -196,10 +206,10 @@
     "HK-HSCEI": {
       "status": "SUCCESS",
       "yahoo_symbol": "^HSCE",
-      "records": 1904,
+      "records": 1905,
       "invalid_rows": 0,
       "trade_date_min": "2019-01-02",
-      "trade_date_max": "2026-09-28",
+      "trade_date_max": "2026-09-29",
       "history_file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSCEI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
       "source_id": "SRC-YAHOO-INDEX",
       "declared_upstream_source": "Hang Seng Indexes Company Limited",
