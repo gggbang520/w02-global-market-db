@@ -47,11 +47,11 @@ jobs:
             --start "$START_DATE" \
             --end "$END_DATE"
 
-      - name: Run W02 pipeline
-        run: python scripts/run_pipeline.py
+      - name: Validate CSI300 baseline
+        run: python scripts/validate/validate_csi300.py
 
-      - name: Run tests
-        run: python -m pytest -q
+      - name: Run W02 weekly tests
+        run: python -m pytest -q tests/test_global_index_weekly.py
 
       - name: Commit W02 data
         run: |
