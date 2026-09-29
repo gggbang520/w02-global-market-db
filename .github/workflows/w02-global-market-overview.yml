@@ -8,6 +8,9 @@ on:
     types:
       - completed
 
+permissions:
+  contents: write
+
 jobs:
   build-overview:
     runs-on: ubuntu-latest
@@ -23,6 +26,9 @@ jobs:
 
       - name: Sync frontend data
         run: python scripts/automation/sync_dashboard_to_frontend.py
+
+      - name: Verify frontend data output
+        run: test -f frontend/public/data/global_market_overview.json
 
       - name: Commit report and frontend data
         run: |
