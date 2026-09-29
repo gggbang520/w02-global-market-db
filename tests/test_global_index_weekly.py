@@ -69,7 +69,7 @@ def test_weekly_change_and_ytd_use_prior_observation_and_prior_year_end():
             "index_name_en": "Test",
             "market": "Test",
             "currency": "USD",
-            "trade_date": "2024-12-30",
+            "trade_date": "2024-12-27",
             "open": 100,
             "high": 101,
             "low": 99,
