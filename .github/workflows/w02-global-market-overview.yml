@@ -21,10 +21,13 @@ jobs:
       - name: Build overview
         run: python scripts/automation/build_global_market_overview.py
 
-      - name: Commit report
+      - name: Sync frontend data
+        run: python scripts/automation/sync_dashboard_to_frontend.py
+
+      - name: Commit report and frontend data
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add reports/dashboard/global_market_overview.json
-          git commit -m "data: update global market overview" || echo "No changes"
+          git add reports/dashboard/global_market_overview.json frontend/public/data/global_market_overview.json
+          git commit -m "data: update global market overview frontend data" || echo "No changes"
           git push
