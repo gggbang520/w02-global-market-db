@@ -1,6 +1,10 @@
 name: W02 Global Index History
 
 on:
+  push:
+    paths:
+      - "data/standardized/index_master.json"
+      - "scripts/automation/fetch_global_index_history.py"
   workflow_dispatch:
     inputs:
       start_date:
