@@ -17,7 +17,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "CN-SSE",
@@ -28,7 +28,7 @@
     "currency": "CNY",
     "index_type": "EQUITY_INDEX",
     "weighting_method": "CAPITALIZATION",
-    "yahoo_symbol": "^SSEC",
+    "yahoo_symbol": "000001.SS",
     "declared_upstream_source": "Shanghai Stock Exchange",
     "declared_upstream_source_url": "https://english.sse.com.cn/",
     "source_id": "SRC-YAHOO-INDEX",
@@ -37,7 +37,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "CN-SZSE",
@@ -57,7 +57,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-SPX",
@@ -77,7 +77,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-NDX",
@@ -97,7 +97,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-COMP",
@@ -117,7 +117,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-DJIA",
@@ -137,7 +137,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-RUT",
@@ -157,7 +157,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "US-VIX",
@@ -177,7 +177,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "EU-SX5E",
@@ -197,7 +197,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "EU-DAX",
@@ -217,7 +217,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "EU-FTSE100",
@@ -237,7 +237,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "EU-CAC40",
@@ -257,7 +257,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "JP-N225",
@@ -277,7 +277,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "JP-TOPIX",
@@ -288,16 +288,17 @@
     "currency": "JPY",
     "index_type": "EQUITY_INDEX",
     "weighting_method": "FLOAT_ADJUSTED_MARKET_CAP",
-    "yahoo_symbol": "^TOPX",
+    "yahoo_symbol": null,
     "declared_upstream_source": "Japan Exchange Group / JPX",
     "declared_upstream_source_url": "https://www.jpx.co.jp/english/markets/indices/",
-    "source_id": "SRC-YAHOO-INDEX",
-    "source_origin": "AUTO_PROVIDER",
+    "source_id": "SRC-JPX-OFFICIAL",
+    "source_origin": "MANUAL/OFFICIAL_METADATA",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1",
+    "missing_reason": "Yahoo direct index history not returned; official JPX acquisition path pending"
   },
   {
     "index_id": "HK-HSI",
@@ -317,7 +318,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "HK-HSCEI",
@@ -337,7 +338,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "KR-KOSPI",
@@ -357,7 +358,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "IN-NIFTY50",
@@ -377,7 +378,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "IN-SENSEX",
@@ -397,7 +398,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "TW-TAIEX",
@@ -417,7 +418,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "AU-ASX200",
@@ -437,7 +438,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "SG-STI",
@@ -457,7 +458,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "GL-MSCI-WORLD",
@@ -478,7 +479,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   },
   {
     "index_id": "GL-MSCI-EM",
@@ -499,6 +500,6 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.0"
+    "index_layer_version": "GIDX-1.1"
   }
 ]
