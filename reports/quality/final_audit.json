@@ -9,12 +9,694 @@
     "exact_duplicate_groups": {}
   },
   "history": {
-    "batch_file_count": 33,
-    "batch_record_sum": 556691,
+    "batch_file_count": 54,
+    "batch_record_sum": 595275,
     "parse_failures": 0,
-    "same_source_logical_overlap_count": 0,
-    "overlap_samples": [],
+    "same_source_logical_overlap_count": 36563,
+    "overlap_samples": [
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2026-09-28",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-CS300__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-02",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-03",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-04",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-07",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-08",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-09",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-10",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-11",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-14",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-15",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-16",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-17",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-18",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-21",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-22",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-23",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-24",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-25",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-29",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-30",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-01-31",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-01",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-11",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-12",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-13",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-14",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-15",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-18",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-19",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-20",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-21",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-22",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-25",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-26",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-27",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-02-28",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-01",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-04",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-05",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-06",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-07",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-08",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-11",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-12",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-13",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-14",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-15",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-18",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      },
+      {
+        "key": [
+          "SRC-YAHOO-INDEX",
+          "None:None",
+          "2019-03-19",
+          "RAW_CLOSE"
+        ],
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json"
+      }
+    ],
     "batches": [
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__AU-ASX200__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1960,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1960,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1450814
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-CS300__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1,
+        "trade_date_min": "2026-09-28",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 752
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1876,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1876,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1408381
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__EU-CAC40__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1982,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1982,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1418200
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__EU-DAX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1968,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1968,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1414227
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__EU-FTSE100__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1954,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1954,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1423697
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__EU-SX5E__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-03",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1428087
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSCEI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1904,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1904,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1497827
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1904,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1904,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1435153
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__IN-NIFTY50__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1909,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1909,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1365093
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__IN-SENSEX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1905,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1905,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1343967
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__JP-N225__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1885,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1885,
+        "trade_date_min": "2019-01-04",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1358821
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__KR-KOSPI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1898,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1898,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1380927
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__SG-STI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1944,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1944,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1477471
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__TW-TAIEX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1877,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1877,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1381441
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-COMP__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1455930
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-DJIA__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1498388
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-NDX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1422631
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-RUT__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1445974
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-SPX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1945,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1945,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1443015
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__US-VIX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1947,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1947,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-28",
+        "size_bytes": 1426817
+      },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2019-01-02_2019-03-29__SRC-GITHUB-TUSHARE-ARCHIVE.json",
         "source_id": "SRC-GITHUB-TUSHARE-ARCHIVE",
@@ -388,6 +1070,14 @@
         "min_trade_date": "2019-01-02",
         "max_trade_date": "2021-01-29"
       },
+      "SRC-YAHOO-INDEX": {
+        "file_count": 21,
+        "record_count": 38584,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 2021,
+        "min_trade_date": "2019-01-02",
+        "max_trade_date": "2026-09-29"
+      },
       "SRC-YAHOO-YFINANCE": {
         "file_count": 23,
         "record_count": 408416,
@@ -407,7 +1097,7 @@
     }
   },
   "standardized": {
-    "source_count": 3,
+    "source_count": 4,
     "sources": {
       "SRC-GITHUB-TUSHARE-ARCHIVE": {
         "canonical_partition_count": 25,
@@ -524,6 +1214,12 @@
             "size_bytes": 2496
           }
         ],
+        "legacy_partition_file_count": 0,
+        "legacy_partition_files": []
+      },
+      "SRC-YAHOO-INDEX": {
+        "canonical_partition_count": 0,
+        "canonical_partitions": [],
         "legacy_partition_file_count": 0,
         "legacy_partition_files": []
       },
@@ -873,7 +1569,7 @@
     "state_present": true,
     "has_exact_duplicate_raw_files": false,
     "has_history_parse_failures": false,
-    "has_history_overlaps": false,
+    "has_history_overlaps": true,
     "has_legacy_standardized_files": false,
     "backfill_has_missing_quarters": false,
     "backfill_has_download_failure_quarters": false,
