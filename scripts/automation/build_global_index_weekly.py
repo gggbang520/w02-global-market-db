@@ -15,6 +15,7 @@ REPORT_PATH = ROOT / "reports/index/global_index_weekly_state.json"
 
 
 # Weekly layer consumes the canonical daily index history files and derives only week-level metrics.
+# CI entrypoint: the stable W02 weekly workflow owns persistence and push.
 
 def load_daily_records():
     rows = []
