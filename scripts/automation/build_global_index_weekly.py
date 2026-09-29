@@ -14,7 +14,9 @@ WEEKLY_PARTITION_ROOT = ROOT / "data/standardized/partitions/SRC-DERIVED-INDEX-W
 REPORT_PATH = ROOT / "reports/index/global_index_weekly_state.json"
 
 
-# Weekly layer consumes the canonical daily index history files and derives only week-level metrics.\n\ndef load_daily_records():
+# Weekly layer consumes the canonical daily index history files and derives only week-level metrics.
+
+def load_daily_records():
     rows = []
     for path in sorted(INDEX_HISTORY_DIR.glob("price_daily__*__SRC-YAHOO-INDEX.json")):
         try:
