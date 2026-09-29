@@ -470,20 +470,20 @@
       "end_date": "2025-09-30",
       "membership_codes_considered": 301,
       "raw_rows": 19776,
-      "standardized_rows": 19710,
-      "distinct_listings": 299,
+      "standardized_rows": 19776,
+      "distinct_listings": 300,
       "distinct_trade_dates": 66,
       "download_failures": [],
       "license_gate": "REVIEW",
       "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-      "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2025-07-01_2025-09-30__20260929T010016Z.csv",
+      "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2025-07-01_2025-09-30__20260929T012027Z.csv",
       "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2025-07-01_2025-09-30__SRC-YAHOO-YFINANCE.json",
-      "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2025-07-01_2025-09-30__20260929T010016Z.csv",
-      "retrieved_at": "2026-09-29T01:00:17.215907+00:00",
+      "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2025-07-01_2025-09-30__20260929T012027Z.csv",
+      "retrieved_at": "2026-09-29T01:20:28.670713+00:00",
       "validation_invalid_rows": 0,
       "validation_duplicate_rows": 0,
-      "validation_review_rows": 66,
-      "validation_status": "PARTIAL"
+      "validation_review_rows": 0,
+      "validation_status": "PASS"
     },
     "2025Q4": {
       "quarter": "2025Q4",
@@ -598,5 +598,5 @@
       "validation_status": "PARTIAL"
     }
   },
-  "updated_at": "2026-09-29T01:19:40.360263+00:00"
+  "updated_at": "2026-09-29T01:20:28.671187+00:00"
 }
