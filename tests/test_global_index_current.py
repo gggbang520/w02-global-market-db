@@ -51,13 +51,13 @@ def test_snapshot_uses_latest_and_previous_close():
 
 def test_snapshot_month_and_ytd_base():
     rows = [
-        make_row("2024-12-30", 100),
+        make_row("2024-12-27", 100),
         make_row("2025-01-06", 110),
         make_row("2025-01-10", 120),
     ]
     out = mod.build_snapshot({"TEST": rows})
     item = out[0]
-    assert item["month_change_pct"] == 9.09090909090909
+    assert item["month_change_pct"] == 20.0
     assert item["ytd_pct"] == 20.0
 
 
