@@ -72,8 +72,23 @@ def build_snapshot(index_rows, snapshot_date=None):
             and date.fromisoformat(r["trade_date"]).month == latest_day.month
         ]
 
-        week_base = week_rows[0].get("close") if week_rows else None
-        month_base = month_rows[0].get("close") if month_rows else None
+        previous_week_rows = [
+            r for r in usable
+            if date.fromisoformat(r["trade_date"]).isocalendar()[:2] < (iso_year, iso_week)
+        ]
+        week_base = previous_week_rows[-1].get("close") if previous_week_rows else None
+
+        previous_month_rows = [
+            r for r in usable
+            if (
+                date.fromisoformat(r["trade_date"]).year < latest_day.year
+                or (
+                    date.fromisoformat(r["trade_date"]).year == latest_day.year
+                    and date.fromisoformat(r["trade_date"]).month < latest_day.month
+                )
+            )
+        ]
+        month_base = previous_month_rows[-1].get("close") if previous_month_rows else None
 
         prior_year_rows = [
             r for r in usable
@@ -100,8 +115,8 @@ def build_snapshot(index_rows, snapshot_date=None):
             "latest_high": latest.get("high"),
             "latest_low": latest.get("low"),
             "daily_change_pct": daily_change,
-            "week_change_pct": pct_change(latest_close, week_base) if len(week_rows) >= 2 else None,
-            "month_change_pct": pct_change(latest_close, month_base) if len(month_rows) >= 2 else None,
+            "week_change_pct": pct_change(latest_close, week_base),
+            "month_change_pct": pct_change(latest_close, month_base),
             "ytd_pct": pct_change(latest_close, ytd_base),
             "trailing_252d_high": max(highs) if highs else None,
             "trailing_252d_low": min(lows) if lows else None,
