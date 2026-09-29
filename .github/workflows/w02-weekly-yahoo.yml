@@ -1,6 +1,11 @@
 name: W02 Weekly Market Data
 
 on:
+  push:
+    paths:
+      - "scripts/automation/build_global_index_weekly.py"
+      - "tests/test_global_index_weekly.py"
+      - "data/standardized/index_master.json"
   workflow_dispatch:
   schedule:
     - cron: "0 1 * * 1"
@@ -33,6 +38,14 @@ jobs:
         run: |
           cd scripts/automation
           python fetch_yfinance_cn.py --days 14 --batch-size 40 --sleep 1.5
+
+      - name: Build global index weekly layer
+        run: |
+          START_DATE="2019-01-01"
+          END_DATE="$(date -u +%F)"
+          python scripts/automation/build_global_index_weekly.py \
+            --start "$START_DATE" \
+            --end "$END_DATE"
 
       - name: Run W02 pipeline
         run: python scripts/run_pipeline.py
