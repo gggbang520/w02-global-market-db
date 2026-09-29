@@ -10,7 +10,7 @@ WEEKLY_STATE = ROOT / "reports/index/global_index_weekly_state.json"
 OUTPUT = ROOT / "reports/index/latest_index_snapshot.json"
 
 
-def load_json(path: Path) -> dict:
+def load_json(path: Path):
     data = json.loads(path.read_text(encoding="utf-8"))
     if isinstance(data, dict) and isinstance(data.get("content"), str):
         return json.loads(data["content"])
@@ -27,10 +27,15 @@ def calc_pct(current, previous):
     return round((current / previous - 1) * 100, 4)
 
 
-def extract_rows(data: dict) -> list[dict]:
-    for key in ("records", "data", "rows"):
-        if isinstance(data.get(key), list):
-            return data[key]
+def extract_rows(data) -> list[dict]:
+    if isinstance(data, list):
+        return data
+
+    if isinstance(data, dict):
+        for key in ("records", "data", "rows"):
+            if isinstance(data.get(key), list):
+                return data[key]
+
     return []
 
 
@@ -50,7 +55,7 @@ def build_daily_snapshot(path: Path) -> dict | None:
             "close": None,
         }
 
-    rows = sorted(rows, key=lambda x: x.get("date", ""))
+    rows = sorted(rows, key=lambda x: x.get("date", x.get("trade_date", "")))
     latest = rows[-1]
     previous = rows[-2] if len(rows) > 1 else None
 
