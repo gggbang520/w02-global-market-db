@@ -1,0 +1,229 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-29T10:59:37.172092+00:00",
+  "latest_trade_date": null,
+  "source_id": "SRC-DERIVED-INDEX-SNAPSHOT",
+  "source_origin": "DERIVED_FROM_DAILY_AND_WEEKLY",
+  "indices": [
+    {
+      "index_id": "AU-ASX200",
+      "close": 8686.2998046875,
+      "daily_change_pct": 0.076,
+      "records_available": 1960,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "CN-CS300",
+      "close": 4341.38232421875,
+      "daily_change_pct": null,
+      "records_available": 1,
+      "quality_status": "PARTIAL",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "CN-SSE",
+      "close": 3821.769775390625,
+      "daily_change_pct": -0.0484,
+      "records_available": 1877,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "CN-SZSE",
+      "close": 12858.1640625,
+      "daily_change_pct": -0.0046,
+      "records_available": 1877,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "EU-CAC40",
+      "close": 8078.47998046875,
+      "daily_change_pct": 0.0084,
+      "records_available": 1982,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "EU-DAX",
+      "close": 25374.419921875,
+      "daily_change_pct": -0.1347,
+      "records_available": 1968,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "EU-FTSE100",
+      "close": 10684.900390625,
+      "daily_change_pct": -0.0972,
+      "records_available": 1954,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "EU-SX5E",
+      "close": 6301.27978515625,
+      "daily_change_pct": -0.0244,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "HK-HSCEI",
+      "close": 8179.91015625,
+      "daily_change_pct": -0.4494,
+      "records_available": 1905,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "HK-HSI",
+      "close": 24532.5703125,
+      "daily_change_pct": -0.4461,
+      "records_available": 1905,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "IN-NIFTY50",
+      "close": 22780.25,
+      "daily_change_pct": -1.5568,
+      "records_available": 1909,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "IN-SENSEX",
+      "close": 72771.71875,
+      "daily_change_pct": -1.5211,
+      "records_available": 1905,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "JP-N225",
+      "close": 65171.94140625,
+      "daily_change_pct": -1.0712,
+      "records_available": 1885,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "KR-KOSPI",
+      "close": 6855.7099609375,
+      "daily_change_pct": -0.4939,
+      "records_available": 1898,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "SG-STI",
+      "close": 5721.27978515625,
+      "daily_change_pct": -0.1351,
+      "records_available": 1944,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "TW-TAIEX",
+      "close": 47885.94921875,
+      "daily_change_pct": -0.2887,
+      "records_available": 1877,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-COMP",
+      "close": 26820.380859375,
+      "daily_change_pct": -0.9174,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-DJIA",
+      "close": 51481.51171875,
+      "daily_change_pct": -0.6697,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-NDX",
+      "close": 30276.810546875,
+      "daily_change_pct": -1.0825,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-RUT",
+      "close": 2817.912109375,
+      "daily_change_pct": -0.6921,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-SPX",
+      "close": 7683.68994140625,
+      "daily_change_pct": -0.7712,
+      "records_available": 1945,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    },
+    {
+      "index_id": "US-VIX",
+      "close": 16.06999969482422,
+      "daily_change_pct": 8.0699,
+      "records_available": 1947,
+      "quality_status": "OK",
+      "weekly_change_pct": null,
+      "ytd_change_pct": null,
+      "monthly_change_pct": null
+    }
+  ]
+}
