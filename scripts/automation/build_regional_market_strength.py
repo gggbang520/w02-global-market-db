@@ -15,13 +15,22 @@ def load(path):
 def main():
     performance = load(INPUT)
     master = load(MASTER)
-    markets = {x["index_id"]: x.get("market", "UNKNOWN") for x in master}
+
+    market_map = {
+        item["index_id"]: item.get("market", "UNKNOWN")
+        for item in master
+        if isinstance(item, dict) and item.get("index_id")
+    }
+
+    records = performance.get("records", []) if isinstance(performance, dict) else []
 
     regions = {}
-    rows = performance.get("indices", performance if isinstance(performance, list) else [])
-    for row in rows:
-        idx = row.get("index_id")
-        region = markets.get(idx, "UNKNOWN")
+    for row in records:
+        if not isinstance(row, dict):
+            continue
+
+        index_id = row.get("index_id")
+        region = market_map.get(index_id, "UNKNOWN")
         regions.setdefault(region, []).append(row)
 
     output = {
