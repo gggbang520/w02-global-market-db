@@ -32,6 +32,21 @@ def fetch_one(symbol: str, start: date, end: date):
         threads=False,
         group_by="column",
     )
+    # Some Yahoo index symbols can return only the latest observation through
+    # the multi-download endpoint. Retry through Ticker.history for the full
+    # historical range before treating the source as empty/partial.
+    if df.empty or len(df.index) <= 1:
+        try:
+            fallback = yf.Ticker(symbol).history(
+                start=start.isoformat(),
+                end=(end + timedelta(days=1)).isoformat(),
+                auto_adjust=False,
+                actions=False,
+            )
+            if not fallback.empty and len(fallback.index) > len(df.index):
+                df = fallback
+        except Exception:
+            pass
     if df.empty:
         return pd.DataFrame()
 
