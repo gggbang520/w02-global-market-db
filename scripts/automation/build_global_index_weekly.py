@@ -41,7 +41,7 @@ def week_key(trade_date: str):
 def pct_change(current, previous):
     if current is None or previous in (None, 0):
         return None
-    return (float(current) / float(previous) - 1.0) * 100.0
+    return round((float(current) / float(previous) - 1.0) * 100.0, 8)
 
 
 def build_weekly(daily_rows):
