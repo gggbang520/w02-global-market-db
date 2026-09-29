@@ -31,6 +31,12 @@ def main():
     }
 
     snapshot_records = snapshot.get("indices", []) if isinstance(snapshot, dict) else []
+    snapshot_index_ids = {
+        item.get("index_id")
+        for item in snapshot_records
+        if isinstance(item, dict) and item.get("index_id")
+    }
+
     merged_indices = []
 
     for item in snapshot_records:
@@ -38,6 +44,9 @@ def main():
             continue
 
         index_id = item.get("index_id")
+        if index_id not in snapshot_index_ids:
+            continue
+
         merged = dict(item)
         performance_item = performance_map.get(index_id, {})
 
