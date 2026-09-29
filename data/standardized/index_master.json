@@ -17,7 +17,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "CN-SSE",
@@ -37,7 +37,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "CN-SZSE",
@@ -57,7 +57,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-SPX",
@@ -77,7 +77,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-NDX",
@@ -97,7 +97,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-COMP",
@@ -117,7 +117,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-DJIA",
@@ -137,7 +137,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-RUT",
@@ -157,7 +157,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "US-VIX",
@@ -177,7 +177,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "EU-SX5E",
@@ -197,7 +197,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "EU-DAX",
@@ -217,7 +217,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "EU-FTSE100",
@@ -237,7 +237,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "EU-CAC40",
@@ -257,7 +257,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "JP-N225",
@@ -277,7 +277,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "JP-TOPIX",
@@ -297,7 +297,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1",
+    "index_layer_version": "GIDX-1.2",
     "missing_reason": "Yahoo direct index history not returned; official JPX acquisition path pending"
   },
   {
@@ -318,7 +318,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "HK-HSCEI",
@@ -338,7 +338,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "KR-KOSPI",
@@ -358,7 +358,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "IN-NIFTY50",
@@ -378,7 +378,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "IN-SENSEX",
@@ -398,7 +398,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "TW-TAIEX",
@@ -418,7 +418,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "AU-ASX200",
@@ -438,7 +438,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "SG-STI",
@@ -458,7 +458,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "GL-MSCI-WORLD",
@@ -479,7 +479,7 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   },
   {
     "index_id": "GL-MSCI-EM",
@@ -500,6 +500,6 @@
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
     "last_metadata_reviewed_at": "2026-09-29",
-    "index_layer_version": "GIDX-1.1"
+    "index_layer_version": "GIDX-1.2"
   }
 ]
