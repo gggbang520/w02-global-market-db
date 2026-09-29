@@ -82,46 +82,84 @@ def yahoo_symbol(ticker, exchange):
 
 def fetch_prices(symbols, start, end, batch_size, sleep_seconds):
     rows, failures = [], []
-    for i in range(0, len(symbols), batch_size):
-        batch = symbols[i:i + batch_size]
-        try:
-            df = yf.download(batch, start=start.isoformat(),
-                             end=(end + timedelta(days=1)).isoformat(),
-                             auto_adjust=False, actions=False,
-                             progress=False, threads=False, group_by="column")
-            if df.empty or not isinstance(df.columns, pd.MultiIndex):
-                raise ValueError("Yahoo returned empty/non-multiindex batch")
-            fields = {"Open", "High", "Low", "Close", "Adj Close", "Volume"}
-            ticker_level = 1 if set(map(str, df.columns.get_level_values(0))) & fields else 0
-            available = set(map(str, df.columns.get_level_values(ticker_level)))
-            for sym in batch:
-                if sym not in available:
-                    failures.append({"symbol": sym, "error": "ticker_missing_in_batch"})
-                    continue
-                sub = df.xs(sym, axis=1, level=ticker_level, drop_level=True)
-                if "Close" not in sub.columns:
-                    failures.append({"symbol": sym, "error": "close_missing"})
-                    continue
-                for dt, r in sub.iterrows():
-                    if pd.isna(r["Close"]):
-                        continue
-                    rows.append({
-                        "ticker": sym[:6], "yahoo_symbol": sym,
-                        "trade_date": pd.Timestamp(dt).date().isoformat(),
-                        "open": None if pd.isna(r.get("Open")) else float(r["Open"]),
-                        "high": None if pd.isna(r.get("High")) else float(r["High"]),
-                        "low": None if pd.isna(r.get("Low")) else float(r["Low"]),
-                        "close": float(r["Close"]),
-                        "adjusted_close": None if pd.isna(r.get("Adj Close")) else float(r["Adj Close"]),
-                        "price_type": "RAW_CLOSE",
-                        "volume": None if pd.isna(r.get("Volume")) else float(r["Volume"]),
-                        "turnover": None, "currency": "CNY",
-                    })
-        except Exception as e:
-            failures.extend({"symbol": s, "error": str(e)} for s in batch)
-        time.sleep(sleep_seconds)
-    return pd.DataFrame(rows), failures
 
+    def one_pass(batch, pause):
+        local_rows, local_failures = [], []
+        for i in range(0, len(batch), batch_size):
+            group = batch[i:i + batch_size]
+            try:
+                df = yf.download(
+                    group,
+                    start=start.isoformat(),
+                    end=(end + timedelta(days=1)).isoformat(),
+                    auto_adjust=False,
+                    actions=False,
+                    progress=False,
+                    threads=False,
+                    group_by="column",
+                )
+                if df.empty or not isinstance(df.columns, pd.MultiIndex):
+                    raise ValueError("Yahoo returned empty/non-multiindex batch")
+
+                fields = {"Open", "High", "Low", "Close", "Adj Close", "Volume"}
+                ticker_level = 1 if set(map(str, df.columns.get_level_values(0))) & fields else 0
+                available = set(map(str, df.columns.get_level_values(ticker_level)))
+
+                for sym in group:
+                    if sym not in available:
+                        local_failures.append({"symbol": sym, "error": "ticker_missing_in_batch"})
+                        continue
+                    sub = df.xs(sym, axis=1, level=ticker_level, drop_level=True)
+                    if "Close" not in sub.columns:
+                        local_failures.append({"symbol": sym, "error": "close_missing"})
+                        continue
+
+                    for dt, r in sub.iterrows():
+                        close = r.get("Close")
+                        if pd.isna(close):
+                            continue
+                        local_rows.append({
+                            "ticker": sym[:6],
+                            "yahoo_symbol": sym,
+                            "trade_date": pd.Timestamp(dt).date().isoformat(),
+                            "open": None if pd.isna(r.get("Open")) else float(r["Open"]),
+                            "high": None if pd.isna(r.get("High")) else float(r["High"]),
+                            "low": None if pd.isna(r.get("Low")) else float(r["Low"]),
+                            "close": float(r["Close"]),
+                            "adjusted_close": None if pd.isna(r.get("Adj Close")) else float(r["Adj Close"]),
+                            "price_type": "RAW_CLOSE",
+                            "volume": None if pd.isna(r.get("Volume")) else float(r["Volume"]),
+                            "turnover": None,
+                            "currency": "CNY",
+                        })
+            except Exception as e:
+                local_failures.extend({"symbol": s, "error": str(e)} for s in group)
+            if pause:
+                time.sleep(pause)
+        return local_rows, local_failures
+
+    rows, first_failures = one_pass(symbols, sleep_seconds)
+
+    # Retry missing symbols individually. This catches transient Yahoo batch failures
+    # without throwing away the rest of a quarter.
+    retry_symbols = sorted({x["symbol"] for x in first_failures})
+    for sym in retry_symbols:
+        recovered, retry_failures = one_pass([sym], max(sleep_seconds, 2.0))
+        if recovered:
+            rows.extend(recovered)
+        else:
+            failures.extend(retry_failures or [{"symbol": sym, "error": "retry_failed"}])
+
+    # Retain only failures that still have no downloaded rows.
+    recovered_symbols = {r["yahoo_symbol"] for r in rows}
+    failures = [x for x in failures if x.get("symbol") not in recovered_symbols]
+
+    out = pd.DataFrame(rows)
+    if not out.empty:
+        out = out.drop_duplicates(["ticker", "trade_date", "yahoo_symbol"]).sort_values(
+            ["trade_date", "ticker"]
+        )
+    return out, failures
 
 def write_quarter(q, start, end, membership, records, raw, failures):
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -225,11 +263,35 @@ def main():
         normalized = provider.normalize(prices.to_dict("records"))
         resolved = resolve_listing(normalized, allow_synthetic_historical=True)
         checked = validate(resolved)
-        if checked["invalid"] or checked["duplicate"] or checked["review"]:
-            raise RuntimeError(f"{q}: validation blocked")
+        if not checked["valid"]:
+            state["quarters"][q] = {
+                "status": "FAILED",
+                "start_date": qs.isoformat(),
+                "end_date": qe.isoformat(),
+                "error": (
+                    f"no publishable records: invalid={len(checked['invalid'])}, "
+                    f"duplicate={len(checked['duplicate'])}, review={len(checked['review'])}, "
+                    f"download_failures={len(failures)}"
+                ),
+            }
+            save_state(state)
+            raise RuntimeError(f"{q}: no publishable records")
 
-        records = sorted(checked["valid"], key=lambda r: (r["trade_date"], r["exchange_mic"], r["ticker"]))
+        records = sorted(
+            checked["valid"],
+            key=lambda r: (r["trade_date"], r["exchange_mic"], r["ticker"])
+        )
         report = write_quarter(q, qs, qe, membership, records, prices, failures)
+        report.update({
+            "validation_invalid_rows": len(checked["invalid"]),
+            "validation_duplicate_rows": len(checked["duplicate"]),
+            "validation_review_rows": len(checked["review"]),
+            "validation_status": (
+                "PASS"
+                if not (checked["invalid"] or checked["duplicate"] or checked["review"] or failures)
+                else "PARTIAL"
+            ),
+        })
         state["quarters"][q] = report
         save_state(state)
         subprocess.run(["python", "-m", "pytest", "-q"], cwd=ROOT, check=True)
