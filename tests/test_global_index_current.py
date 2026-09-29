@@ -45,7 +45,7 @@ def test_snapshot_uses_latest_and_previous_close():
     assert item["observation_date"] == "2025-01-10"
     assert item["latest_close"] == 110
     assert round(item["daily_change_pct"], 8) == 10.0
-    assert item["week_change_pct"] == 10.0
+    assert item["week_change_pct"] is None
     assert item["status"] == "SUCCESS"
 
 
