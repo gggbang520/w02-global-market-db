@@ -2,8 +2,11 @@ name: W02 Global Index Snapshot
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "30 2 * * 1-5"
+  workflow_run:
+    workflows:
+      - W02 Global Index Weekly
+    types:
+      - completed
 
 permissions:
   contents: write
