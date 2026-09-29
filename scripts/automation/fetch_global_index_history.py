@@ -186,7 +186,7 @@ def main():
             records = [serialize_record(x, meta) for x in valid]
             hp = write_outputs(meta, records, start, end, len(invalid))
             state["indexes"][meta["index_id"]] = {
-                "status": "SUCCESS" if not invalid else "PARTIAL",
+                "status": "SUCCESS" if not invalid and len(records) >= 1000 else "PARTIAL",
                 "yahoo_symbol": symbol,
                 "records": len(records),
                 "invalid_rows": len(invalid),
