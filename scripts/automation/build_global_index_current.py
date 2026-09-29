@@ -16,7 +16,7 @@ REPORT_PATH = ROOT / "reports/index/global_index_current_state.json"
 def pct_change(current, base):
     if current is None or base in (None, 0):
         return None
-    return (float(current) / float(base) - 1.0) * 100.0
+    return round((float(current) / float(base) - 1.0) * 100.0, 8)
 
 
 def load_daily_records():
