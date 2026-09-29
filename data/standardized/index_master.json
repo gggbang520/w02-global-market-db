@@ -15,7 +15,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "CN-SSE",
@@ -33,7 +34,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "CN-SZSE",
@@ -51,7 +53,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-SPX",
@@ -69,7 +72,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-NDX",
@@ -87,7 +91,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-COMP",
@@ -105,7 +110,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-DJIA",
@@ -123,7 +129,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-RUT",
@@ -141,7 +148,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "US-VIX",
@@ -159,7 +167,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "EU-SX5E",
@@ -177,7 +186,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "EU-DAX",
@@ -195,7 +205,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "EU-FTSE100",
@@ -213,7 +224,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "EU-CAC40",
@@ -231,7 +243,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "JP-N225",
@@ -249,7 +262,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "JP-TOPIX",
@@ -267,7 +281,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "HK-HSI",
@@ -285,7 +300,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "HK-HSCEI",
@@ -303,7 +319,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "KR-KOSPI",
@@ -321,7 +338,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "IN-NIFTY50",
@@ -339,7 +357,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "IN-SENSEX",
@@ -357,7 +376,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "TW-TAIEX",
@@ -375,7 +395,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "AU-ASX200",
@@ -393,7 +414,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "SG-STI",
@@ -411,7 +433,8 @@
     "source_origin": "AUTO_PROVIDER",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "GL-MSCI-WORLD",
@@ -430,7 +453,8 @@
     "source_origin": "MANUAL/OFFICIAL_METADATA",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   },
   {
     "index_id": "GL-MSCI-EM",
@@ -449,6 +473,7 @@
     "source_origin": "MANUAL/OFFICIAL_METADATA",
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
-    "publication_scope": "INTERNAL_SNAPSHOT_ONLY"
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "last_metadata_reviewed_at": "2026-09-29"
   }
 ]
