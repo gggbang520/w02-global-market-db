@@ -216,7 +216,31 @@
       "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2023-01-01_2023-03-31__SRC-YAHOO-YFINANCE.json",
       "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2023-01-01_2023-03-31__20260929T004704Z.csv",
       "retrieved_at": "2026-09-29T00:47:04.721348+00:00"
+    },
+    "2023Q2": {
+      "quarter": "2023Q2",
+      "status": "SUCCESS",
+      "source_id": "SRC-YAHOO-YFINANCE",
+      "source_origin": "AUTO_PROVIDER",
+      "provider": "yfinance / Yahoo Finance",
+      "declared_upstream_source": "Yahoo Finance",
+      "historical_universe_source": "SRC-CSI300-SECONDARY",
+      "historical_universe_url": "https://raw.githubusercontent.com/unliftedq/index-constitution/main/history/csi300.csv",
+      "start_date": "2023-04-01",
+      "end_date": "2023-06-30",
+      "membership_codes_considered": 309,
+      "raw_rows": 17591,
+      "standardized_rows": 17591,
+      "distinct_listings": 307,
+      "distinct_trade_dates": 59,
+      "download_failures": [],
+      "license_gate": "REVIEW",
+      "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+      "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2023-04-01_2023-06-30__20260929T004751Z.csv",
+      "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2023-04-01_2023-06-30__SRC-YAHOO-YFINANCE.json",
+      "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2023-04-01_2023-06-30__20260929T004751Z.csv",
+      "retrieved_at": "2026-09-29T00:47:52.409241+00:00"
     }
   },
-  "updated_at": "2026-09-29T00:47:04.721633+00:00"
+  "updated_at": "2026-09-29T00:47:52.409516+00:00"
 }
