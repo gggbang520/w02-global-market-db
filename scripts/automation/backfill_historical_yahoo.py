@@ -188,7 +188,7 @@ def write_quarter(q, start, end, membership, records, raw, failures):
                 f.write(json.dumps(r, ensure_ascii=False, separators=(",", ":")) + "\n")
 
     report = {
-        "quarter": q, "status": "SUCCESS" if not failures else "PARTIAL",
+        "quarter": q, "status": "PARTIAL" if (failures) else "SUCCESS",
         "source_id": SOURCE_ID, "source_origin": "AUTO_PROVIDER",
         "provider": "yfinance / Yahoo Finance", "declared_upstream_source": "Yahoo Finance",
         "historical_universe_source": MEMBERSHIP_SOURCE, "historical_universe_url": MEMBERSHIP_URL,
@@ -236,7 +236,12 @@ def main():
 
     for q, qs, qe in quarter_ranges(start, end):
         prev = state["quarters"].get(q, {})
-        if prev.get("status") == "SUCCESS" and prev.get("end_date") == qe.isoformat():
+        if (
+            prev.get("status") == "SUCCESS"
+            and prev.get("end_date") == qe.isoformat()
+            and prev.get("validation_status", "PASS") == "PASS"
+            and not prev.get("download_failures")
+        ):
             print(f"SKIP {q}")
             continue
 
@@ -292,6 +297,8 @@ def main():
                 else "PARTIAL"
             ),
         })
+        if report["validation_status"] == "PARTIAL":
+            report["status"] = "PARTIAL"
         state["quarters"][q] = report
         save_state(state)
         subprocess.run(["python", "-m", "pytest", "-q"], cwd=ROOT, check=True)
