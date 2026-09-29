@@ -43,6 +43,7 @@ def main():
 
         for field in [
             "daily_change_pct",
+            "weekly_change_pct",
             "monthly_change_pct",
             "ytd_change_pct",
             "close",
