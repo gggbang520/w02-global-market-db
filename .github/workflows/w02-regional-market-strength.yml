@@ -1,0 +1,32 @@
+name: W02 Regional Market Strength
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "50 2 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  build-regional-strength:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build regional market strength
+        run: python scripts/automation/build_regional_market_strength.py
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/market/regional_market_strength.json
+          git diff --cached --quiet || git commit -m "data: update regional market strength"
+          git push
