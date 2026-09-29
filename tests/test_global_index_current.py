@@ -44,7 +44,7 @@ def test_snapshot_uses_latest_and_previous_close():
     item = out[0]
     assert item["observation_date"] == "2025-01-10"
     assert item["latest_close"] == 110
-    assert item["daily_change_pct"] == 10.0
+    assert round(item["daily_change_pct"], 8) == 10.0
     assert item["week_change_pct"] == 10.0
     assert item["status"] == "SUCCESS"
 
@@ -57,7 +57,7 @@ def test_snapshot_month_and_ytd_base():
     ]
     out = mod.build_snapshot({"TEST": rows})
     item = out[0]
-    assert item["month_change_pct"] == 20.0
+    assert round(item["month_change_pct"], 8) == 20.0
     assert item["ytd_pct"] == 20.0
 
 
