@@ -5,6 +5,8 @@ on:
     paths:
       - "data/standardized/index_master.json"
       - "scripts/automation/fetch_global_index_history.py"
+  schedule:
+    - cron: "15 0 * * 1"
   workflow_dispatch:
     inputs:
       start_date:
@@ -12,9 +14,9 @@ on:
         required: true
         default: "2019-01-01"
       end_date:
-        description: "Historical end date"
-        required: true
-        default: "2026-09-29"
+        description: "Historical end date (UTC)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -44,6 +46,9 @@ jobs:
           pip install -r requirements-automation.txt
       - name: Fetch global index history
         run: |
+          START_DATE="${{ inputs.start_date || '2019-01-01' }}"
+          END_DATE="${{ inputs.end_date }}"
+          if [ -z "$END_DATE" ]; then END_DATE="$(date -u +%F)"; fi
           python scripts/automation/fetch_global_index_history.py \
-            --start "${{ inputs.start_date || '2019-01-01' }}" \
-            --end "${{ inputs.end_date || '2026-09-29' }}"
+            --start "$START_DATE" \
+            --end "$END_DATE"
