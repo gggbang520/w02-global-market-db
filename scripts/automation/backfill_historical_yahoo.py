@@ -11,6 +11,11 @@ from pathlib import Path
 import pandas as pd
 import requests
 import yfinance as yf
+import sys
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "scripts/automation"))
 
 from common import ROOT
 from scripts.ingest_market_data import resolve_listing, validate
