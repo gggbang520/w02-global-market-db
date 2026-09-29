@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "frequency": "CURRENT_SNAPSHOT",
+  "record_count": 22,
+  "status_counts": {
+    "PARTIAL": 1,
+    "SUCCESS": 21
+  },
+  "snapshot_file": "data/standardized/index_current_snapshot.json",
+  "generated_at": "2026-09-29T02:23:02.109117+00:00"
+}
