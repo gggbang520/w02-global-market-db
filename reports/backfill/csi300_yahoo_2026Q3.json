@@ -11,14 +11,14 @@
   "end_date": "2026-09-27",
   "membership_codes_considered": 300,
   "raw_rows": 18600,
-  "standardized_rows": 18538,
-  "distinct_listings": 299,
+  "standardized_rows": 18600,
+  "distinct_listings": 300,
   "distinct_trade_dates": 62,
   "download_failures": [],
   "license_gate": "REVIEW",
   "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-  "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2026-07-01_2026-09-27__20260929T010330Z.csv",
+  "raw_file": "data/raw/inbox/market/SRC-YAHOO-YFINANCE__stock_daily__CN__HISTORICAL_CSI300__2026-07-01_2026-09-27__20260929T012343Z.csv",
   "history_file": "data/history/DATA-2026-W39/stocks/price_daily__2026-07-01_2026-09-27__SRC-YAHOO-YFINANCE.json",
-  "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2026-07-01_2026-09-27__20260929T010330Z.csv",
-  "retrieved_at": "2026-09-29T01:03:30.593237+00:00"
+  "membership_file": "data/raw/cn/SRC-CSI300-SECONDARY__index_constituents__CN__2026-07-01_2026-09-27__20260929T012343Z.csv",
+  "retrieved_at": "2026-09-29T01:23:44.539381+00:00"
 }
