@@ -9,8 +9,8 @@
     "exact_duplicate_groups": {}
   },
   "history": {
-    "batch_file_count": 54,
-    "batch_record_sum": 595275,
+    "batch_file_count": 55,
+    "batch_record_sum": 597155,
     "parse_failures": 0,
     "same_source_logical_overlap_count": 0,
     "overlap_samples": [],
@@ -24,7 +24,7 @@
         "distinct_trade_dates": 1960,
         "trade_date_min": "2019-01-02",
         "trade_date_max": "2026-09-29",
-        "size_bytes": 1450814
+        "size_bytes": 1450816
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__CN-CS300__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -33,20 +33,31 @@
         "records": 1,
         "distinct_listings": 0,
         "distinct_trade_dates": 1,
-        "trade_date_min": "2026-09-28",
-        "trade_date_max": "2026-09-28",
-        "size_bytes": 752
+        "trade_date_min": "2026-09-29",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 751
+      },
+      {
+        "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
+        "source_id": "SRC-YAHOO-INDEX",
+        "parse_status": "SUCCESS",
+        "records": 1877,
+        "distinct_listings": 0,
+        "distinct_trade_dates": 1877,
+        "trade_date_min": "2019-01-02",
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1427358
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__CN-SZSE__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
         "source_id": "SRC-YAHOO-INDEX",
         "parse_status": "SUCCESS",
-        "records": 1876,
+        "records": 1877,
         "distinct_listings": 0,
-        "distinct_trade_dates": 1876,
+        "distinct_trade_dates": 1877,
         "trade_date_min": "2019-01-02",
-        "trade_date_max": "2026-09-28",
-        "size_bytes": 1408381
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1409134
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__EU-CAC40__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -96,23 +107,23 @@
         "file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSCEI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
         "source_id": "SRC-YAHOO-INDEX",
         "parse_status": "SUCCESS",
-        "records": 1904,
+        "records": 1905,
         "distinct_listings": 0,
-        "distinct_trade_dates": 1904,
+        "distinct_trade_dates": 1905,
         "trade_date_min": "2019-01-02",
-        "trade_date_max": "2026-09-28",
-        "size_bytes": 1497827
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1498607
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__HK-HSI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
         "source_id": "SRC-YAHOO-INDEX",
         "parse_status": "SUCCESS",
-        "records": 1904,
+        "records": 1905,
         "distinct_listings": 0,
-        "distinct_trade_dates": 1904,
+        "distinct_trade_dates": 1905,
         "trade_date_min": "2019-01-02",
-        "trade_date_max": "2026-09-28",
-        "size_bytes": 1435153
+        "trade_date_max": "2026-09-29",
+        "size_bytes": 1435891
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__IN-NIFTY50__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -145,7 +156,7 @@
         "distinct_trade_dates": 1885,
         "trade_date_min": "2019-01-04",
         "trade_date_max": "2026-09-29",
-        "size_bytes": 1358821
+        "size_bytes": 1358825
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__KR-KOSPI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -156,7 +167,7 @@
         "distinct_trade_dates": 1898,
         "trade_date_min": "2019-01-02",
         "trade_date_max": "2026-09-29",
-        "size_bytes": 1380927
+        "size_bytes": 1380928
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__SG-STI__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -167,7 +178,7 @@
         "distinct_trade_dates": 1944,
         "trade_date_min": "2019-01-02",
         "trade_date_max": "2026-09-29",
-        "size_bytes": 1477471
+        "size_bytes": 1477473
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__TW-TAIEX__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -178,7 +189,7 @@
         "distinct_trade_dates": 1877,
         "trade_date_min": "2019-01-02",
         "trade_date_max": "2026-09-29",
-        "size_bytes": 1381441
+        "size_bytes": 1381444
       },
       {
         "file": "data/history/DATA-2026-W39/indices/price_daily__US-COMP__2019-01-01_2026-09-29__SRC-YAHOO-INDEX.json",
@@ -620,8 +631,8 @@
         "max_trade_date": "2021-01-29"
       },
       "SRC-YAHOO-INDEX": {
-        "file_count": 21,
-        "record_count": 38584,
+        "file_count": 22,
+        "record_count": 40464,
         "distinct_listings": 0,
         "distinct_trade_dates": 2021,
         "min_trade_date": "2019-01-02",
