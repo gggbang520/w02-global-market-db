@@ -128,10 +128,13 @@ def test_weekly_change_and_ytd_use_prior_observation_and_prior_year_end():
         },
     ]
     out = mod.build_weekly(rows)
-    assert len(out) == 2
-    first, second = out
-    assert first["ytd_pct"] == 10.0
-    assert round(second["weekly_change_pct"], 8) == 9.09090909
+    assert len(out) == 3
+    prior_year, first, second = out
+    assert prior_year["week_year"] == 2023
+    assert prior_year["ytd_pct"] is None
+    assert first["week_year"] == 2024
+    assert first["ytd_pct"] is None
+    assert round(second["weekly_change_pct"], 8) == 20.0
     assert round(second["ytd_pct"], 8) == 20.0
 
 
