@@ -66,6 +66,7 @@ def build_daily_snapshot(path: Path) -> dict | None:
         "index_id": index_id,
         "close": close,
         "daily_change_pct": calc_pct(close, prev_close),
+        "latest_trade_date": latest.get("date", latest.get("trade_date")),
         "records_available": len(rows),
         "quality_status": "OK" if len(rows) > 1 else "PARTIAL",
     }
@@ -81,10 +82,13 @@ def main() -> None:
             weekly_rows[index_id] = row
 
     snapshot_items = {}
+    latest_dates = []
     for file in find_daily_files():
         item = build_daily_snapshot(file)
         if item:
             snapshot_items[item["index_id"]] = item
+            if item.get("latest_trade_date"):
+                latest_dates.append(item["latest_trade_date"])
 
     indices = []
     all_ids = set(snapshot_items) | set(weekly_rows)
@@ -105,10 +109,14 @@ def main() -> None:
 
         indices.append(item)
 
+    latest_trade_date = weekly.get("end_date")
+    if not latest_trade_date and latest_dates:
+        latest_trade_date = max(latest_dates)
+
     output = {
         "version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "latest_trade_date": weekly.get("end_date"),
+        "latest_trade_date": latest_trade_date,
         "source_id": "SRC-DERIVED-INDEX-SNAPSHOT",
         "source_origin": "DERIVED_FROM_DAILY_AND_WEEKLY",
         "indices": indices,
