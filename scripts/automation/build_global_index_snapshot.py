@@ -39,6 +39,12 @@ def extract_rows(data) -> list[dict]:
     return []
 
 
+def get_trade_date(row):
+    if not isinstance(row, dict):
+        return None
+    return row.get("date") or row.get("trade_date") or row.get("Date")
+
+
 def build_daily_snapshot(path: Path) -> dict | None:
     name = path.name
     try:
@@ -55,7 +61,7 @@ def build_daily_snapshot(path: Path) -> dict | None:
             "close": None,
         }
 
-    rows = sorted(rows, key=lambda x: x.get("date", x.get("trade_date", "")))
+    rows = sorted(rows, key=lambda x: get_trade_date(x) or "")
     latest = rows[-1]
     previous = rows[-2] if len(rows) > 1 else None
 
@@ -66,7 +72,7 @@ def build_daily_snapshot(path: Path) -> dict | None:
         "index_id": index_id,
         "close": close,
         "daily_change_pct": calc_pct(close, prev_close),
-        "latest_trade_date": latest.get("date", latest.get("trade_date")),
+        "latest_trade_date": get_trade_date(latest),
         "records_available": len(rows),
         "quality_status": "OK" if len(rows) > 1 else "PARTIAL",
     }
