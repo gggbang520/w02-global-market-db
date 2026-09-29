@@ -137,32 +137,9 @@ def write_outputs(records, start_date, end_date):
 
 
 def git_commit(label):
-    subprocess.run(
-        [
-            "git",
-            "add",
-            "data/history",
-            "data/standardized/partitions/SRC-DERIVED-INDEX-WEEKLY",
-            "reports/index/global_index_weekly_state.json",
-        ],
-        cwd=ROOT,
-        check=True,
-    )
-    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
-        return
-    subprocess.run(["git", "config", "user.name", "W02 Data Bot"], cwd=ROOT, check=True)
-    subprocess.run(
-        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
-        cwd=ROOT,
-        check=True,
-    )
-    subprocess.run(
-        ["git", "commit", "-m", f"data: build global index weekly layer {label}"],
-        cwd=ROOT,
-        check=True,
-    )
-    subprocess.run(["git", "push"], cwd=ROOT, check=True)
-
+    # GitHub Actions owns the commit/push step so derived-data writes do not
+    # retrigger this workflow through its own output paths.
+    return
 
 def main():
     ap = argparse.ArgumentParser()
