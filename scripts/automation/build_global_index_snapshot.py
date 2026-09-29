@@ -73,10 +73,10 @@ def build_daily_snapshot(path: Path) -> dict | None:
 
 
 def main() -> None:
-    weekly = load_json(WEEKLY_STATE)
+    weekly_state = load_json(WEEKLY_STATE)
 
     weekly_rows = {}
-    for row in weekly.get("records", []):
+    for row in weekly_state.get("records", []):
         index_id = row.get("index_id")
         if index_id:
             weekly_rows[index_id] = row
@@ -109,7 +109,7 @@ def main() -> None:
 
         indices.append(item)
 
-    latest_trade_date = weekly.get("end_date")
+    latest_trade_date = weekly_state.get("end_date")
     if not latest_trade_date and latest_dates:
         latest_trade_date = max(latest_dates)
 
