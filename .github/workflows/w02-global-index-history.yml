@@ -44,4 +44,6 @@ jobs:
           pip install -r requirements-automation.txt
       - name: Fetch global index history
         run: |
-          python scripts/automation/fetch_global_index_history.py             --start "${{ inputs.start_date }}"             --end "${{ inputs.end_date }}"
+          python scripts/automation/fetch_global_index_history.py \
+            --start "${{ inputs.start_date || '2019-01-01' }}" \
+            --end "${{ inputs.end_date || '2026-09-29' }}"
