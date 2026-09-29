@@ -51,6 +51,11 @@ jobs:
           pip install -r requirements-automation.txt
 
       - name: Historical backfill with checkpoints
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          cd scripts/automation
-          python backfill_historical_yahoo.py             --start "${{ inputs.start_date }}"             --end "${{ inputs.end_date }}"             --batch-size "${{ inputs.batch_size }}"             --sleep "${{ inputs.sleep_seconds }}"
+          python scripts/automation/backfill_historical_yahoo.py \
+            --start "${{ inputs.start_date }}" \
+            --end "${{ inputs.end_date }}" \
+            --batch-size "${{ inputs.batch_size }}" \
+            --sleep "${{ inputs.sleep_seconds }}"
