@@ -3,8 +3,8 @@
   "audit_version": 2,
   "generated_by": "scripts/final_audit.py",
   "raw_market": {
-    "file_count": 42,
-    "sha_group_count": 42,
+    "file_count": 43,
+    "sha_group_count": 43,
     "exact_duplicate_group_count": 0,
     "exact_duplicate_groups": {}
   },
@@ -657,8 +657,14 @@
     }
   },
   "standardized": {
-    "source_count": 4,
+    "source_count": 5,
     "sources": {
+      "SRC-DERIVED-INDEX-WEEKLY": {
+        "canonical_partition_count": 0,
+        "canonical_partitions": [],
+        "legacy_partition_file_count": 0,
+        "legacy_partition_files": []
+      },
       "SRC-GITHUB-TUSHARE-ARCHIVE": {
         "canonical_partition_count": 25,
         "canonical_partitions": [
