@@ -1,17 +1,22 @@
-const parseGithubJson = async (url) => {
+const parseJson = async (url) => {
   const response = await fetch(url);
-  const json = await response.json();
-
-  if (json.content) {
-    return JSON.parse(json.content);
-  }
-
-  return json;
+  return response.json();
 };
+
+export async function getGlobalMarketOverview() {
+  const url = "/data/global_market_overview.json";
+  const data = await parseJson(url);
+
+  return {
+    indexCount: data.index_count || 0,
+    indices: data.indices || [],
+    regionalStrength: data.regional_strength || {}
+  };
+}
 
 export async function getCSI300Snapshot() {
   const url = "/w02-global-market-db/data/current/weekly/CSI300__weekly_snapshot.json";
-  const data = await parseGithubJson(url);
+  const data = await parseJson(url);
 
   return {
     indexId: data.index_id,
@@ -23,7 +28,7 @@ export async function getCSI300Snapshot() {
 
 export async function getStockDaily() {
   const url = "/w02-global-market-db/data/current/stocks/price_daily.json";
-  const data = await parseGithubJson(url);
+  const data = await parseJson(url);
 
   return {
     version: data.data_version,
@@ -34,7 +39,7 @@ export async function getStockDaily() {
 
 export async function getValuation() {
   const url = "/w02-global-market-db/data/current/stocks/valuation_daily.json";
-  const data = await parseGithubJson(url);
+  const data = await parseJson(url);
 
   return {
     records: data.records || [],
