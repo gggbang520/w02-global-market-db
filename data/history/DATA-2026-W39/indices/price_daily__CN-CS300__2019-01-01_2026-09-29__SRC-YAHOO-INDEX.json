@@ -1,0 +1,25 @@
+[
+  {
+    "index_id": "CN-CS300",
+    "index_symbol": "000300.SS",
+    "index_name": "沪深300",
+    "index_name_en": "CSI 300",
+    "market": "China",
+    "currency": "CNY",
+    "trade_date": "2026-09-28",
+    "open": 4423.8154296875,
+    "high": 4423.8154296875,
+    "low": 4323.5693359375,
+    "close": 4340.7548828125,
+    "adjusted_close": 4340.7548828125,
+    "price_type": "RAW_CLOSE",
+    "volume": 4242835412.0,
+    "source_id": "SRC-YAHOO-INDEX",
+    "source_origin": "AUTO_PROVIDER",
+    "declared_upstream_source": "China Securities Index Co., Ltd.",
+    "data_quality_status": "SOURCE_CONFIRMED",
+    "license_gate": "REVIEW",
+    "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+    "retrieved_at": "2026-09-29T01:39:37.555960+00:00"
+  }
+]
