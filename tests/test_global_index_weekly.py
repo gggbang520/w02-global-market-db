@@ -69,22 +69,6 @@ def test_weekly_change_and_ytd_use_prior_observation_and_prior_year_end():
             "index_name_en": "Test",
             "market": "Test",
             "currency": "USD",
-            "trade_date": "2023-12-29",
-            "open": 90,
-            "high": 91,
-            "low": 89,
-            "close": 90,
-            "adjusted_close": 90,
-            "volume": None,
-            "declared_upstream_source": "Test source",
-        },
-        {
-            "index_id": "TEST",
-            "index_symbol": "T",
-            "index_name": "Test",
-            "index_name_en": "Test",
-            "market": "Test",
-            "currency": "USD",
             "trade_date": "2024-12-27",
             "open": 100,
             "high": 101,
@@ -130,11 +114,11 @@ def test_weekly_change_and_ytd_use_prior_observation_and_prior_year_end():
     out = mod.build_weekly(rows)
     assert len(out) == 3
     prior_year, first, second = out
-    assert prior_year["week_year"] == 2023
+    assert prior_year["week_year"] == 2024
     assert prior_year["ytd_pct"] is None
-    assert first["week_year"] == 2024
-    assert first["ytd_pct"] is None
-    assert round(second["weekly_change_pct"], 8) == 20.0
+    assert first["week_year"] == 2025
+    assert first["ytd_pct"] == 10.0
+    assert round(second["weekly_change_pct"], 8) == 9.09090909
     assert round(second["ytd_pct"], 8) == 20.0
 
 
