@@ -6,6 +6,7 @@ on:
       - "scripts/automation/build_global_index_weekly.py"
       - "scripts/automation/build_global_index_current.py"
       - "tests/test_global_index_weekly.py"
+      - "tests/test_global_index_current.py"
       - "data/standardized/index_master.json"
   workflow_dispatch:
   schedule:
@@ -48,11 +49,14 @@ jobs:
             --start "$START_DATE" \
             --end "$END_DATE"
 
+      - name: Build global index current snapshot
+        run: python scripts/automation/build_global_index_current.py
+
       - name: Validate CSI300 baseline
         run: python scripts/validate/validate_csi300.py
 
-      - name: Run W02 weekly tests
-        run: python -m pytest -q tests/test_global_index_weekly.py
+      - name: Run W02 index-layer tests
+        run: python -m pytest -q tests/test_global_index_weekly.py tests/test_global_index_current.py
 
       - name: Commit W02 data
         run: |
