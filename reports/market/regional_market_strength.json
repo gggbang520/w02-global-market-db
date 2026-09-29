@@ -1,7 +1,284 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T11:16:58.673651+00:00",
+  "generated_at": "2026-09-29T11:21:09.025061+00:00",
   "source_id": "SRC-DERIVED-REGIONAL-STRENGTH",
   "source_origin": "DERIVED_FROM_INDEX_PERFORMANCE",
-  "regions": []
+  "regions": [
+    {
+      "region": "Australia",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "AU-ASX200",
+          "latest_trade_date": "2026-09-29",
+          "close": 8686.2998046875,
+          "daily_change_pct": 0.076,
+          "monthly_change_pct": -4.2937,
+          "ytd_change_pct": -0.4755,
+          "records_available": 1960
+        }
+      ]
+    },
+    {
+      "region": "China",
+      "index_count": 3,
+      "indexes": [
+        {
+          "index_id": "CN-CS300",
+          "latest_trade_date": "2026-09-29",
+          "close": 4341.38232421875,
+          "daily_change_pct": null,
+          "monthly_change_pct": null,
+          "ytd_change_pct": 0.0,
+          "records_available": 1
+        },
+        {
+          "index_id": "CN-SSE",
+          "latest_trade_date": "2026-09-29",
+          "close": 3821.769775390625,
+          "daily_change_pct": -0.0484,
+          "monthly_change_pct": -3.2997,
+          "ytd_change_pct": -5.0118,
+          "records_available": 1877
+        },
+        {
+          "index_id": "CN-SZSE",
+          "latest_trade_date": "2026-09-29",
+          "close": 12858.1640625,
+          "daily_change_pct": -0.0046,
+          "monthly_change_pct": -7.8471,
+          "ytd_change_pct": -7.0178,
+          "records_available": 1877
+        }
+      ]
+    },
+    {
+      "region": "Eurozone",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "EU-SX5E",
+          "latest_trade_date": "2026-09-28",
+          "close": 6301.27978515625,
+          "daily_change_pct": -0.0244,
+          "monthly_change_pct": -2.843,
+          "ytd_change_pct": 6.3742,
+          "records_available": 1945
+        }
+      ]
+    },
+    {
+      "region": "France",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "EU-CAC40",
+          "latest_trade_date": "2026-09-28",
+          "close": 8078.47998046875,
+          "daily_change_pct": 0.0084,
+          "monthly_change_pct": -3.8411,
+          "ytd_change_pct": -1.4244,
+          "records_available": 1982
+        }
+      ]
+    },
+    {
+      "region": "Germany",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "EU-DAX",
+          "latest_trade_date": "2026-09-28",
+          "close": 25374.419921875,
+          "daily_change_pct": -0.1347,
+          "monthly_change_pct": -4.4997,
+          "ytd_change_pct": 3.403,
+          "records_available": 1968
+        }
+      ]
+    },
+    {
+      "region": "Hong Kong",
+      "index_count": 2,
+      "indexes": [
+        {
+          "index_id": "HK-HSCEI",
+          "latest_trade_date": "2026-09-29",
+          "close": 8179.91015625,
+          "daily_change_pct": -0.4494,
+          "monthly_change_pct": -3.9147,
+          "ytd_change_pct": -10.7872,
+          "records_available": 1905
+        },
+        {
+          "index_id": "HK-HSI",
+          "latest_trade_date": "2026-09-29",
+          "close": 24532.5703125,
+          "daily_change_pct": -0.4461,
+          "monthly_change_pct": -4.0459,
+          "ytd_change_pct": -6.8565,
+          "records_available": 1905
+        }
+      ]
+    },
+    {
+      "region": "India",
+      "index_count": 2,
+      "indexes": [
+        {
+          "index_id": "IN-NIFTY50",
+          "latest_trade_date": "2026-09-28",
+          "close": 22780.25,
+          "daily_change_pct": -1.5568,
+          "monthly_change_pct": -5.4402,
+          "ytd_change_pct": -12.8747,
+          "records_available": 1909
+        },
+        {
+          "index_id": "IN-SENSEX",
+          "latest_trade_date": "2026-09-28",
+          "close": 72771.71875,
+          "daily_change_pct": -1.5211,
+          "monthly_change_pct": -5.4097,
+          "ytd_change_pct": -14.5758,
+          "records_available": 1905
+        }
+      ]
+    },
+    {
+      "region": "Japan",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "JP-N225",
+          "latest_trade_date": "2026-09-29",
+          "close": 65171.94140625,
+          "daily_change_pct": -1.0712,
+          "monthly_change_pct": -1.6453,
+          "ytd_change_pct": 25.7349,
+          "records_available": 1885
+        }
+      ]
+    },
+    {
+      "region": "Singapore",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "SG-STI",
+          "latest_trade_date": "2026-09-29",
+          "close": 5721.27978515625,
+          "daily_change_pct": -0.1351,
+          "monthly_change_pct": -0.5921,
+          "ytd_change_pct": 22.8766,
+          "records_available": 1944
+        }
+      ]
+    },
+    {
+      "region": "South Korea",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "KR-KOSPI",
+          "latest_trade_date": "2026-09-29",
+          "close": 6855.7099609375,
+          "daily_change_pct": -0.4939,
+          "monthly_change_pct": -0.8197,
+          "ytd_change_pct": 59.0789,
+          "records_available": 1898
+        }
+      ]
+    },
+    {
+      "region": "Taiwan",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "TW-TAIEX",
+          "latest_trade_date": "2026-09-29",
+          "close": 47885.94921875,
+          "daily_change_pct": -0.2887,
+          "monthly_change_pct": 4.156,
+          "ytd_change_pct": 63.1559,
+          "records_available": 1877
+        }
+      ]
+    },
+    {
+      "region": "United Kingdom",
+      "index_count": 1,
+      "indexes": [
+        {
+          "index_id": "EU-FTSE100",
+          "latest_trade_date": "2026-09-28",
+          "close": 10684.900390625,
+          "daily_change_pct": -0.0972,
+          "monthly_change_pct": -0.997,
+          "ytd_change_pct": 7.3741,
+          "records_available": 1954
+        }
+      ]
+    },
+    {
+      "region": "United States",
+      "index_count": 6,
+      "indexes": [
+        {
+          "index_id": "US-COMP",
+          "latest_trade_date": "2026-09-28",
+          "close": 26820.380859375,
+          "daily_change_pct": -0.9174,
+          "monthly_change_pct": 1.0513,
+          "ytd_change_pct": 15.4278,
+          "records_available": 1945
+        },
+        {
+          "index_id": "US-DJIA",
+          "latest_trade_date": "2026-09-28",
+          "close": 51481.51171875,
+          "daily_change_pct": -0.6697,
+          "monthly_change_pct": -3.8976,
+          "ytd_change_pct": 6.4055,
+          "records_available": 1945
+        },
+        {
+          "index_id": "US-NDX",
+          "latest_trade_date": "2026-09-28",
+          "close": 30276.810546875,
+          "daily_change_pct": -1.0825,
+          "monthly_change_pct": 2.1431,
+          "ytd_change_pct": 20.1167,
+          "records_available": 1945
+        },
+        {
+          "index_id": "US-RUT",
+          "latest_trade_date": "2026-09-28",
+          "close": 2817.912109375,
+          "daily_change_pct": -0.6921,
+          "monthly_change_pct": -6.5165,
+          "ytd_change_pct": 12.3471,
+          "records_available": 1945
+        },
+        {
+          "index_id": "US-SPX",
+          "latest_trade_date": "2026-09-28",
+          "close": 7683.68994140625,
+          "daily_change_pct": -0.7712,
+          "monthly_change_pct": -0.6118,
+          "ytd_change_pct": 12.0321,
+          "records_available": 1945
+        },
+        {
+          "index_id": "US-VIX",
+          "latest_trade_date": "2026-09-28",
+          "close": 16.06999969482422,
+          "daily_change_pct": 8.0699,
+          "monthly_change_pct": 11.3652,
+          "ytd_change_pct": 10.7512,
+          "records_available": 1947
+        }
+      ]
+    }
+  ]
 }
