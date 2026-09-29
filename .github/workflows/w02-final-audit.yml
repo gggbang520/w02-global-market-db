@@ -1,6 +1,12 @@
 name: W02 Final Data Audit
+
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - W02 Global Market Overview
+    types:
+      - completed
   push:
     paths-ignore:
       - "reports/quality/final_audit.json"
