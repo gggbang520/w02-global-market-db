@@ -3,42 +3,10 @@
   "audit_version": 2,
   "generated_by": "scripts/final_audit.py",
   "raw_market": {
-    "file_count": 48,
-    "sha_group_count": 35,
-    "exact_duplicate_group_count": 11,
+    "file_count": 47,
+    "sha_group_count": 42,
+    "exact_duplicate_group_count": 3,
     "exact_duplicate_groups": {
-      "8bb8db55963d853427c455d8b995bfa9ff1f343a3f2e51ba44c11b28d34f32eb": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2019-12-31__8bb8db55963d.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-10-01_2019-12-31__20260928T131738Z.csv"
-      ],
-      "8b8fe84259f5a7a5dd2ee3aec887e078a1ef8ccc9a73944e105133980c6cb7e5": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-04-01_2019-06-30__20260928T131112Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2019-06-28__8b8fe84259f5.csv"
-      ],
-      "586a1bb0bf8a32f6a4de4f638920daf5db7e8004ae821311705b96e8b6eb3c16": [
-        "data/raw/inbox/market/SRC-MANUAL-FILE__stock_daily__2020-03-31__586a1bb0bf8a.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2020-01-01_2020-03-31__20260928T121935Z.csv"
-      ],
-      "2503bb8d097892316ddff503ce770c4e4eba798497b1395b3cc1a96f9b44b5eb": [
-        "data/raw/inbox/market/CSI300_EOD__TushareArchive__2021-01-28_2021-01-29.csv",
-        "data/raw/inbox/market/SRC-MANUAL-FILE__stock_daily__2021-01-29__8917db4cda1e.csv"
-      ],
-      "03a319c57e545d2bde9b8bdd80fc1daa16c4ab929c62cf18fcdbfcf0a217cd6a": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-07-01_2019-09-30__20260928T131348Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2019-09-30__03a319c57e54.csv"
-      ],
-      "755e665645f101ee6173513270be9e6aa781d4ec480a3462edd038ced105c319": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2020-06-30__755e665645f1.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2020-04-01_2020-06-30__20260928T132347Z.csv"
-      ],
-      "bdce28e464d8a5ff7a56afc0e44b377445c487b9cafe0ebdfa0c86045e556879": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2019-01-01_2019-03-31__20260928T130455Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2019-03-29__bdce28e464d8.csv"
-      ],
-      "793df7cfa9e21ccbdbde16c3c9f2a7f5ccc6db0c78d07767c7e5ae50ff2635d5": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2020-10-01_2020-12-31__20260928T132859Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2020-12-31__793df7cfa9e2.csv"
-      ],
       "1e07df9a0962f7396a8f9c648ff008ea121590b98092772020929110aadd832e": [
         "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2020-01-01_2020-03-31__20260928T132037Z.csv",
         "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2020-03-31__1e07df9a0962.csv"
@@ -57,7 +25,7 @@
   },
   "history": {
     "batch_file_count": 39,
-    "batch_record_sum": 557191,
+    "batch_record_sum": 557507,
     "parse_failures": 0,
     "same_source_logical_overlap_count": 612,
     "overlap_samples": [
@@ -775,7 +743,7 @@
         "distinct_trade_dates": 58,
         "trade_date_min": "2024-01-02",
         "trade_date_max": "2024-03-29",
-        "size_bytes": 12315598
+        "size_bytes": 12315631
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2024-04-01_2024-06-30__SRC-YAHOO-YFINANCE.json",
@@ -825,67 +793,67 @@
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2025-04-01_2025-06-30__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 17935,
-        "distinct_listings": 305,
+        "records": 17947,
+        "distinct_listings": 306,
         "distinct_trade_dates": 60,
         "trade_date_min": "2025-04-01",
         "trade_date_max": "2025-06-30",
-        "size_bytes": 12833002
+        "size_bytes": 12841537
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2025-07-01_2025-09-30__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 19710,
-        "distinct_listings": 299,
+        "records": 19776,
+        "distinct_listings": 300,
         "distinct_trade_dates": 66,
         "trade_date_min": "2025-07-01",
         "trade_date_max": "2025-09-30",
-        "size_bytes": 14099716
+        "size_bytes": 14146845
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2025-10-01_2025-12-31__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 17951,
-        "distinct_listings": 310,
+        "records": 18011,
+        "distinct_listings": 311,
         "distinct_trade_dates": 60,
         "trade_date_min": "2025-10-09",
         "trade_date_max": "2025-12-31",
-        "size_bytes": 12836629
+        "size_bytes": 12879500
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2026-01-01_2026-03-31__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 16744,
-        "distinct_listings": 299,
+        "records": 16800,
+        "distinct_listings": 300,
         "distinct_trade_dates": 56,
         "trade_date_min": "2026-01-05",
         "trade_date_max": "2026-03-31",
-        "size_bytes": 11972776
+        "size_bytes": 12012726
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2026-04-01_2026-06-30__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 17959,
-        "distinct_listings": 318,
+        "records": 18019,
+        "distinct_listings": 319,
         "distinct_trade_dates": 60,
         "trade_date_min": "2026-04-01",
         "trade_date_max": "2026-06-30",
-        "size_bytes": 12828388
+        "size_bytes": 12871229
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2026-07-01_2026-09-27__SRC-YAHOO-YFINANCE.json",
         "source_id": "SRC-YAHOO-YFINANCE",
         "parse_status": "SUCCESS",
-        "records": 18538,
-        "distinct_listings": 299,
+        "records": 18600,
+        "distinct_listings": 300,
         "distinct_trade_dates": 62,
         "trade_date_min": "2026-07-01",
         "trade_date_max": "2026-09-24",
-        "size_bytes": 13238467
+        "size_bytes": 13282732
       },
       {
         "file": "data/history/DATA-2026-W39/stocks/price_daily__2026-09-24.json",
@@ -954,8 +922,8 @@
       },
       "SRC-YAHOO-YFINANCE": {
         "file_count": 23,
-        "record_count": 408100,
-        "distinct_listings": 450,
+        "record_count": 408416,
+        "distinct_listings": 451,
         "distinct_trade_dates": 1370,
         "min_trade_date": "2021-02-01",
         "max_trade_date": "2026-09-24"
@@ -1155,39 +1123,39 @@
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/03/stock_daily.jsonl",
-            "size_bytes": 3834969
+            "size_bytes": 3847737
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/02/stock_daily.jsonl",
-            "size_bytes": 2441097
+            "size_bytes": 2449235
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/07/stock_daily.jsonl",
-            "size_bytes": 4001085
+            "size_bytes": 4014468
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/04/stock_daily.jsonl",
-            "size_bytes": 3659289
+            "size_bytes": 3671531
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/09/stock_daily.jsonl",
-            "size_bytes": 3134062
+            "size_bytes": 3144538
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/08/stock_daily.jsonl",
-            "size_bytes": 3656302
+            "size_bytes": 3668524
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/06/stock_daily.jsonl",
-            "size_bytes": 3663383
+            "size_bytes": 3675584
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/05/stock_daily.jsonl",
-            "size_bytes": 3135126
+            "size_bytes": 3145604
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2026/01/stock_daily.jsonl",
-            "size_bytes": 3486500
+            "size_bytes": 3498152
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2023/03/stock_daily.jsonl",
@@ -1239,11 +1207,11 @@
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2024/03/stock_daily.jsonl",
-            "size_bytes": 3612355
+            "size_bytes": 3612396
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2024/02/stock_daily.jsonl",
-            "size_bytes": 2606581
+            "size_bytes": 2606608
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2024/07/stock_daily.jsonl",
@@ -1283,7 +1251,7 @@
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2024/01/stock_daily.jsonl",
-            "size_bytes": 3823752
+            "size_bytes": 3823717
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/03/stock_daily.jsonl",
@@ -1295,39 +1263,39 @@
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/07/stock_daily.jsonl",
-            "size_bytes": 4000872
+            "size_bytes": 4014268
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/04/stock_daily.jsonl",
-            "size_bytes": 3662212
+            "size_bytes": 3662189
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/11/stock_daily.jsonl",
-            "size_bytes": 3487093
+            "size_bytes": 3498745
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/09/stock_daily.jsonl",
-            "size_bytes": 3834954
+            "size_bytes": 3847756
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/10/stock_daily.jsonl",
-            "size_bytes": 2962758
+            "size_bytes": 2972685
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/12/stock_daily.jsonl",
-            "size_bytes": 4017244
+            "size_bytes": 4030616
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/08/stock_daily.jsonl",
-            "size_bytes": 3662168
+            "size_bytes": 3674387
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/06/stock_daily.jsonl",
-            "size_bytes": 3487093
+            "size_bytes": 3494070
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/05/stock_daily.jsonl",
-            "size_bytes": 3316275
+            "size_bytes": 3316272
           },
           {
             "path": "data/standardized/partitions/SRC-YAHOO-YFINANCE/2025/01/stock_daily.jsonl",
@@ -1418,93 +1386,22 @@
     ],
     "missing_quarters": [],
     "status_counts": {
-      "SUCCESS": 23
+      "SUCCESS": 22,
+      "PARTIAL": 1
     },
     "validation_status_counts": {
       "UNKNOWN": 12,
-      "PARTIAL": 7,
-      "PASS": 4
+      "PARTIAL": 1,
+      "PASS": 10
     },
     "download_failure_quarters": [],
-    "state_status_vs_validation_mismatch": [
-      {
-        "quarter": "2024Q1",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2025Q2",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2025Q3",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2025Q4",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2026Q1",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2026Q2",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      },
-      {
-        "quarter": "2026Q3",
-        "status": "SUCCESS",
-        "validation_status": "PARTIAL"
-      }
-    ],
+    "state_status_vs_validation_mismatch": [],
     "partial_quarters": [
       {
         "quarter": "2024Q1",
         "invalid_rows": 65,
         "duplicate_rows": 0,
         "review_rows": 0
-      },
-      {
-        "quarter": "2025Q2",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 12
-      },
-      {
-        "quarter": "2025Q3",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 66
-      },
-      {
-        "quarter": "2025Q4",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 60
-      },
-      {
-        "quarter": "2026Q1",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 56
-      },
-      {
-        "quarter": "2026Q2",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 60
-      },
-      {
-        "quarter": "2026Q3",
-        "invalid_rows": 0,
-        "duplicate_rows": 0,
-        "review_rows": 62
       }
     ],
     "license_gate_counts": {
@@ -1514,7 +1411,7 @@
       "INTERNAL_SNAPSHOT_ONLY": 23
     },
     "raw_rows": 408481,
-    "standardized_rows": 408100
+    "standardized_rows": 408416
   },
   "checks": {
     "raw_preserved": true,
@@ -1527,7 +1424,7 @@
     "backfill_has_missing_quarters": false,
     "backfill_has_download_failure_quarters": false,
     "backfill_has_partial_quarters": true,
-    "backfill_state_validation_mismatch": true,
+    "backfill_state_validation_mismatch": false,
     "all_expected_backfill_quarters_present": true
   }
 }
