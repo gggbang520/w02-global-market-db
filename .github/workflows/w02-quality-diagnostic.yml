@@ -1,0 +1,36 @@
+name: W02 Historical Quality Diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "reports/quality/historical_quality_diagnostic.json"
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout W02
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Diagnose partial historical quarters
+        run: python scripts/diagnose_historical_quality.py
+      - name: Commit diagnostic report
+        run: |
+          git config user.name "W02 Data Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/quality/historical_quality_diagnostic.json
+          if git diff --cached --quiet; then
+            echo "No diagnostic report changes."
+            exit 0
+          fi
+          git commit -m "audit: diagnose partial historical quality"
+          git push
