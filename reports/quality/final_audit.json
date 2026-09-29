@@ -3,25 +3,10 @@
   "audit_version": 2,
   "generated_by": "scripts/final_audit.py",
   "raw_market": {
-    "file_count": 47,
+    "file_count": 42,
     "sha_group_count": 42,
-    "exact_duplicate_group_count": 3,
-    "exact_duplicate_groups": {
-      "1e07df9a0962f7396a8f9c648ff008ea121590b98092772020929110aadd832e": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2020-01-01_2020-03-31__20260928T132037Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2020-03-31__1e07df9a0962.csv"
-      ],
-      "a0ba5c898c456ba752cfee797ff9c9fe3a2c7d817e45e99e4e1440ffd1e3cf5e": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T120536Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T114750Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__2021-01-18_2021-01-29__20260928T115743Z.csv",
-        "data/raw/inbox/market/SRC-MANUAL-FILE__stock_daily__2021-01-29__a0ba5c898c45.csv"
-      ],
-      "b2c24cff8b911b41dc3b137a9d7fef7ffb99bb9e1f4b459ff35e33d4da0bccc1": [
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__CN__HISTORICAL_CSI300__2020-07-01_2020-09-30__20260928T132639Z.csv",
-        "data/raw/inbox/market/SRC-GITHUB-TUSHARE-ARCHIVE__stock_daily__2020-09-30__b2c24cff8b91.csv"
-      ]
-    }
+    "exact_duplicate_group_count": 0,
+    "exact_duplicate_groups": {}
   },
   "history": {
     "batch_file_count": 39,
@@ -939,30 +924,8 @@
     }
   },
   "standardized": {
-    "source_count": 4,
+    "source_count": 3,
     "sources": {
-      "2021": {
-        "canonical_partition_count": 0,
-        "canonical_partitions": [],
-        "legacy_partition_file_count": 1,
-        "legacy_partition_files": [
-          {
-            "path": "data/standardized/partitions/2021/01/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-            "size_bytes": 108051
-          }
-        ]
-      },
-      "2026": {
-        "canonical_partition_count": 0,
-        "canonical_partitions": [],
-        "legacy_partition_file_count": 1,
-        "legacy_partition_files": [
-          {
-            "path": "data/standardized/partitions/2026/09/SRC-INVESTING-CN-STOCK/stock_daily.jsonl",
-            "size_bytes": 2496
-          }
-        ]
-      },
       "SRC-GITHUB-TUSHARE-ARCHIVE": {
         "canonical_partition_count": 25,
         "canonical_partitions": [
@@ -1065,6 +1028,17 @@
           {
             "path": "data/standardized/partitions/SRC-GITHUB-TUSHARE-ARCHIVE/2020/01/stock_daily.jsonl",
             "size_bytes": 2603633
+          }
+        ],
+        "legacy_partition_file_count": 0,
+        "legacy_partition_files": []
+      },
+      "SRC-INVESTING-CN-STOCK": {
+        "canonical_partition_count": 1,
+        "canonical_partitions": [
+          {
+            "path": "data/standardized/partitions/SRC-INVESTING-CN-STOCK/2026/09/stock_daily.jsonl",
+            "size_bytes": 2496
           }
         ],
         "legacy_partition_file_count": 0,
@@ -1350,11 +1324,8 @@
         "legacy_partition_files": []
       }
     },
-    "legacy_partition_file_count": 2,
-    "legacy_partition_files": [
-      "data/standardized/partitions/2021/01/SRC-GITHUB-TUSHARE-ARCHIVE/stock_daily.jsonl",
-      "data/standardized/partitions/2026/09/SRC-INVESTING-CN-STOCK/stock_daily.jsonl"
-    ]
+    "legacy_partition_file_count": 0,
+    "legacy_partition_files": []
   },
   "backfill_state": {
     "file_present": true,
@@ -1417,10 +1388,10 @@
     "raw_preserved": true,
     "history_preserved": true,
     "state_present": true,
-    "has_exact_duplicate_raw_files": true,
+    "has_exact_duplicate_raw_files": false,
     "has_history_parse_failures": false,
     "has_history_overlaps": true,
-    "has_legacy_standardized_files": true,
+    "has_legacy_standardized_files": false,
     "backfill_has_missing_quarters": false,
     "backfill_has_download_failure_quarters": false,
     "backfill_has_partial_quarters": true,
