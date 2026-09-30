@@ -8,7 +8,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
-import yfinance as yf
+from scripts.providers.provider_registry import get_provider
 
 ROOT = Path(__file__).resolve().parents[2]
 MASTER_PATH = ROOT / "data/standardized/index_master.json"
@@ -22,60 +22,13 @@ def load_master():
 
 
 def fetch_one(symbol: str, start: date, end: date):
-    df = yf.download(
+    provider = get_provider("SRC-YAHOO-INDEX")
+
+    return provider.fetch_history(
         symbol,
-        start=start.isoformat(),
-        end=(end + timedelta(days=1)).isoformat(),
-        auto_adjust=False,
-        actions=False,
-        progress=False,
-        threads=False,
-        group_by="column",
+        start,
+        end
     )
-    # Some Yahoo index symbols can return only the latest observation through
-    # the multi-download endpoint. Retry through Ticker.history for the full
-    # historical range before treating the source as empty/partial.
-    if df.empty or len(df.index) <= 1:
-        try:
-            fallback = yf.Ticker(symbol).history(
-                start=start.isoformat(),
-                end=(end + timedelta(days=1)).isoformat(),
-                auto_adjust=False,
-                actions=False,
-            )
-            if not fallback.empty and len(fallback.index) > len(df.index):
-                df = fallback
-        except Exception:
-            pass
-    if df.empty:
-        return pd.DataFrame()
-
-    if isinstance(df.columns, pd.MultiIndex):
-        # Single-symbol download may still have a MultiIndex.
-        if symbol in set(map(str, df.columns.get_level_values(-1))):
-            try:
-                df = df.xs(symbol, axis=1, level=-1, drop_level=True)
-            except Exception:
-                pass
-        if isinstance(df.columns, pd.MultiIndex):
-            df.columns = [str(c[0]) for c in df.columns]
-
-    df = df.reset_index()
-    date_col = "Date" if "Date" in df.columns else df.columns[0]
-    rename = {"Open": "open", "High": "high", "Low": "low", "Close": "close", "Adj Close": "adjusted_close"}
-    for old, new in rename.items():
-        if old in df.columns:
-            df[new] = pd.to_numeric(df[old], errors="coerce")
-    df["trade_date"] = pd.to_datetime(df[date_col]).dt.date.astype(str)
-
-    keep = ["trade_date", "open", "high", "low", "close", "adjusted_close", "Volume"]
-    for col in keep:
-        if col not in df.columns:
-            df[col] = None
-    df["volume"] = pd.to_numeric(df["Volume"], errors="coerce")
-    out = df[["trade_date", "open", "high", "low", "close", "adjusted_close", "volume"]].copy()
-    out = out.dropna(subset=["close"]).drop_duplicates(["trade_date"]).sort_values("trade_date")
-    return out
 
 
 def validate(df):
