@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-09-29T11:50:55.721709+00:00",
-  "latest_trade_date": "2026-09-27",
+  "generated_at": "2026-10-05T07:16:35.977933+00:00",
+  "latest_trade_date": "2026-10-05",
   "source_id": "SRC-DERIVED-INDEX-SNAPSHOT",
   "source_origin": "DERIVED_FROM_DAILY_AND_WEEKLY",
   "indices": [
