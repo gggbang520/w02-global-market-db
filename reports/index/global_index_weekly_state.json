@@ -1,7 +1,7 @@
 {
   "version": 1,
   "start_date": "2019-01-01",
-  "end_date": "2026-09-27",
+  "end_date": "2026-10-05",
   "source_id": "SRC-DERIVED-INDEX-WEEKLY",
   "source_origin": "DERIVED_FROM_DAILY",
   "frequency": "WEEKLY",
@@ -31,8 +31,8 @@
     "US-SPX": 405,
     "US-VIX": 405
   },
-  "history_file": "data/history/DATA-2026-W39/indices/index_weekly__2019-01-01_2026-09-27__SRC-DERIVED-INDEX-WEEKLY.json",
+  "history_file": "data/history/DATA-2026-W39/indices/index_weekly__2019-01-01_2026-10-05__SRC-DERIVED-INDEX-WEEKLY.json",
   "license_gate": "REVIEW",
   "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-  "generated_at": "2026-09-29T11:49:59.355934+00:00"
+  "generated_at": "2026-10-05T06:27:13.291447+00:00"
 }
