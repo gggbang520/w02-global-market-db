@@ -1,0 +1,17 @@
+{
+  "source_id": "SRC-YAHOO-YFINANCE",
+  "source_origin": "AUTO_PROVIDER",
+  "provider": "yfinance / Yahoo Finance",
+  "dataset": "STOCK_DAILY",
+  "market": "CN",
+  "start_date": "2026-11-03",
+  "end_date": "2026-11-16",
+  "requested_listings": 297,
+  "downloaded_rows": 2940,
+  "distinct_listings": 294,
+  "distinct_trade_dates": 10,
+  "failures": [],
+  "license_gate": "REVIEW",
+  "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
+  "retrieved_at": "2026-11-16T07:29:47.858977+00:00"
+}
