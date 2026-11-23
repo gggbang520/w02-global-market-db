@@ -25,7 +25,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.032393+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.392678+00:00"
   },
   {
     "index_id": "CN-CS300",
@@ -53,7 +53,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.032441+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.392719+00:00"
   },
   {
     "index_id": "CN-SSE",
@@ -81,7 +81,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.035282+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.395403+00:00"
   },
   {
     "index_id": "CN-SZSE",
@@ -109,7 +109,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.038092+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.398283+00:00"
   },
   {
     "index_id": "EU-CAC40",
@@ -137,7 +137,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.041059+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.401175+00:00"
   },
   {
     "index_id": "EU-DAX",
@@ -165,7 +165,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.044005+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.404033+00:00"
   },
   {
     "index_id": "EU-FTSE100",
@@ -193,7 +193,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.047062+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.406927+00:00"
   },
   {
     "index_id": "EU-SX5E",
@@ -221,7 +221,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.049980+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.409785+00:00"
   },
   {
     "index_id": "HK-HSCEI",
@@ -249,7 +249,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.052833+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.412549+00:00"
   },
   {
     "index_id": "HK-HSI",
@@ -277,7 +277,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.055687+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.415366+00:00"
   },
   {
     "index_id": "IN-NIFTY50",
@@ -305,7 +305,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.058535+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.418123+00:00"
   },
   {
     "index_id": "IN-SENSEX",
@@ -333,7 +333,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.061400+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.420876+00:00"
   },
   {
     "index_id": "JP-N225",
@@ -361,7 +361,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.064270+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.423685+00:00"
   },
   {
     "index_id": "KR-KOSPI",
@@ -389,7 +389,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.067155+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.426475+00:00"
   },
   {
     "index_id": "SG-STI",
@@ -417,7 +417,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.070094+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.429342+00:00"
   },
   {
     "index_id": "TW-TAIEX",
@@ -445,7 +445,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.072940+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.432070+00:00"
   },
   {
     "index_id": "US-COMP",
@@ -473,7 +473,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.075872+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.434874+00:00"
   },
   {
     "index_id": "US-DJIA",
@@ -501,7 +501,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.078812+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.437697+00:00"
   },
   {
     "index_id": "US-NDX",
@@ -529,7 +529,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.081772+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.440527+00:00"
   },
   {
     "index_id": "US-RUT",
@@ -557,7 +557,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.084705+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.443368+00:00"
   },
   {
     "index_id": "US-SPX",
@@ -585,7 +585,7 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.087675+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.446197+00:00"
   },
   {
     "index_id": "US-VIX",
@@ -613,6 +613,6 @@
     "data_quality_status": "SOURCE_CONFIRMED",
     "license_gate": "REVIEW",
     "publication_scope": "INTERNAL_SNAPSHOT_ONLY",
-    "snapshot_generated_at": "2026-11-16T07:29:49.090613+00:00"
+    "snapshot_generated_at": "2026-11-23T08:27:58.449014+00:00"
   }
 ]
